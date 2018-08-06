@@ -22,10 +22,12 @@
   background-color: steelblue;
 }
 
-.navbar-nav .nav-item:hover a,
-.navbar-brand:hover img {
+.navbar-nav .nav-item:hover a {
+  filter: invert(1);
+}
+
+.navbar .navbar-brand:hover {
   color: white !important;
-  filter: contrast(160%);
 }
 
 .about {
@@ -33,4 +35,3 @@
   justify-content: center;
   align-items: center;
 }
-

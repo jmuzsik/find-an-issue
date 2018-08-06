@@ -57,7 +57,7 @@ class Navbar extends Component {
                 className="nav-link"
                 href="https://github.com/jMuzsik/find-an-issue"
               >
-                <img aria-label="github mark image"  title="contrast" className="contrast" src={githubImage} />
+                <img aria-label="github mark image"  className="invert" src={githubImage} />
               </a>
             </li>
           </ul>
@@ -82,7 +82,7 @@ class Navbar extends Component {
           ) : (
             <form className="form-inline my-2 my-lg-0">
               <button
-                className="btn btn-outline-success my-2 my-sm-0"
+                className="btn btn-outline-dark my-2 my-sm-0"
                 type="submit"
                 onClick={attemptSignIn}
               >
