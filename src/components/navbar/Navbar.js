@@ -1,22 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import firebase from 'firebase'
-import 'firebase/firestore/dist/index.cjs'
 import githubImage from '../../githubmark.png'
 
 import './Navbar.css'
 
-const provider = new firebase.auth.GithubAuthProvider()
-provider.addScope('repo')
-
-const attemptSignIn = event => {
-  event.preventDefault()
-  firebase.auth().signInWithRedirect(provider)
-}
-
 class Navbar extends Component {
   render() {
-    const username = this.props.user.githubUsername
     return (
       <nav
         className="navbar navbar-expand-lg navbar-light border-bottom"
@@ -57,39 +46,10 @@ class Navbar extends Component {
                 className="nav-link"
                 href="https://github.com/jMuzsik/find-an-issue"
               >
-                <img alt="Github logo"  className="invert" src={githubImage} />
+                <img alt="Github logo" className="invert" src={githubImage} />
               </a>
             </li>
           </ul>
-        </div>
-        <div className="navbar-end">
-          {username ? (
-            <React.Fragment>
-              <p>Hey, {username}</p>
-              <Link
-                to="/"
-                className="nav-link"
-                onClick={() =>
-                  firebase
-                    .auth()
-                    .signOut()
-                    .catch(console.error)
-                }
-              >
-                Logout
-              </Link>
-            </React.Fragment>
-          ) : (
-            <form className="form-inline my-2 my-lg-0">
-              <button
-                className="btn btn-outline-info my-2 my-sm-0"
-                type="submit"
-                onClick={attemptSignIn}
-              >
-                <span>Sign In</span>
-              </button>
-            </form>
-          )}
         </div>
       </nav>
     )
