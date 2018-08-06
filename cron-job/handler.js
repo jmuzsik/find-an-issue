@@ -74,15 +74,19 @@ const scanFunc = async () => {
 //   cronTime: '00 30 11 * * 0-6',
 //   onTick: async function() {
 //     console.log('Cron Job has begun.')
-//     await tableCreation()
-//     await scanFunc()
-//     shell.exec('./git.sh')
 //   },
 //   start: true,
 //   timeZone: 'America/Los_Angeles'
 // })
 
 // job.start()
+
+const doStuff = async () => {
+  await tableCreation()
+  await scanFunc()
+  shell.exec('./git.sh')
+  console.log('Finished with all the steps!')
+}
 
 doStuff()
 app.listen('3128')

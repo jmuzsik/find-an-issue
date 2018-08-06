@@ -1,4 +1,4 @@
-const secrets = require('./secrets')
+const secrets = require('./secrets.js')
 
 const githubOptions = {
   url: 'https://api.github.com/rate_limit',

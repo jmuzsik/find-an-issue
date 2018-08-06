@@ -1,4 +1,4 @@
-const seccrets = './seccrets.js'
+const secrets = require('./secrets.js')
 
 const AWS = require('aws-sdk')
 const awsConfig = new AWS.Config({
@@ -18,7 +18,7 @@ const paramsWaitFor = options.paramsWaitFor
 const batchParams = options.batchParams
 const scanParams = options.scanParams
 
-const tableDeletion = async function(err, data) {
+const tableDeletion = async function() {
   return new Promise((resolve, reject) => {
     dynamodb.deleteTable(deletionParams, function(err, data) {
       if (err) {
