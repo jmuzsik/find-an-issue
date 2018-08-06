@@ -7,7 +7,6 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import './index.css'
 import App from './components/app/App'
 import registerServiceWorker from './registerServiceWorker'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 // Initialize Firebase Application
 import config from './config'
