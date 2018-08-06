@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  height: calc(75vh - 52px);
+}
+.container .card {
+  width: 50vw;
+  margin: auto;
+  border: 1px solid rgb(72, 88, 161);
+}
+
+.card .card-header,
+.list-group .list-group-item {
+  border: 1px solid rgb(163, 224, 243);
+}
+.card .card-header {
+  background-color: rgb(163, 224, 243);
+}
+
