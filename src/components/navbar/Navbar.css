@@ -20,6 +20,10 @@
 .navbar-nav .nav-item:hover,
 .navbar-brand:hover {
   background-color: steelblue;
+  -webkit-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
 }
 
 .navbar-nav .nav-item:hover a {

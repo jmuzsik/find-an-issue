@@ -1,16 +1,10 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 
 import MainWrapper from '../reuseable/MainWrapper'
 
 import './About.css'
-import { repositories } from '../../utils'
 
 class About extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   handleChange(evt) {
     evt.preventDefault()
   }
