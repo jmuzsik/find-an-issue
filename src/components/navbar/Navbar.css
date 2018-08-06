@@ -1,0 +1,36 @@
+.navbar {
+  background-color: aliceblue;
+}
+
+.navbar .navbar-brand {
+  font: normal small-caps 1000 2rem/1.5rem monospace;
+  margin-right: 10%;
+  padding: 0.5rem;
+  border: 2px solid darkslateblue;
+  border-radius: 0.75rem;
+  color: darkslateblue !important;
+}
+
+.navbar-nav .nav-item {
+  border: 1px solid steelblue;
+  margin: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.navbar-nav .nav-item:hover,
+.navbar-brand:hover {
+  background-color: steelblue;
+}
+
+.navbar-nav .nav-item:hover a,
+.navbar-brand:hover img {
+  color: white !important;
+  filter: contrast(160%);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
