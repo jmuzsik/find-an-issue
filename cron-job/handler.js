@@ -84,7 +84,9 @@ const scanFunc = async () => {
 const doStuff = async () => {
   await tableCreation()
   await scanFunc()
-  shell.exec('./git.sh')
+  setTimeout(() => {
+    shell.exec('./git.sh')
+  }, 2000)
   console.log('Finished with all the steps!')
 }
 
