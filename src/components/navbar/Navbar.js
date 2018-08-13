@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import githubImage from '../../githubmark.png'
+import logo from '../../findanissuelogo.png'
 
 import './Navbar.css'
 
@@ -12,15 +13,8 @@ class Navbar extends Component {
         aria-label="main navigation"
       >
         <Link className="navbar-brand" to="/">
-          <strong>
-            Find
-            <span role="img" aria-label="pointing up emoji">
-              🤔
-            </span>an
-            <span role="img" aria-label="pointing up emoji">
-              💡
-            </span>Issue
-          </strong>
+          <img src={logo} alt="logo of application" />
+          Find An Issue
         </Link>
         <button
           className="navbar-toggler"
@@ -38,7 +32,7 @@ class Navbar extends Component {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item about active">
               <Link className="nav-link" to="/about">
-                <strong>About</strong>
+                About
               </Link>
             </li>
             <li className="nav-item active">

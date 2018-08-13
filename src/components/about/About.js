@@ -13,29 +13,25 @@ class About extends Component {
     return (
       <div className="container">
         <div className="card">
-          <h3 className="card-header">About</h3>
+          <h3 className="card-header">What is this site for?</h3>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
-              Github does not offer adequeate searching based upon star count
-              and labels.
+              Github does not offer adequate searching based upon star count and
+              language.
             </li>
             <li className="list-group-item">
               This app focuses on only displaying projects with a large amount
-              of stars atm.
+              of stars.
             </li>
             <li className="list-group-item">
               It aims to have a wider scope but it currently only handles the
-              last 10 or so issues of 550 repositories. I am working on adding
-              more repositories, but you have to manually select them. There are
-              90 million repos on Github and no simple way to query repos by
-              language or star count on the Github API.
+              last 10 or so issues of 950 of the most popular repositories.
             </li>
             <li className="list-group-item">
-              Signing in is not useful atm (implemented it when the project was
-              going in a different direction). Working on implementing giving a
-              user the ability to query specific repositories and have issues
-              given them when they are logged in.
+              The table is simple. Search by repo, language (case-sensitive and
+              exact searches only), labels, or by the age of the issue.
             </li>
+            <li className="list-group-item">Hope you find an issue!</li>
           </ul>
         </div>
       </div>

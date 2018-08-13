@@ -18,25 +18,22 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="jumbotron mx-auto my-4 w-50">
-          <h1 className="display-4 my-0">
-            <strong>Find an Issue</strong>
-          </h1>
-          <br />
-          <p className="lead w-50 m-auto">
-            <span className="wave" role="img" aria-label="hand wave emoji">
-              👋
-            </span>{' '}
-            <br />Github does not make it easy to find issues. This is a step
-            towards a solution. <br />
-            <br />
-          </p>
-          <p>
-            For more info, click the about link{' '}
-            <span role="img" aria-label="pointing up emoji">
-              ☝️
-            </span>.
-          </p>
+        <div className="intro-container">
+          <div className="intro">
+            <h1 className="intro-h1">Find an Issue</h1>
+            <p className="intro-p lead w-50">
+              Github does not make it easy to find issues. This is a step
+              towards a solution.
+              <br />
+            </p>
+            <p className="intro-p intro-p-second">
+              For more info, click the about link{' '}
+              <span role="img" aria-label="pointing up emoji">
+                ☝️
+              </span>
+              .
+            </p>
+          </div>
         </div>
         <Table />
       </React.Fragment>

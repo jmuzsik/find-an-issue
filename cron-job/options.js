@@ -76,7 +76,7 @@ const repos = [
   { language: 'JS', repo: 'typicode/json-server' },
   { language: 'Resource', repo: 'justjavac/free-programming-books-zh_CN' },
   { language: 'Resource', repo: 'CyC2018/Interview-Notebook' },
-  { language: 'Objective-C', repo: 'AFNetworking/AFNetworking' },
+  { language: 'Obj-C', repo: 'AFNetworking/AFNetworking' },
   { language: 'Python', repo: 'nvbn/thefuck' },
   { language: 'HTML', repo: 'google/material-design-lite' },
   { language: 'TS, JS, CSS', repo: 'ant-design/ant-design' },

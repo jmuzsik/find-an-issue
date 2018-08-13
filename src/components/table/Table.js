@@ -6,7 +6,11 @@ import './Table.css'
 import data from '../../data.json'
 
 function urlFormatter(cell, row) {
-  return `<a href="${cell.S}" class="badge badge-info">Issue</a>`
+  return (
+    <a href={cell.S} className="badge badge-success">
+      Issue
+    </a>
+  )
 }
 
 function dateFormatter(cell, row) {
@@ -85,7 +89,11 @@ class Table extends Component {
               ref="Language"
               dataField="Language"
               filterFormatted={true}
-              filter={{ type: 'TextFilter', placeholder: 'Language?' }}
+              filter={{
+                type: 'TextFilter',
+                placeholder: 'Language?',
+                condition: 'eq'
+              }}
               dataFormat={languageFormatter}
             >
               Language

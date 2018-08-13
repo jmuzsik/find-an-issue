@@ -1,37 +1,18 @@
 .navbar {
-  background-color: aliceblue;
+  background-color:#f7f7f7;
+  padding: 0 3rem;
 }
 
-.navbar .navbar-brand {
-  font: normal small-caps 1000 2rem/1.5rem monospace;
-  margin-right: 10%;
-  padding: 0.5rem;
-  border: 2px solid darkslateblue;
-  border-radius: 0.75rem;
-  color: darkslateblue !important;
+.navbar .navbar-brand img {
+  max-width: 3rem;
 }
 
-.navbar-nav .nav-item {
-  border: 1px solid steelblue;
-  margin: 1.5rem;
-  border-radius: 0.75rem;
-}
-
-.navbar-nav .nav-item:hover,
-.navbar-brand:hover {
-  background-color: steelblue;
-  -webkit-transition: background-color 1s ease-in-out;
-  -moz-transition: background-color 1s ease-in-out;
-  -o-transition: background-color 1s ease-in-out;
-  transition: background-color 1s ease-in-out;
+.navbar-nav .nav-item { 
+  margin: 1rem;
 }
 
 .navbar-nav .nav-item:hover a {
-  filter: invert(1);
-}
-
-.navbar .navbar-brand:hover {
-  color: white !important;
+  filter: invert(.4);
 }
 
 .about {

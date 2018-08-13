@@ -1,6 +1,5 @@
 .react-bs-table-container {
   margin: 2rem;
-  border: 3px solid rgb(48, 65, 90);
   background-color: white;
 }
 
@@ -19,17 +18,14 @@
   justify-content: center;
   word-break: break-all;
 }
-thead,
-tbody {
-  border-top: 2px solid rgb(72, 88, 161);
-}
+
 thead tr,
 tbody tr {
   display: grid;
   grid-area: header;
   grid-template-columns: 27% 22% 16% 17% 8% 10%;
-  border: 0.5px solid rgb(163, 224, 243);
 }
+
 
 .badge {
   font-size: inherit !important;
@@ -37,13 +33,7 @@ tbody tr {
 
 .table-bordered td,
 .table-bordered th {
-  border-top: 0.5px solid rgb(163, 224, 243) !important;
-  border-left: 1px solid rgb(163, 224, 243) !important;
   flex-direction: column;
-}
-
-.table-hover tbody tr:hover {
-  background-color: rgba(163, 224, 243, .75) !important;
 }
 
 .loading-container {
@@ -86,4 +76,4 @@ tbody tr {
   100% {
     transform: rotate(360deg);
   }
-}
+} 
