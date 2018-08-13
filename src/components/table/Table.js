@@ -5,7 +5,7 @@ import { TableHeaderColumn, BootstrapTable } from 'react-bootstrap-table'
 import './Table.css'
 import data from '../../data.json'
 
-function urlFormatter(cell, row) {
+function urlFormatter(cell) {
   return (
     <a href={cell.S} className="badge badge-success">
       Issue
@@ -13,7 +13,7 @@ function urlFormatter(cell, row) {
   )
 }
 
-function dateFormatter(cell, row) {
+function dateFormatter(cell) {
   const now = new Date().getTime()
   const miliseconds = now - Number(cell.S)
   const seconds = Number(Math.floor(miliseconds / 1000))
@@ -23,19 +23,19 @@ function dateFormatter(cell, row) {
   return days
 }
 
-function repoFormatter(cell, row) {
+function repoFormatter(cell) {
   return cell.S.split('_').join('/')
 }
 
-function labelsFormatter(cell, row) {
+function labelsFormatter(cell) {
   return cell.S.split(',').join(', ')
 }
 
-function languageFormatter(cell, row) {
+function languageFormatter(cell) {
   return cell.S
 }
 
-function titleFormatter(cell, row) {
+function titleFormatter(cell) {
   return cell.S
 }
 
@@ -43,13 +43,15 @@ class Table extends Component {
   constructor(props, context) {
     super(props, context)
     this.state = {
-      data: data.Items,
-      loading: true
+      loading: true,
+      data: data.Items
     }
   }
-  //this.refs.table.handleFilterData
 
   render() {
+    const options = {
+      onFilterChange: this.onFilterChange
+    }
     return (
       <React.Fragment>
         {!this.state.loading ? (
@@ -64,9 +66,10 @@ class Table extends Component {
           <BootstrapTable
             ref="table"
             data={this.state.data}
+            options={options}
             hover
             condensed
-            pagination
+            pagination={true}
           >
             <TableHeaderColumn
               isKey={true}
@@ -80,7 +83,11 @@ class Table extends Component {
               ref="Repo"
               dataField="Repo"
               filterFormatted={true}
-              filter={{ type: 'TextFilter', placeholder: 'Name of repo is...' }}
+              filter={{
+                type: 'TextFilter',
+                placeholder: 'Name of repo is...',
+                defaultValue: 'facebook/react'
+              }}
               dataFormat={repoFormatter}
             >
               Repo
@@ -115,7 +122,8 @@ class Table extends Component {
               filter={{
                 type: 'NumberFilter',
                 delay: 1000,
-                numberComparators: ['=', '>', '<']
+                numberComparators: ['=', '>', '<='],
+                defaultValue: { number: 10, comparator: '<=' }
               }}
             >
               Days Old

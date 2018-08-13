@@ -121,7 +121,7 @@ const putIntoDB = async function(issues, repo) {
                 N: String(issue.id) || '4124'
               },
               Repo: {
-                S: repo.repo.replace('/', '_') || 'repo'
+                S: repo.repo || 'repo'
               },
               Title: {
                 S: issue.title || 'title'

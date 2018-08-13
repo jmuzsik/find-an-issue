@@ -26,7 +26,6 @@ tbody tr {
   grid-template-columns: 27% 22% 16% 17% 8% 10%;
 }
 
-
 .badge {
   font-size: inherit !important;
 }
@@ -34,6 +33,14 @@ tbody tr {
 .table-bordered td,
 .table-bordered th {
   flex-direction: column;
+}
+
+#root > div > div > div > div.react-bs-table-container > div.react-bs-table-pagination > div {
+  justify-content: center;
+}
+
+#root > div > div > div > div.react-bs-table-container > div.react-bs-table-pagination > div > div {
+  max-width: 25%;
 }
 
 .loading-container {
