@@ -85,8 +85,7 @@ class Table extends Component {
               filterFormatted={true}
               filter={{
                 type: 'TextFilter',
-                placeholder: 'Name of repo is...',
-                defaultValue: 'facebook/react'
+                placeholder: 'Name of repo is...'
               }}
               dataFormat={repoFormatter}
             >
@@ -122,8 +121,7 @@ class Table extends Component {
               filter={{
                 type: 'NumberFilter',
                 delay: 1000,
-                numberComparators: ['=', '>', '<='],
-                defaultValue: { number: 10, comparator: '<=' }
+                numberComparators: ['=', '>', '<=']
               }}
             >
               Days Old
