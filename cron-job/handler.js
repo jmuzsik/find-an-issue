@@ -2,7 +2,6 @@
 
 const fs = require('fs')
 const express = require('express')
-const cron = require('cron')
 const shell = require('shelljs')
 
 const options = require('./options')
@@ -69,17 +68,6 @@ const scanFunc = async () => {
 }
 
 // end of creation of file that will be used in the front end from initial data scraping
-
-// var job = new cron.CronJob({
-//   cronTime: '00 30 11 * * 0-6',
-//   onTick: async function() {
-//     console.log('Cron Job has begun.')
-//   },
-//   start: true,
-//   timeZone: 'America/Los_Angeles'
-// })
-
-// job.start()
 
 const doStuff = async () => {
   await tableCreation()
