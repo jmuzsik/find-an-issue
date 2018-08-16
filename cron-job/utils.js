@@ -1,9 +1,7 @@
-const secrets = require('./secrets.js')
 
 const AWS = require('aws-sdk')
+
 const awsConfig = new AWS.Config({
-  accessKeyId: secrets.accessKeyId,
-  secretAccessKey: secrets.secretAccessKey,
   region: 'us-east-1'
 })
 const dynamodb = new AWS.DynamoDB(awsConfig)
