@@ -20,7 +20,7 @@ const scan = utils.scan
 
 const app = express()
 
-const tableCreation = async () => {
+const fileCreation = async () => {
   await tableDeletion()
   await waitForDeletion()
   await createTable()
@@ -70,7 +70,7 @@ const scanFunc = async () => {
 // end of creation of file that will be used in the front end from initial data scraping
 
 const doStuff = async () => {
-  await tableCreation()
+  await fileCreation()
   await scanFunc()
   setTimeout(() => {
     shell.exec('./git.sh')
