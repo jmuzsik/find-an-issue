@@ -1,6 +1,6 @@
-const secrets = require('./secrets.js')
 
 const AWS = require('aws-sdk')
+
 const awsConfig = new AWS.Config({
   region: 'us-east-1'
 })
