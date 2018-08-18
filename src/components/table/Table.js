@@ -49,9 +49,6 @@ class Table extends Component {
   }
 
   render() {
-    const options = {
-      onFilterChange: this.onFilterChange
-    }
     return (
       <React.Fragment>
         {!this.state.loading ? (
@@ -66,7 +63,6 @@ class Table extends Component {
           <BootstrapTable
             ref="table"
             data={this.state.data}
-            options={options}
             hover
             condensed
             pagination={true}

@@ -1,4 +1,3 @@
-
 const AWS = require('aws-sdk')
 
 const awsConfig = new AWS.Config({
@@ -20,16 +19,8 @@ const tableDeletion = async function() {
   return new Promise((resolve, reject) => {
     dynamodb.deleteTable(deletionParams, function(err, data) {
       if (err) {
-        console.error(
-          'Unable to delete table. Error JSON:',
-          JSON.stringify(err, null, 2)
-        )
-        reject(null, 'Failed Deletion')
+        reject(err)
       } else {
-        console.log(
-          'Deleted table. Table description JSON:',
-          JSON.stringify(data, null, 2)
-        )
         resolve(data)
       }
     })
@@ -40,13 +31,8 @@ const waitForDeletion = async function() {
   return new Promise((resolve, reject) => {
     dynamodb.waitFor('tableNotExists', paramsWaitFor, function(err, data) {
       if (err) {
-        console.error(
-          'Unable to delete table. Error JSON:',
-          JSON.stringify(err, null, 2)
-        )
-        reject(null, 'Failed Wait for Deletion')
+        reject(err)
       } else {
-        console.log('Deleted!', JSON.stringify(data, null, 2))
         resolve(data)
       }
     })
@@ -57,13 +43,8 @@ const waitForCreation = async function() {
   return new Promise((resolve, reject) => {
     dynamodb.waitFor('tableExists', paramsWaitFor, function(err, data) {
       if (err) {
-        console.error(
-          'Unable to delete table. Error JSON:',
-          JSON.stringify(err, null, 2)
-        )
-        reject(null, 'Failed Wait for Creation')
+        reject(err)
       } else {
-        console.log('Created!', JSON.stringify(data, null, 2))
         resolve(data)
       }
     })
@@ -74,13 +55,8 @@ const createTable = async function() {
   return new Promise((resolve, reject) => {
     dynamodb.createTable(creationParams, function(err, data) {
       if (err) {
-        console.error(
-          'Unable to create table. Error JSON:',
-          JSON.stringify(err, null, 2)
-        )
-        reject(null, 'Failed Creation')
+        reject(err)
       } else {
-        console.log('Table Created')
         resolve(data)
       }
     })
@@ -88,7 +64,7 @@ const createTable = async function() {
 }
 
 const syncTimeout = async function() {
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     setTimeout(() => resolve(true), 30000)
   })
 }
@@ -147,7 +123,7 @@ const putIntoDB = async function(issues, repo) {
     }
     if (puts.length !== 0) {
       batchParams.RequestItems.Repo_Issues = puts
-      dynamodb.batchWriteItem(batchParams, function(err, data) {
+      dynamodb.batchWriteItem(batchParams, function(err) {
         if (err) {
           console.error(
             'Unable to insert item. Error JSON:',
@@ -169,9 +145,9 @@ const putIntoDB = async function(issues, repo) {
   })
 }
 
-const attemptRequest = async function(repo) {
-  return new Promise((resolve, reject) => {
-    request.get(githubOptions, async (error, res, body) => {
+const attemptRequest = async function() {
+  return new Promise(resolve => {
+    request.get(githubOptions, async (error, res) => {
       if (error) {
         console.error('Unable to query api:', JSON.stringify(error, null, 2))
         resolve({ error })

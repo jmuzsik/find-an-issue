@@ -6,15 +6,6 @@ import './Home.css'
 import MainWrapper from '../reuseable/MainWrapper'
 
 class Home extends Component {
-  constructor(props) {
-    super(props)
-    this.handleChange = this.handleChange.bind(this)
-  }
-
-  handleChange(evt) {
-    evt.preventDefault()
-  }
-
   render() {
     return (
       <React.Fragment>

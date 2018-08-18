@@ -20,11 +20,25 @@ const scan = utils.scan
 
 const app = express()
 
+function safePromise(promise) {
+  return promise.then(data => [data]).catch(error => [null, error])
+}
+async function checkPromise(func) {
+  const [success, error] = await safePromise(func())
+  if (error) {
+    return error
+  }
+  return success
+}
 const fileCreation = async () => {
-  await tableDeletion()
-  await waitForDeletion()
-  await createTable()
-  await waitForCreation()
+  const initDeletion = await checkPromise(tableDeletion)
+  console.log('Has the table deletion begun?', initDeletion)
+  const waitForInitDeletion = await checkPromise(waitForDeletion)
+  console.log('Has the table deletion finished?', waitForInitDeletion)
+  const initCreation = await checkPromise(createTable)
+  console.log('Has the table creation begun?', initCreation)
+  const waitForInitCreation = await checkPromise(waitForCreation)
+  console.log('Has the table creation finished?', waitForInitCreation)
 
   for (let i = 0; i < repos.length; i++) {
     const repo = repos[i].repo

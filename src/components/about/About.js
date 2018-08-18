@@ -5,10 +5,6 @@ import MainWrapper from '../reuseable/MainWrapper'
 import './About.css'
 
 class About extends Component {
-  handleChange(evt) {
-    evt.preventDefault()
-  }
-
   render() {
     return (
       <div className="container">
