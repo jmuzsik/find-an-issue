@@ -57,85 +57,76 @@ class Table extends Component {
   render() {
     return (
       <React.Fragment>
-        {!this.state.loading ? (
-          <div className="loading-container">
-            <div className="lds-ring">
-              <div />
-              <div />
-            </div>
-            <div>Data Loading...</div>
-          </div>
-        ) : (
-          <BootstrapTable
-            ref="table"
-            data={this.state.data}
-            hover
-            condensed
-            pagination={true}
+        <BootstrapTable
+          ref="table"
+          data={this.state.data}
+          hover
+          condensed
+          pagination={true}
+        >
+          <TableHeaderColumn
+            isKey={true}
+            ref="Title"
+            dataField="Title"
+            dataFormat={titleFormatter}
           >
-            <TableHeaderColumn
-              isKey={true}
-              ref="Title"
-              dataField="Title"
-              dataFormat={titleFormatter}
-            >
-              Title
-            </TableHeaderColumn>
-            <TableHeaderColumn
-              ref="Repo"
-              dataField="Repo"
-              filterFormatted={true}
-              filter={{
-                type: 'TextFilter',
-                placeholder: 'Name of repo is...'
-              }}
-              dataFormat={repoFormatter}
-            >
-              Repo
-            </TableHeaderColumn>
-            <TableHeaderColumn
-              ref="Language"
-              dataField="Language"
-              filterFormatted={true}
-              filter={{
-                type: 'TextFilter',
-                placeholder: 'Language?',
-                condition: 'eq'
-              }}
-              dataFormat={languageFormatter}
-            >
-              Language
-            </TableHeaderColumn>
-            <TableHeaderColumn
-              ref="Labels"
-              dataField="Labels"
-              filterFormatted={true}
-              filter={{ type: 'TextFilter', placeholder: 'Label?' }}
-              dataFormat={labelsFormatter}
-            >
-              Labels
-            </TableHeaderColumn>
-            <TableHeaderColumn
-              ref="Time"
-              dataField="Time"
-              filterFormatted={true}
-              dataFormat={dateFormatter}
-              filter={{
-                type: 'NumberFilter',
-                delay: 1000,
-                numberComparators: ['=', '>', '<=']
-              }}
-            >
-              Days Old
-            </TableHeaderColumn>
-            <TableHeaderColumn
-              ref="Url"
-              dataField="Url"
-              dataFormat={urlFormatter}
-            >
-              URL
-            </TableHeaderColumn>
-          </BootstrapTable>
+            Title
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            ref="Repo"
+            dataField="Repo"
+            filterFormatted={true}
+            filter={{
+              type: 'TextFilter',
+              placeholder: 'Name of repo is...'
+            }}
+            dataFormat={repoFormatter}
+          >
+            Repo
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            ref="Language"
+            dataField="Language"
+            filterFormatted={true}
+            filter={{
+              type: 'TextFilter',
+              placeholder: 'Language?',
+              condition: 'eq'
+            }}
+            dataFormat={languageFormatter}
+          >
+            Language
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            ref="Labels"
+            dataField="Labels"
+            filterFormatted={true}
+            filter={{ type: 'TextFilter', placeholder: 'Label?' }}
+            dataFormat={labelsFormatter}
+          >
+            Labels
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            ref="Time"
+            dataField="Time"
+            filterFormatted={true}
+            dataFormat={dateFormatter}
+            filter={{
+              type: 'NumberFilter',
+              delay: 1000,
+              numberComparators: ['=', '>', '<=']
+            }}
+          >
+            Days Old
+          </TableHeaderColumn>
+          <TableHeaderColumn
+            ref="Url"
+            dataField="Url"
+            dataFormat={urlFormatter}
+          >
+            URL
+          </TableHeaderColumn>
+        </BootstrapTable>
         )}
       </React.Fragment>
     );

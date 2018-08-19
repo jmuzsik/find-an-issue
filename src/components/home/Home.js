@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
 
-import './Home.css';
 import MainWrapper from '../reuseable/MainWrapper';
 import asyncComponent from '../reuseable/AsyncComponent';
+
+import './Home.css';
+import './Loading.css';
 
 const AsyncTable = asyncComponent(() => import('../table/Table.js'));
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true
+    };
+  }
+
+  componentDidMount() {
+    setTimeout(() => this.setState({ loading: false }), 2500);
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -27,7 +40,17 @@ class Home extends Component {
             </p>
           </div>
         </div>
-        <AsyncTable />
+        {this.state.loading ? (
+          <div className="loading-container">
+            <div className="lds-ring">
+              <div />
+              <div />
+            </div>
+            <div>Table Loading...</div>
+          </div>
+        ) : (
+          <AsyncTable />
+        )}
       </React.Fragment>
     );
   }
