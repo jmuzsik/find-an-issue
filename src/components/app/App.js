@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
-import { Switch } from 'react-router-dom'
-import AppliedRoute from '../reuseable/AppliedRoute'
-import Home from '../home/Home'
+import React, { Component } from 'react';
+import { Switch } from 'react-router-dom';
+import AppliedRoute from '../reuseable/AppliedRoute';
+import NotFound from '../reuseable/NotFound';
+import Home from '../home/Home';
 
-import './App.css'
+import './App.css';
 
-import About from '../about/About'
+import About from '../about/About';
 
 class App extends Component {
   render() {
@@ -14,10 +15,11 @@ class App extends Component {
         <Switch>
           <AppliedRoute exact path="/" component={Home} />
           <AppliedRoute exact path="/about" component={About} />
+          <AppliedRoute component={NotFound} />
         </Switch>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;

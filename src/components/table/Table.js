@@ -1,50 +1,56 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import { TableHeaderColumn, BootstrapTable } from 'react-bootstrap-table'
+import { TableHeaderColumn, BootstrapTable } from 'react-bootstrap-table';
 
-import './Table.css'
-import data from '../../data.json'
+import data from '../../data.json';
+import './Table.css';
 
 function urlFormatter(cell) {
   return (
     <a href={cell.S} className="badge badge-success">
       Issue
     </a>
-  )
+  );
 }
 
 function dateFormatter(cell) {
-  const now = new Date().getTime()
-  const miliseconds = now - Number(cell.S)
-  const seconds = Number(Math.floor(miliseconds / 1000))
-  const minutes = Number(Math.floor(seconds / 60))
-  const hours = Number(Math.floor(minutes / 60))
-  const days = Number(Math.floor(hours / 24))
-  return days
+  const now = new Date().getTime();
+  const miliseconds = now - Number(cell.S);
+  const seconds = Number(Math.floor(miliseconds / 1000));
+  const minutes = Number(Math.floor(seconds / 60));
+  const hours = Number(Math.floor(minutes / 60));
+  const days = Number(Math.floor(hours / 24));
+  return days;
 }
 
 function repoFormatter(cell) {
-  return cell.S.split('_').join('/')
+  return cell.S.split('_').join('/');
 }
 
 function labelsFormatter(cell) {
-  return cell.S.split(',').join(', ')
+  return cell.S.split(',').join(', ');
 }
 
 function languageFormatter(cell) {
-  return cell.S
+  return cell.S;
 }
 
 function titleFormatter(cell) {
-  return cell.S
+  return cell.S;
 }
 
 class Table extends Component {
   constructor(props, context) {
-    super(props, context)
+    super(props, context);
     this.state = {
       loading: true,
       data: data.Items
+    };
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps !== this.props) {
+      console.log(this.props);
     }
   }
 
@@ -132,8 +138,8 @@ class Table extends Component {
           </BootstrapTable>
         )}
       </React.Fragment>
-    )
+    );
   }
 }
 
-export default Table
+export default Table;

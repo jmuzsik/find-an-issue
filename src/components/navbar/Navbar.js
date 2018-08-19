@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import githubImage from '../../githubmark.png'
-import logo from '../../findanissuelogo.png'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import githubImage from '../../githubmark.png';
+import logo from '../../findanissuelogo.png';
 
-import './Navbar.css'
+import './Navbar.css';
 
 class Navbar extends Component {
   render() {
@@ -46,8 +46,8 @@ class Navbar extends Component {
           </ul>
         </div>
       </nav>
-    )
+    );
   }
 }
 
-export default Navbar
+export default Navbar;

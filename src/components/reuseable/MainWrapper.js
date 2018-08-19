@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import './MainWrapper.css'
-import Navbar from '../navbar/Navbar'
+import './MainWrapper.css';
+import Navbar from '../navbar/Navbar';
 
 const MainWrapper = Component => {
   return class Layout extends React.Component {
@@ -13,9 +13,9 @@ const MainWrapper = Component => {
             <Component {...this.props} />
           </div>
         </div>
-      )
+      );
     }
-  }
-}
+  };
+};
 
-export default MainWrapper
+export default MainWrapper;

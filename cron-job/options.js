@@ -1,4 +1,4 @@
-const secrets = require('./secrets.js')
+const secrets = require('./secrets.js');
 
 const githubOptions = {
   url: 'https://api.github.com/rate_limit',
@@ -8,7 +8,7 @@ const githubOptions = {
     Authorization: 'token ' + secrets.githubToken,
     'User-Agent': 'jMuzsik'
   }
-}
+};
 
 const repos = [
   { language: 'JS', repo: 'freeCodeCamp/freeCodeCamp' },
@@ -979,7 +979,6 @@ const repos = [
   { language: 'Python, JS, HTMl, CSS', repo: 'mailpile/Mailpile' }
 ];
 
-
 const creationParams = {
   AttributeDefinitions: [
     {
@@ -1006,23 +1005,23 @@ const creationParams = {
     WriteCapacityUnits: 5
   },
   TableName: 'Repo_Issues'
-}
+};
 const deletionParams = {
   TableName: 'Repo_Issues'
-}
+};
 const paramsWaitFor = {
   TableName: 'Repo_Issues'
-}
+};
 
 const batchParams = {
   RequestItems: {
     Repo_Issues: null
   }
-}
+};
 
 const scanParams = {
   TableName: 'Repo_Issues'
-}
+};
 
 module.exports = {
   githubOptions,
@@ -1032,4 +1031,4 @@ module.exports = {
   paramsWaitFor,
   batchParams,
   scanParams
-}
+};

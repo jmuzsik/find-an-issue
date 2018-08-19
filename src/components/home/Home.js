@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import Table from '../table/Table'
+import './Home.css';
+import MainWrapper from '../reuseable/MainWrapper';
+import asyncComponent from '../reuseable/AsyncComponent';
 
-import './Home.css'
-import MainWrapper from '../reuseable/MainWrapper'
+const AsyncTable = asyncComponent(() => import('../table/Table.js'));
 
 class Home extends Component {
   render() {
@@ -26,10 +27,10 @@ class Home extends Component {
             </p>
           </div>
         </div>
-        <Table />
+        <AsyncTable />
       </React.Fragment>
-    )
+    );
   }
 }
 
-export default MainWrapper(Home)
+export default MainWrapper(Home);

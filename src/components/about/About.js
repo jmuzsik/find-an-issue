@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MainWrapper from '../reuseable/MainWrapper'
+import MainWrapper from '../reuseable/MainWrapper';
 
-import './About.css'
+import './About.css';
 
 class About extends Component {
   render() {
@@ -31,8 +31,8 @@ class About extends Component {
           </ul>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default MainWrapper(About)
+export default MainWrapper(About);
