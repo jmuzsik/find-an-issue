@@ -70,14 +70,16 @@ const fileCreation = async () => {
 const scanFunc = async () => {
   const data = await scan();
 
-  fs.writeFile('/var/www/find-an-issue/src/data.json', JSON.stringify(data, undefined, 2), function(
-    err
-  ) {
-    if (err) {
-      console.log('Error writing file', err);
+  fs.writeFile(
+    '/var/www/find-an-issue/src/data.json',
+    JSON.stringify(data, undefined, 2),
+    function(err) {
+      if (err) {
+        console.log('Error writing file', err);
+      }
+      console.log('File written.');
     }
-    console.log('File written.');
-  });
+  );
   return true;
 };
 

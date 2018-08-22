@@ -17,6 +17,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
+    // Prevent table from suddenly flashing on the screen (usually takes around a second and the flash is discomforting)
     setTimeout(() => this.setState({ loading: false }), 2500);
   }
 

@@ -1006,9 +1006,11 @@ const creationParams = {
   },
   TableName: 'Repo_Issues'
 };
+
 const deletionParams = {
   TableName: 'Repo_Issues'
 };
+
 const paramsWaitFor = {
   TableName: 'Repo_Issues'
 };

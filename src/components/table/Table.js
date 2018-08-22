@@ -5,53 +5,22 @@ import { TableHeaderColumn, BootstrapTable } from 'react-bootstrap-table';
 import data from '../../data.json';
 import './Table.css';
 
-function urlFormatter(cell) {
-  return (
-    <a href={cell.S} className="badge badge-success">
-      Issue
-    </a>
-  );
-}
+import {
+  urlFormatter,
+  dateFormatter,
+  repoFormatter,
+  labelsFormatter,
+  languageFormatter,
+  titleFormatter
+} from '../../utils.js';
 
-function dateFormatter(cell) {
-  const now = new Date().getTime();
-  const miliseconds = now - Number(cell.S);
-  const seconds = Number(Math.floor(miliseconds / 1000));
-  const minutes = Number(Math.floor(seconds / 60));
-  const hours = Number(Math.floor(minutes / 60));
-  const days = Number(Math.floor(hours / 24));
-  return days;
-}
-
-function repoFormatter(cell) {
-  return cell.S.split('_').join('/');
-}
-
-function labelsFormatter(cell) {
-  return cell.S.split(',').join(', ');
-}
-
-function languageFormatter(cell) {
-  return cell.S;
-}
-
-function titleFormatter(cell) {
-  return cell.S;
-}
-
-class Table extends Component {
+export default class Table extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
       loading: true,
       data: data.Items
     };
-  }
-
-  componentDidUpdate(prevProps) {
-    if (prevProps !== this.props) {
-      console.log(this.props);
-    }
   }
 
   render() {
@@ -132,5 +101,3 @@ class Table extends Component {
     );
   }
 }
-
-export default Table;
