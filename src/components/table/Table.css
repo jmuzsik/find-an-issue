@@ -22,7 +22,7 @@ thead tr,
 tbody tr {
   display: grid;
   grid-area: header;
-  grid-template-columns: 27% 22% 16% 17% 8% 10%;
+  grid-template-columns: 27% 22% 15% 16% 10% 10%;
 }
 
 .badge {
@@ -34,10 +34,43 @@ tbody tr {
   flex-direction: column;
 }
 
-#root > div > div > div > div.react-bs-table-container > div.react-bs-table-pagination > div {
+#root
+  > div
+  > div
+  > div
+  > div.react-bs-table-container
+  > div.react-bs-table-pagination
+  > div {
   justify-content: center;
 }
 
-#root > div > div > div > div.react-bs-table-container > div.react-bs-table-pagination > div > div {
+#root
+  > div
+  > div
+  > div
+  > div.react-bs-table-container
+  > div.react-bs-table-pagination
+  > div
+  > div {
   max-width: 25%;
+}
+
+@media (max-width: 600px) {
+  thead tr,
+  tbody tr {
+    min-width: 250%;
+  }
+  .table {
+    border: none;
+  }
+}
+
+@media (max-width: 750px) {
+  thead tr,
+  tbody tr {
+    width: 150%;
+  }
+  .table {
+    border: none;
+  }
 }

@@ -70,7 +70,7 @@ const fileCreation = async () => {
 const scanFunc = async () => {
   const data = await scan();
 
-  fs.writeFile('../src/data.json', JSON.stringify(data, undefined, 2), function(
+  fs.writeFile('/var/www/find-an-issue/src/data.json', JSON.stringify(data, undefined, 2), function(
     err
   ) {
     if (err) {
@@ -87,7 +87,7 @@ const doStuff = async () => {
   await fileCreation();
   await scanFunc();
   setTimeout(() => {
-    shell.exec('./git.sh');
+    shell.exec('/var/www/find-an-issue/git.sh');
   }, 2000);
   console.log('Finished with all the steps!');
 };
