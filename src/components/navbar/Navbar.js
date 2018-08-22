@@ -1,29 +1,20 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import firebase from 'firebase'
-import 'firebase/firestore/dist/index.cjs'
-import logo from '../../issuelogo.png'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import githubImage from '../../githubmark.png';
+import logo from '../../findanissuelogo.png';
 
-import './Navbar.css'
-
-const provider = new firebase.auth.GithubAuthProvider()
-provider.addScope('repo')
-
-const attemptSignIn = event => {
-  event.preventDefault()
-  firebase.auth().signInWithRedirect(provider)
-}
+import './Navbar.css';
 
 class Navbar extends Component {
   render() {
-    const username = this.props.user.githubUsername
     return (
       <nav
         className="navbar navbar-expand-lg navbar-light border-bottom"
         aria-label="main navigation"
       >
         <Link className="navbar-brand" to="/">
-          <strong>Find an Issue</strong>
+          <img src={logo} alt="logo of application" />
+          Find An Issue
         </Link>
         <button
           className="navbar-toggler"
@@ -39,50 +30,24 @@ class Navbar extends Component {
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
+            <li className="nav-item about active">
               <Link className="nav-link" to="/about">
                 About
               </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="https://github.com/jMuzsik/find-an-issue">
-                Github
+              <a
+                className="nav-link"
+                href="https://github.com/jMuzsik/find-an-issue"
+              >
+                <img alt="Github logo" className="invert" src={githubImage} />
               </a>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          {username ? (
-            <React.Fragment>
-              <p>Hey, {username}</p>
-              <Link
-                to="/"
-                className="nav-link"
-                onClick={() =>
-                  firebase
-                    .auth()
-                    .signOut()
-                    .catch(console.error)
-                }
-              >
-                Logout
-              </Link>
-            </React.Fragment>
-          ) : (
-            <form className="form-inline my-2 my-lg-0">
-              <button
-                className="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-                onClick={attemptSignIn}
-              >
-                <span>Sign In With Github</span>
-              </button>
-            </form>
-          )}
-        </div>
       </nav>
-    )
+    );
   }
 }
 
-export default Navbar
+export default Navbar;

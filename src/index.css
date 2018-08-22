@@ -1,5 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(245, 252, 252) !important;
+  font-family: "Medium-65", "Helvetica Neue", "Helvetica", Arial, sans-serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
