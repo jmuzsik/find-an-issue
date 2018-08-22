@@ -87,7 +87,7 @@ const doStuff = async () => {
   await fileCreation();
   await scanFunc();
   setTimeout(() => {
-    shell.exec('/var/www/find-an-issue/git.sh');
+    shell.exec('/var/www/find-an-issue/cron-job/git.sh');
   }, 2000);
   console.log('Finished with all the steps!');
 };
