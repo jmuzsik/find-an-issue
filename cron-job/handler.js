@@ -1,7 +1,6 @@
 'use strict';
 
 const fs = require('fs');
-const express = require('express');
 const shell = require('shelljs');
 
 const options = require('./options');
@@ -17,8 +16,6 @@ const syncTimeout = utils.syncTimeout;
 const putIntoDB = utils.putIntoDB;
 const attemptRequest = utils.attemptRequest;
 const scan = utils.scan;
-
-const app = express();
 
 function safePromise(promise) {
   return promise.then(data => [data]).catch(error => [null, error]);
@@ -95,4 +92,3 @@ const doStuff = async () => {
 };
 
 doStuff();
-app.listen('3128');
