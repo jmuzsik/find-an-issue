@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import { TableHeaderColumn, BootstrapTable } from 'react-bootstrap-table';
 
@@ -25,7 +25,7 @@ export default class Table extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <Fragment>
         <BootstrapTable
           ref="table"
           data={this.state.data}
@@ -60,7 +60,7 @@ export default class Table extends Component {
             filter={{
               type: 'TextFilter',
               placeholder: 'Language?',
-              condition: 'eq'
+              condition: 'like'
             }}
             dataFormat={languageFormatter}
           >
@@ -97,7 +97,7 @@ export default class Table extends Component {
           </TableHeaderColumn>
         </BootstrapTable>
         )}
-      </React.Fragment>
+      </Fragment>
     );
   }
 }
