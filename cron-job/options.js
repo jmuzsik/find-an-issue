@@ -123,9 +123,9 @@ const repos = [
   { language: 'JS', repo: 'TryGhost/Ghost' },
   { language: 'Resource', repo: 'open-source-society/computer-science' },
   { language: 'Java', repo: 'iluwatar/java-design-patterns' },
-  { language: 'C, Python, JS, HTMl, Shell', repo: 'firehol/netdata' },
+  { language: 'C, Python, JS, HTML, Shell', repo: 'firehol/netdata' },
   { language: 'Kotlin, Java', repo: 'JetBrains/kotlin' },
-  { language: 'JS, CoffeeScript, HTMl', repo: 'nylas/nylas-mail' },
+  { language: 'JS, CoffeeScript, HTML', repo: 'nylas/nylas-mail' },
   { language: 'Resource', repo: 'shadowsocks/shadowsocks' },
   { language: 'Resource, Go', repo: 'avelino/awesome-go' },
   { language: 'Resource, Angular', repo: 'johnpapa/angular-styleguide' },
@@ -976,7 +976,7 @@ const repos = [
   { language: 'JS', repo: 'nightwatchjs/nightwatch' },
   { language: 'JS, CoffeeScript, CSS', repo: 'Automattic/kue' },
   { language: 'JS, C++', repo: 'Microsoft/ChakraCore' },
-  { language: 'Python, JS, HTMl, CSS', repo: 'mailpile/Mailpile' }
+  { language: 'Python, JS, HTML, CSS', repo: 'mailpile/Mailpile' }
 ];
 
 const creationParams = {
