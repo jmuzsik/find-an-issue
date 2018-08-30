@@ -24,8 +24,8 @@ class About extends Component {
               last 10 or so issues of 950 of the most popular repositories.
             </li>
             <li className="list-group-item">
-              The table is simple. Search by repo, language (case-sensitive and
-              exact searches only), labels, or by the age of the issue.
+              The table is simple. Search by repo, language, labels, or by the age 
+              of the issue.
             </li>
             <li className="list-group-item">Hope you find an issue!</li>
           </ul>
