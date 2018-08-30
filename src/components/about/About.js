@@ -7,7 +7,7 @@ import './About.css';
 class About extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="about-container container">
         <div className="card">
           <h3 className="card-header">What is this site for?</h3>
           <ul className="list-group list-group-flush">

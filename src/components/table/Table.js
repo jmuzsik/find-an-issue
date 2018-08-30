@@ -17,10 +17,31 @@ import {
 export default class Table extends Component {
   constructor(props, context) {
     super(props, context);
+    const equalityType = this.props.equalityType;
     this.state = {
       loading: true,
-      data: data.Items
+      data: data.Items,
+      equalityType
     };
+    this.clearFiltered = this.clearFiltered.bind(this);
+  }
+
+  componentDidUpdate() {
+    const newEqaulityType = this.props.equalityType;
+    const prevEqualityType = this.state.equalityType;
+    if (newEqaulityType !== prevEqualityType) {
+      this.clearFiltered();
+      this.setState({ equalityType: newEqaulityType });
+    }
+  }
+
+  clearFiltered() {
+    this.refs.Title.cleanFiltered();
+    this.refs.Repo.cleanFiltered();
+    this.refs.Language.cleanFiltered();
+    this.refs.Labels.cleanFiltered();
+    this.refs.Time.cleanFiltered();
+    this.refs.Url.cleanFiltered();
   }
 
   render() {
@@ -60,7 +81,7 @@ export default class Table extends Component {
             filter={{
               type: 'TextFilter',
               placeholder: 'Language?',
-              condition: 'eq'
+              condition: this.state.equalityType
             }}
             dataFormat={languageFormatter}
           >
@@ -96,7 +117,6 @@ export default class Table extends Component {
             URL
           </TableHeaderColumn>
         </BootstrapTable>
-        )}
       </React.Fragment>
     );
   }

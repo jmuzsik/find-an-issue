@@ -5,6 +5,7 @@ import asyncComponent from '../reuseable/AsyncComponent';
 
 import './Home.css';
 import './Loading.css';
+import Options from '../options/Options';
 
 const AsyncTable = asyncComponent(() => import('../table/Table.js'));
 
@@ -12,13 +13,29 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      loading: true
+      loading: true,
+      equalityType: 'like'
     };
+    this.handleInputChange = this.handleInputChange.bind(this);
   }
 
   componentDidMount() {
     // Prevent table from suddenly flashing on the screen (usually takes around a second and the flash is discomforting)
     setTimeout(() => this.setState({ loading: false }), 1500);
+  }
+
+  handleInputChange(value) {
+    console.log(value)
+    let equalityType;
+    if(value === true) {
+      equalityType = 'eq'
+    } else {
+      equalityType = 'like'
+    }
+    this.setState({
+      checked: value,
+      equalityType
+    });
   }
 
   render() {
@@ -41,6 +58,7 @@ class Home extends Component {
             </p>
           </div>
         </div>
+        <Options handleInputChange={this.handleInputChange} />
         {this.state.loading ? (
           <div className="loading-container">
             <div className="lds-ring">
@@ -50,7 +68,7 @@ class Home extends Component {
             <div>Table Loading...</div>
           </div>
         ) : (
-          <AsyncTable />
+          <AsyncTable equalityType={this.state.equalityType}/>
         )}
       </React.Fragment>
     );

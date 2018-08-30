@@ -1,9 +1,19 @@
-.container {
+.about-container {
   display: flex;
   margin-top: 3rem;
 }
-.container .card {
+.about-container .card {
   width: 50vw;
   margin: 0 auto;
   border: 1px solid rgb(72, 88, 161);
+}
+@media (max-width: 600px) {
+  .about-container .card {
+    width: 90vw;
+  }
+}
+@media (max-width: 750px) {
+  .about-container .card {
+    width: 90vw;
+  }
 }

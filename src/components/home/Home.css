@@ -19,3 +19,14 @@
 .intro-p-second {
   padding-bottom: 2rem;
 }
+@media (max-width: 600px) {
+  .intro-container {
+    min-width: 225%;
+  }
+}
+
+@media (max-width: 750px) {
+  .intro-container {
+    width: 150%;
+  }
+}

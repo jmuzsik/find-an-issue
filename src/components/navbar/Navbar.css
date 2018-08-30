@@ -1,19 +1,29 @@
 .navbar {
-  background-color:#f7f7f7;
+  background-color: #f7f7f7;
   padding: 0 3rem;
 }
 .navbar .navbar-brand img {
   max-width: 3rem;
 }
-.navbar-nav .nav-item { 
+.navbar-nav .nav-item {
   margin: 1rem;
   text-align: center;
 }
 .navbar-nav .nav-item:hover a {
-  filter: invert(.4);
+  filter: invert(0.4);
 }
 .about {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 600px) {
+  .navbar {
+    min-width: 225%;
+  }
+}
+@media (max-width: 750px) {
+  .navbar {
+    width: 150%;
+  }
 }

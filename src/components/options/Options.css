@@ -1,0 +1,22 @@
+.options-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.options-container .form-check {
+  display: flex;
+  align-items: center;
+}
+.options-container .form-check-input {
+  margin-top: 0;
+}
+@media (max-width: 600px) {
+  .options-container {
+    min-width: 225%;
+  }
+}
+@media (max-width: 750px) {
+  .options-container {
+    width: 150%;
+  }
+}
