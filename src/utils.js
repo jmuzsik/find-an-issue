@@ -2,7 +2,12 @@ import React from 'react';
 
 export function urlFormatter(cell) {
   return (
-    <a href={cell.S} className="badge badge-success">
+    <a
+      href={cell.S}
+      className="badge badge-success"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       Issue
     </a>
   );
