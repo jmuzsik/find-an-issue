@@ -1,18 +1,28 @@
 import React, { Component } from 'react';
-
-import { TableHeaderColumn, BootstrapTable } from 'react-bootstrap-table';
-
-import data from '../../data.json';
-import './Table.css';
-
+import BootstrapTable from 'react-bootstrap-table-next';
+import filterFactory, {
+  Comparator,
+  numberFilter,
+  textFilter,
+} from 'react-bootstrap-table2-filter';
+import paginationFactory from 'react-bootstrap-table2-paginator';
 import {
-  urlFormatter,
   dateFormatter,
-  repoFormatter,
   labelsFormatter,
   languageFormatter,
-  titleFormatter
+  repoFormatter,
+  titleFormatter,
+urlFormatter,
 } from '../../utils.js';
+import DATA from '../../data.json';
+import './Table.css';
+
+const { EQ, GT, LE } = Comparator;
+
+const EQUALITY_TO_SENSITIVITY = {
+  like: false,
+  eq: true,
+};
 
 export default class Table extends Component {
   constructor(props, context) {
@@ -20,104 +30,92 @@ export default class Table extends Component {
     const equalityType = this.props.equalityType;
     this.state = {
       loading: true,
-      data: data.Items,
       equalityType
     };
-    this.clearFiltered = this.clearFiltered.bind(this);
   }
 
   componentDidUpdate() {
     const newEqaulityType = this.props.equalityType;
     const prevEqualityType = this.state.equalityType;
     if (newEqaulityType !== prevEqualityType) {
-      this.clearFiltered();
       this.setState({ equalityType: newEqaulityType });
     }
   }
 
-  clearFiltered() {
-    this.refs.Title.cleanFiltered();
-    this.refs.Repo.cleanFiltered();
-    this.refs.Language.cleanFiltered();
-    this.refs.Labels.cleanFiltered();
-    this.refs.Time.cleanFiltered();
-    this.refs.Url.cleanFiltered();
-  }
+  getColumns = (caseSensitive) => {
+    return ([
+      {
+        dataField: 'Title',
+        text: 'Title',
+        formatter: titleFormatter,
+      },
+      {
+        dataField: 'Repo',
+        text: 'Repo',
+        filter: textFilter({
+          placeholder: 'Name of repo is...'
+        }),
+        filterValue: repoFormatter,
+        formatter: repoFormatter,
+      },
+      {
+        dataField: 'Language',
+        text: 'Language',
+        filter: textFilter({
+          placeholder: 'Language?',
+          caseSensitive: caseSensitive,
+        }),
+        filterValue: languageFormatter,
+        formatter: languageFormatter,
+      },
+      {
+        dataField: 'Labels',
+        text: 'Labels',
+        filter: textFilter({
+          placeholder: 'Label?'
+        }),
+        filterValue: labelsFormatter,
+        formatter: labelsFormatter,
+      },
+      {
+        dataField: 'Time',
+        text: 'Days old',
+        formatter: dateFormatter,
+        filter: numberFilter({
+          delay: 600,
+          comparators: [EQ, GT, LE],
+          placeholder: 'Days old?',
+          withoutEmptyComparatorOption: true,
+          withoutEmptyNumberOption: true,
+          className: 'custom-numberfilter-class',
+          numberClassName: 'custom-number-class',
+          comparatorClassName: 'custom-comparator-class',
+        }),
+        filterValue: dateFormatter,
+      },
+      {
+        dataField: 'Url',
+        text: 'URL',
+        formatter: urlFormatter,
+      },
+    ]);
+  };
 
   render() {
+    const { equalityType } = this.state;
+    const caseSensitive = EQUALITY_TO_SENSITIVITY[equalityType];
+
     return (
-      <React.Fragment>
-        <BootstrapTable
-          ref="table"
-          data={this.state.data}
-          hover
-          condensed
-          pagination={true}
-        >
-          <TableHeaderColumn
-            isKey={true}
-            ref="Title"
-            dataField="Title"
-            dataFormat={titleFormatter}
-          >
-            Title
-          </TableHeaderColumn>
-          <TableHeaderColumn
-            ref="Repo"
-            dataField="Repo"
-            filterFormatted={true}
-            filter={{
-              type: 'TextFilter',
-              placeholder: 'Name of repo is...'
-            }}
-            dataFormat={repoFormatter}
-          >
-            Repo
-          </TableHeaderColumn>
-          <TableHeaderColumn
-            ref="Language"
-            dataField="Language"
-            filterFormatted={true}
-            filter={{
-              type: 'TextFilter',
-              placeholder: 'Language?',
-              condition: this.state.equalityType
-            }}
-            dataFormat={languageFormatter}
-          >
-            Language
-          </TableHeaderColumn>
-          <TableHeaderColumn
-            ref="Labels"
-            dataField="Labels"
-            filterFormatted={true}
-            filter={{ type: 'TextFilter', placeholder: 'Label?' }}
-            dataFormat={labelsFormatter}
-          >
-            Labels
-          </TableHeaderColumn>
-          <TableHeaderColumn
-            ref="Time"
-            dataField="Time"
-            filterFormatted={true}
-            dataFormat={dateFormatter}
-            filter={{
-              type: 'NumberFilter',
-              delay: 1000,
-              numberComparators: ['=', '>', '<=']
-            }}
-          >
-            Days Old
-          </TableHeaderColumn>
-          <TableHeaderColumn
-            ref="Url"
-            dataField="Url"
-            dataFormat={urlFormatter}
-          >
-            URL
-          </TableHeaderColumn>
-        </BootstrapTable>
-      </React.Fragment>
+      <BootstrapTable
+        columns={this.getColumns(caseSensitive)}
+        condensed
+        data={ DATA.Items }
+        filter={ filterFactory() }
+        hover
+        id="next-table"
+        keyField="Title"
+        pagination={ paginationFactory({showTotal: true}) }
+      />
     );
   }
 }

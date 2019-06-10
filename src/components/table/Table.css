@@ -1,9 +1,11 @@
-.react-bs-table-container {
+.react-bootstrap-table
+{
   margin: 2rem;
   background-color: white;
 }
 
-.react-bs-container-header table {
+#next-table > thead:nth-child(1)
+{
   word-wrap: break-word;
   margin-bottom: 0;
 }
@@ -38,7 +40,7 @@ tbody tr {
   > div
   > div
   > div
-  > div.react-bs-table-container
+  > div.react-bootstrap-table
   > div.react-bs-table-pagination
   > div {
   justify-content: center;
@@ -48,7 +50,7 @@ tbody tr {
   > div
   > div
   > div
-  > div.react-bs-table-container
+  > div.react-bootstrap-table
   > div.react-bs-table-pagination
   > div
   > div {
@@ -73,4 +75,15 @@ tbody tr {
   .table {
     border: none;
   }
+}
+
+.custom-numberfilter-class {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.custom-comparator-class {
+  margin: 0px;
+  width: 100%;
 }
