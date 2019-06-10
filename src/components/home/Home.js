@@ -25,12 +25,11 @@ class Home extends Component {
   }
 
   handleInputChange(value) {
-    console.log(value)
     let equalityType;
-    if(value === true) {
-      equalityType = 'eq'
+    if (value === true) {
+      equalityType = 'eq';
     } else {
-      equalityType = 'like'
+      equalityType = 'like';
     }
     this.setState({
       checked: value,
@@ -68,7 +67,7 @@ class Home extends Component {
             <div>Table Loading...</div>
           </div>
         ) : (
-          <AsyncTable equalityType={this.state.equalityType}/>
+          <AsyncTable equalityType={this.state.equalityType} />
         )}
       </React.Fragment>
     );

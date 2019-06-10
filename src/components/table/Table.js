@@ -3,7 +3,7 @@ import BootstrapTable from 'react-bootstrap-table-next';
 import filterFactory, {
   Comparator,
   numberFilter,
-  textFilter,
+  textFilter
 } from 'react-bootstrap-table2-filter';
 import paginationFactory from 'react-bootstrap-table2-paginator';
 import {
@@ -12,7 +12,7 @@ import {
   languageFormatter,
   repoFormatter,
   titleFormatter,
-urlFormatter,
+  urlFormatter
 } from '../../utils.js';
 import DATA from '../../data.json';
 import './Table.css';
@@ -21,7 +21,7 @@ const { EQ, GT, LE } = Comparator;
 
 const EQUALITY_TO_SENSITIVITY = {
   like: false,
-  eq: true,
+  eq: true
 };
 
 export default class Table extends Component {
@@ -42,12 +42,12 @@ export default class Table extends Component {
     }
   }
 
-  getColumns = (caseSensitive) => {
-    return ([
+  getColumns = caseSensitive => {
+    return [
       {
         dataField: 'Title',
         text: 'Title',
-        formatter: titleFormatter,
+        formatter: titleFormatter
       },
       {
         dataField: 'Repo',
@@ -56,17 +56,17 @@ export default class Table extends Component {
           placeholder: 'Name of repo is...'
         }),
         filterValue: repoFormatter,
-        formatter: repoFormatter,
+        formatter: repoFormatter
       },
       {
         dataField: 'Language',
         text: 'Language',
         filter: textFilter({
           placeholder: 'Language?',
-          caseSensitive: caseSensitive,
+          caseSensitive: caseSensitive
         }),
         filterValue: languageFormatter,
-        formatter: languageFormatter,
+        formatter: languageFormatter
       },
       {
         dataField: 'Labels',
@@ -75,7 +75,7 @@ export default class Table extends Component {
           placeholder: 'Label?'
         }),
         filterValue: labelsFormatter,
-        formatter: labelsFormatter,
+        formatter: labelsFormatter
       },
       {
         dataField: 'Time',
@@ -89,16 +89,16 @@ export default class Table extends Component {
           withoutEmptyNumberOption: true,
           className: 'custom-numberfilter-class',
           numberClassName: 'custom-number-class',
-          comparatorClassName: 'custom-comparator-class',
+          comparatorClassName: 'custom-comparator-class'
         }),
-        filterValue: dateFormatter,
+        filterValue: dateFormatter
       },
       {
         dataField: 'Url',
         text: 'URL',
-        formatter: urlFormatter,
-      },
-    ]);
+        formatter: urlFormatter
+      }
+    ];
   };
 
   render() {
@@ -109,12 +109,12 @@ export default class Table extends Component {
       <BootstrapTable
         columns={this.getColumns(caseSensitive)}
         condensed
-        data={ DATA.Items }
-        filter={ filterFactory() }
+        data={DATA.Items}
+        filter={filterFactory()}
         hover
         id="next-table"
-        keyField="Title"
-        pagination={ paginationFactory({showTotal: true}) }
+        keyField="ID.N"
+        pagination={paginationFactory({ showTotal: true })}
       />
     );
   }
