@@ -32,6 +32,7 @@ export default class Table extends Component {
   componentDidUpdate() {
     const newEqaulityType = this.props.equalityType;
     const prevEqualityType = this.state.equalityType;
+    console.log(newEqaulityType, prevEqualityType )
     if (newEqaulityType !== prevEqualityType) {
       this.setState({ equalityType: newEqaulityType });
     }
