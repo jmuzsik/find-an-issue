@@ -25,7 +25,6 @@ class Home extends Component {
   }
 
   handleInputChange(value) {
-    console.log(value)
     let equalityType;
     if(value === true) {
       equalityType = 'eq'
