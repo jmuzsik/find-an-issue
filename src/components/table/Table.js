@@ -19,6 +19,11 @@ import './Table.css';
 
 const { EQ, GT, LE } = Comparator;
 
+const EQUALITY_TO_SENSITIVITY = {
+  like: false,
+  eq: true,
+};
+
 export default class Table extends Component {
   constructor(props, context) {
     super(props, context);
@@ -38,9 +43,7 @@ export default class Table extends Component {
     }
   }
 
-  getColumns = () => {
-    const { equalityType } = this.state;
-
+  getColumns = (caseSensitive) => {
     return ([
       {
         dataField: 'Title',
@@ -61,8 +64,7 @@ export default class Table extends Component {
         text: 'Language',
         filter: textFilter({
           placeholder: 'Language?',
-          comparator: Comparator.EQ,
-          caseSensitive: equalityType,
+          caseSensitive: caseSensitive,
         }),
         filterValue: languageFormatter,
         formatter: languageFormatter,
@@ -101,9 +103,12 @@ export default class Table extends Component {
   };
 
   render() {
+    const { equalityType } = this.state;
+    const caseSensitive = EQUALITY_TO_SENSITIVITY[equalityType];
+
     return (
       <BootstrapTable
-        columns={this.getColumns()}
+        columns={this.getColumns(caseSensitive)}
         condensed
         data={ DATA.Items }
         filter={ filterFactory() }
