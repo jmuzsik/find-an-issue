@@ -1926,6 +1926,32 @@
     },
     {
       "Title": {
+        "S": "When cancel full-screen mode, window position doesn't repair to original position"
+      },
+      "Repo": {
+        "S": "Microsoft/vscode"
+      },
+      "Language": {
+        "S": "TS"
+      },
+      "Labels": {
+        "S": "new release"
+      },
+      "Time": {
+        "S": "1573925632000"
+      },
+      "ID": {
+        "N": "523872776"
+      },
+      "Number": {
+        "S": "84971"
+      },
+      "Url": {
+        "S": "https://github.com/microsoft/vscode/issues/84971"
+      }
+    },
+    {
+      "Title": {
         "S": "URL automatic linking with single and double quotation is invalid"
       },
       "Repo": {
@@ -2234,6 +2260,32 @@
       },
       "Url": {
         "S": "https://github.com/kubernetes/kubernetes/issues/85379"
+      }
+    },
+    {
+      "Title": {
+        "S": "not supported between instances of 'NoneType' and 'int'"
+      },
+      "Repo": {
+        "S": "ansible/ansible"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "affects_2.10,needs_info,needs_template,needs_triage,support:core,traceback"
+      },
+      "Time": {
+        "S": "1573907508000"
+      },
+      "ID": {
+        "N": "523839290"
+      },
+      "Number": {
+        "S": "64933"
+      },
+      "Url": {
+        "S": "https://github.com/ansible/ansible/issues/64933"
       }
     },
     {
@@ -2680,32 +2732,6 @@
     },
     {
       "Title": {
-        "S": "TranslateBehavior incompatible with multiple default locales"
-      },
-      "Repo": {
-        "S": "cakephp/cakephp"
-      },
-      "Language": {
-        "S": "PHP"
-      },
-      "Labels": {
-        "S": "ORM,RFC,behaviors,documentation,i18n"
-      },
-      "Time": {
-        "S": "1567608486000"
-      },
-      "ID": {
-        "N": "489208635"
-      },
-      "Number": {
-        "S": "13610"
-      },
-      "Url": {
-        "S": "https://github.com/cakephp/cakephp/issues/13610"
-      }
-    },
-    {
-      "Title": {
         "S": "multipart 数据上传失败"
       },
       "Repo": {
@@ -2806,32 +2832,6 @@
       },
       "Url": {
         "S": "https://github.com/ReactiveX/RxSwift/issues/2099"
-      }
-    },
-    {
-      "Title": {
-        "S": "Error when loading SavedModel with models.load_model() and compile=false "
-      },
-      "Repo": {
-        "S": "tensorflow/tensorflow"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573831332000"
-      },
-      "ID": {
-        "N": "523530566"
-      },
-      "Number": {
-        "S": "34312"
-      },
-      "Url": {
-        "S": "https://github.com/tensorflow/tensorflow/issues/34312"
       }
     },
     {
@@ -3434,32 +3434,6 @@
     },
     {
       "Title": {
-        "S": "triggering  event to be called each time exec is called "
-      },
-      "Repo": {
-        "S": "Automattic/mongoose"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "discussion"
-      },
-      "Time": {
-        "S": "1573267580000"
-      },
-      "ID": {
-        "N": "520319889"
-      },
-      "Number": {
-        "S": "8316"
-      },
-      "Url": {
-        "S": "https://github.com/Automattic/mongoose/issues/8316"
-      }
-    },
-    {
-      "Title": {
         "S": "[Question] Editor integration, how to compile / minify JSHint source"
       },
       "Repo": {
@@ -3508,32 +3482,6 @@
       },
       "Url": {
         "S": "https://github.com/alibaba/vlayout/issues/453"
-      }
-    },
-    {
-      "Title": {
-        "S": "Homebrew development commands fail to install some gems on Mojave on Xcode >10 "
-      },
-      "Repo": {
-        "S": "Homebrew/brew"
-      },
-      "Language": {
-        "S": "Ruby"
-      },
-      "Labels": {
-        "S": "in progress"
-      },
-      "Time": {
-        "S": "1547894544000"
-      },
-      "ID": {
-        "N": "400983762"
-      },
-      "Number": {
-        "S": "5561"
-      },
-      "Url": {
-        "S": "https://github.com/Homebrew/brew/issues/5561"
       }
     },
     {
@@ -3664,32 +3612,6 @@
       },
       "Url": {
         "S": "https://github.com/alibaba/tengine/issues/1363"
-      }
-    },
-    {
-      "Title": {
-        "S": "Incorrect Workspace color theme for Default Dark+."
-      },
-      "Repo": {
-        "S": "Microsoft/vscode"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "new release"
-      },
-      "Time": {
-        "S": "1573850877000"
-      },
-      "ID": {
-        "N": "523681186"
-      },
-      "Number": {
-        "S": "84943"
-      },
-      "Url": {
-        "S": "https://github.com/microsoft/vscode/issues/84943"
       }
     },
     {
@@ -4106,6 +4028,32 @@
       },
       "Url": {
         "S": "https://github.com/dotnet/coreclr/issues/27877"
+      }
+    },
+    {
+      "Title": {
+        "S": "README RST error while uploading to pypi"
+      },
+      "Repo": {
+        "S": "scikit-learn/scikit-learn"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "Blocker"
+      },
+      "Time": {
+        "S": "1573926599000"
+      },
+      "ID": {
+        "N": "523874581"
+      },
+      "Number": {
+        "S": "15642"
+      },
+      "Url": {
+        "S": "https://github.com/scikit-learn/scikit-learn/issues/15642"
       }
     },
     {
@@ -4604,6 +4552,32 @@
     },
     {
       "Title": {
+        "S": "Timestamp Microservice project is broken"
+      },
+      "Repo": {
+        "S": "freeCodeCamp/freeCodeCamp"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "scope: curriculum,status: needs investigation"
+      },
+      "Time": {
+        "S": "1573942321000"
+      },
+      "ID": {
+        "N": "523902527"
+      },
+      "Number": {
+        "S": "37770"
+      },
+      "Url": {
+        "S": "https://github.com/freeCodeCamp/freeCodeCamp/issues/37770"
+      }
+    },
+    {
+      "Title": {
         "S": "Create new issue from My Issues page"
       },
       "Repo": {
@@ -5098,32 +5072,6 @@
     },
     {
       "Title": {
-        "S": "Automatically create pull requests based on Homebrew/livecheck/Repology"
-      },
-      "Repo": {
-        "S": "Homebrew/brew"
-      },
-      "Language": {
-        "S": "Ruby"
-      },
-      "Labels": {
-        "S": "good first issue,help wanted"
-      },
-      "Time": {
-        "S": "1550070435000"
-      },
-      "ID": {
-        "N": "409850289"
-      },
-      "Number": {
-        "S": "5725"
-      },
-      "Url": {
-        "S": "https://github.com/Homebrew/brew/issues/5725"
-      }
-    },
-    {
-      "Title": {
         "S": "Add support for Nim (was: Comments in Nim are in the wrong format)"
       },
       "Repo": {
@@ -5224,32 +5172,6 @@
       },
       "Url": {
         "S": "https://github.com/segmentio/nightmare/issues/1561"
-      }
-    },
-    {
-      "Title": {
-        "S": "Writing to network drive"
-      },
-      "Repo": {
-        "S": "amix/vimrc"
-      },
-      "Language": {
-        "S": "Vim Script"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1562948190000"
-      },
-      "ID": {
-        "N": "467495533"
-      },
-      "Number": {
-        "S": "527"
-      },
-      "Url": {
-        "S": "https://github.com/amix/vimrc/issues/527"
       }
     },
     {
@@ -5536,6 +5458,32 @@
       },
       "Url": {
         "S": "https://github.com/shadowsocks/shadowsocks-windows/issues/2647"
+      }
+    },
+    {
+      "Title": {
+        "S": "configure.yml file is not present"
+      },
+      "Repo": {
+        "S": "gatsbyjs/gatsby"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573926285000"
+      },
+      "ID": {
+        "N": "523873993"
+      },
+      "Number": {
+        "S": "19564"
+      },
+      "Url": {
+        "S": "https://github.com/gatsbyjs/gatsby/issues/19564"
       }
     },
     {
@@ -6004,32 +5952,6 @@
       },
       "Url": {
         "S": "https://github.com/phalcon/cphalcon/issues/14338"
-      }
-    },
-    {
-      "Title": {
-        "S": "Make each_char yield the index already"
-      },
-      "Repo": {
-        "S": "crystal-lang/crystal"
-      },
-      "Language": {
-        "S": "Crystal"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573215019000"
-      },
-      "ID": {
-        "N": "519981059"
-      },
-      "Number": {
-        "S": "8457"
-      },
-      "Url": {
-        "S": "https://github.com/crystal-lang/crystal/issues/8457"
       }
     },
     {
@@ -6632,6 +6554,32 @@
     },
     {
       "Title": {
+        "S": "OpenCV Java ... VideoCapture.open(URL) fails while Python3+cv2 is working on Win7."
+      },
+      "Repo": {
+        "S": "opencv/opencv"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "question (invalid tracker)"
+      },
+      "Time": {
+        "S": "1573907666000"
+      },
+      "ID": {
+        "N": "523839745"
+      },
+      "Number": {
+        "S": "15922"
+      },
+      "Url": {
+        "S": "https://github.com/opencv/opencv/issues/15922"
+      }
+    },
+    {
+      "Title": {
         "S": "OpenPose for TX2 JetPack 4.2 Installation Scripts"
       },
       "Repo": {
@@ -7044,32 +6992,6 @@
       },
       "Url": {
         "S": "https://github.com/SeleniumHQ/selenium/issues/7786"
-      }
-    },
-    {
-      "Title": {
-        "S": "Global Function isEmptyStyles caused TypeError \"Cannot read property '0' of null\" while set IText or Textbox object's styles to NULL"
-      },
-      "Repo": {
-        "S": "fabricjs/fabric.js"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "bug"
-      },
-      "Time": {
-        "S": "1573798965000"
-      },
-      "ID": {
-        "N": "523279776"
-      },
-      "Number": {
-        "S": "5969"
-      },
-      "Url": {
-        "S": "https://github.com/fabricjs/fabric.js/issues/5969"
       }
     },
     {
@@ -7516,6 +7438,32 @@
     },
     {
       "Title": {
+        "S": "Broken Links"
+      },
+      "Repo": {
+        "S": "dkhamsing/open-source-ios-apps"
+      },
+      "Language": {
+        "S": "Resource, IOS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573926466000"
+      },
+      "ID": {
+        "N": "523874349"
+      },
+      "Number": {
+        "S": "805"
+      },
+      "Url": {
+        "S": "https://github.com/dkhamsing/open-source-ios-apps/issues/805"
+      }
+    },
+    {
+      "Title": {
         "S": "lookupd: fast push notification of topic availability"
       },
       "Repo": {
@@ -7698,6 +7646,32 @@
     },
     {
       "Title": {
+        "S": "Cannot send response after hexo.source.process()"
+      },
+      "Repo": {
+        "S": "hexojs/hexo"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "question"
+      },
+      "Time": {
+        "S": "1572197291000"
+      },
+      "ID": {
+        "N": "512996080"
+      },
+      "Number": {
+        "S": "3814"
+      },
+      "Url": {
+        "S": "https://github.com/hexojs/hexo/issues/3814"
+      }
+    },
+    {
+      "Title": {
         "S": "kitemitic problem"
       },
       "Repo": {
@@ -7746,6 +7720,32 @@
       },
       "Url": {
         "S": "https://github.com/android/sunflower/issues/462"
+      }
+    },
+    {
+      "Title": {
+        "S": "x/mobile: bind framework not found by Xcode"
+      },
+      "Repo": {
+        "S": "golang/go"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "mobile"
+      },
+      "Time": {
+        "S": "1573932453000"
+      },
+      "ID": {
+        "N": "523885700"
+      },
+      "Number": {
+        "S": "35641"
+      },
+      "Url": {
+        "S": "https://github.com/golang/go/issues/35641"
       }
     },
     {
@@ -8582,32 +8582,6 @@
     },
     {
       "Title": {
-        "S": "Code or a browser compatibility issue, this page could not be displayed correctly"
-      },
-      "Repo": {
-        "S": "tootsuite/mastodon"
-      },
-      "Language": {
-        "S": "Ruby, JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573576507000"
-      },
-      "ID": {
-        "N": "521661476"
-      },
-      "Number": {
-        "S": "12369"
-      },
-      "Url": {
-        "S": "https://github.com/tootsuite/mastodon/issues/12369"
-      }
-    },
-    {
-      "Title": {
         "S": "(kotlin) Incorrect handling of strings with triple quotes"
       },
       "Repo": {
@@ -9440,32 +9414,6 @@
     },
     {
       "Title": {
-        "S": "ipdb can not use \"l\" and \"ll\""
-      },
-      "Repo": {
-        "S": "ipython/ipython"
-      },
-      "Language": {
-        "S": "Python"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1571304278000"
-      },
-      "ID": {
-        "N": "508348476"
-      },
-      "Number": {
-        "S": "11917"
-      },
-      "Url": {
-        "S": "https://github.com/ipython/ipython/issues/11917"
-      }
-    },
-    {
-      "Title": {
         "S": "phantomjs 2.1.1 sometimes sends corrupt post data (when the server is busy)"
       },
       "Repo": {
@@ -9856,6 +9804,32 @@
     },
     {
       "Title": {
+        "S": "The official docker image is missing pymysql"
+      },
+      "Repo": {
+        "S": "home-assistant/home-assistant"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "docker,integration: recorder"
+      },
+      "Time": {
+        "S": "1573906530000"
+      },
+      "ID": {
+        "N": "523837533"
+      },
+      "Number": {
+        "S": "28812"
+      },
+      "Url": {
+        "S": "https://github.com/home-assistant/home-assistant/issues/28812"
+      }
+    },
+    {
+      "Title": {
         "S": "Potential regression with Ember.get"
       },
       "Repo": {
@@ -9904,32 +9878,6 @@
       },
       "Url": {
         "S": "https://github.com/mozilla-mobile/firefox-ios/issues/5764"
-      }
-    },
-    {
-      "Title": {
-        "S": "management.metrics.web.server.request.autotime.enabled=true doesn't work for webflux"
-      },
-      "Repo": {
-        "S": "spring-projects/spring-boot"
-      },
-      "Language": {
-        "S": "Java"
-      },
-      "Labels": {
-        "S": "status: waiting-for-feedback,status: waiting-for-triage"
-      },
-      "Time": {
-        "S": "1573805220000"
-      },
-      "ID": {
-        "N": "523316875"
-      },
-      "Number": {
-        "S": "19025"
-      },
-      "Url": {
-        "S": "https://github.com/spring-projects/spring-boot/issues/19025"
       }
     },
     {
@@ -10532,32 +10480,6 @@
     },
     {
       "Title": {
-        "S": "Backprop Error with embedding layer inputs"
-      },
-      "Repo": {
-        "S": "deeplearning4j/deeplearning4j"
-      },
-      "Language": {
-        "S": "Java, C++"
-      },
-      "Labels": {
-        "S": "Bug,DL4J"
-      },
-      "Time": {
-        "S": "1573900484000"
-      },
-      "ID": {
-        "N": "523828314"
-      },
-      "Number": {
-        "S": "8409"
-      },
-      "Url": {
-        "S": "https://github.com/eclipse/deeplearning4j/issues/8409"
-      }
-    },
-    {
-      "Title": {
         "S": "Ubuntu18.4.3+shadowsocks-qt5+SwitchyOmega:ERR_CONNECTION_CLOSED"
       },
       "Repo": {
@@ -10896,32 +10818,6 @@
     },
     {
       "Title": {
-        "S": "Error when importing tensorflow"
-      },
-      "Repo": {
-        "S": "tensorflow/tensorflow"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "TF 1.13,stat:awaiting response,type:build/install"
-      },
-      "Time": {
-        "S": "1573833836000"
-      },
-      "ID": {
-        "N": "523554675"
-      },
-      "Number": {
-        "S": "34314"
-      },
-      "Url": {
-        "S": "https://github.com/tensorflow/tensorflow/issues/34314"
-      }
-    },
-    {
-      "Title": {
         "S": "Bind 'Insert' key"
       },
       "Repo": {
@@ -11152,32 +11048,6 @@
       },
       "Url": {
         "S": "https://github.com/facebook/rocksdb/issues/6004"
-      }
-    },
-    {
-      "Title": {
-        "S": "Xiaomi TV 4S exception"
-      },
-      "Repo": {
-        "S": "home-assistant/home-assistant"
-      },
-      "Language": {
-        "S": "Python"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573766619000"
-      },
-      "ID": {
-        "N": "523112278"
-      },
-      "Number": {
-        "S": "28783"
-      },
-      "Url": {
-        "S": "https://github.com/home-assistant/home-assistant/issues/28783"
       }
     },
     {
@@ -11936,6 +11806,32 @@
     },
     {
       "Title": {
+        "S": "Show images in downloaded docs? Eg. Bootstrap"
+      },
+      "Repo": {
+        "S": "freeCodeCamp/devdocs"
+      },
+      "Language": {
+        "S": "Ruby, CoffeeScript"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573911407000"
+      },
+      "ID": {
+        "N": "523846150"
+      },
+      "Number": {
+        "S": "1128"
+      },
+      "Url": {
+        "S": "https://github.com/freeCodeCamp/devdocs/issues/1128"
+      }
+    },
+    {
+      "Title": {
         "S": "Consider to use Alpine Linux for containers"
       },
       "Repo": {
@@ -12192,6 +12088,32 @@
       },
       "Url": {
         "S": "https://github.com/xi-editor/xi-editor/issues/1213"
+      }
+    },
+    {
+      "Title": {
+        "S": "Please support RISC-V debug."
+      },
+      "Repo": {
+        "S": "Microsoft/vscode"
+      },
+      "Language": {
+        "S": "TS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573915684000"
+      },
+      "ID": {
+        "N": "523853757"
+      },
+      "Number": {
+        "S": "84966"
+      },
+      "Url": {
+        "S": "https://github.com/microsoft/vscode/issues/84966"
       }
     },
     {
@@ -12712,32 +12634,6 @@
       },
       "Url": {
         "S": "https://github.com/Modernizr/Modernizr/issues/2349"
-      }
-    },
-    {
-      "Title": {
-        "S": "ngAfterViewInit not called correctly when transcluded by <ng-content>"
-      },
-      "Repo": {
-        "S": "angular/angular"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "comp: core"
-      },
-      "Time": {
-        "S": "1573780626000"
-      },
-      "ID": {
-        "N": "523197680"
-      },
-      "Number": {
-        "S": "33842"
-      },
-      "Url": {
-        "S": "https://github.com/angular/angular/issues/33842"
       }
     },
     {
@@ -13886,32 +13782,6 @@
     },
     {
       "Title": {
-        "S": "Consider FluentFuture as a return type for some methods"
-      },
-      "Repo": {
-        "S": "google/guava"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "P3,package=concurrent,type=enhancement"
-      },
-      "Time": {
-        "S": "1569345354000"
-      },
-      "ID": {
-        "N": "497818690"
-      },
-      "Number": {
-        "S": "3620"
-      },
-      "Url": {
-        "S": "https://github.com/google/guava/issues/3620"
-      }
-    },
-    {
-      "Title": {
         "S": "File not found error for Korean file name including spaces "
       },
       "Repo": {
@@ -13999,7 +13869,7 @@
         "S": "Ruby, Swift"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "tool: screengrab"
       },
       "Time": {
         "S": "1573737820000"
@@ -14298,32 +14168,6 @@
       },
       "Url": {
         "S": "https://github.com/facebook/react/issues/17356"
-      }
-    },
-    {
-      "Title": {
-        "S": "blocking call in one fiber can cause IO timeouts in others"
-      },
-      "Repo": {
-        "S": "crystal-lang/crystal"
-      },
-      "Language": {
-        "S": "Crystal"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573882394000"
-      },
-      "ID": {
-        "N": "523796026"
-      },
-      "Number": {
-        "S": "8480"
-      },
-      "Url": {
-        "S": "https://github.com/crystal-lang/crystal/issues/8480"
       }
     },
     {
@@ -18332,32 +18176,6 @@
     },
     {
       "Title": {
-        "S": "[Docs] Problems with using geocentroid for multi-valued geo_points"
-      },
-      "Repo": {
-        "S": "elastic/elasticsearch"
-      },
-      "Language": {
-        "S": "Java"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573839111000"
-      },
-      "ID": {
-        "N": "523598225"
-      },
-      "Number": {
-        "S": "49189"
-      },
-      "Url": {
-        "S": "https://github.com/elastic/elasticsearch/issues/49189"
-      }
-    },
-    {
-      "Title": {
         "S": "BuildConfig"
       },
       "Repo": {
@@ -19294,6 +19112,32 @@
     },
     {
       "Title": {
+        "S": "7.9 Release"
+      },
+      "Repo": {
+        "S": "ipython/ipython"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573935950000"
+      },
+      "ID": {
+        "N": "523891959"
+      },
+      "Number": {
+        "S": "11947"
+      },
+      "Url": {
+        "S": "https://github.com/ipython/ipython/issues/11947"
+      }
+    },
+    {
+      "Title": {
         "S": "No longer works for Jetbrains"
       },
       "Repo": {
@@ -19394,32 +19238,6 @@
       },
       "Url": {
         "S": "https://github.com/VundleVim/Vundle.vim/issues/891"
-      }
-    },
-    {
-      "Title": {
-        "S": "Windows 10 permission denied running glances"
-      },
-      "Repo": {
-        "S": "nicolargo/glances"
-      },
-      "Language": {
-        "S": "Python, JS"
-      },
-      "Labels": {
-        "S": "bug,needs discussion"
-      },
-      "Time": {
-        "S": "1559477682000"
-      },
-      "ID": {
-        "N": "451185289"
-      },
-      "Number": {
-        "S": "1490"
-      },
-      "Url": {
-        "S": "https://github.com/nicolargo/glances/issues/1490"
       }
     },
     {
@@ -19953,7 +19771,7 @@
         "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "needs reproduction"
       },
       "Time": {
         "S": "1573533096000"
@@ -22657,7 +22475,7 @@
         "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "needs repro script"
       },
       "Time": {
         "S": "1573367021000"
@@ -22748,6 +22566,32 @@
       },
       "Url": {
         "S": "https://github.com/wangshub/wechat_jump_game/issues/1111"
+      }
+    },
+    {
+      "Title": {
+        "S": "mac 10.15.1  安装了最新的sx-ng，上不了网"
+      },
+      "Repo": {
+        "S": "shadowsocks/ShadowsocksX-NG"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573927543000"
+      },
+      "ID": {
+        "N": "523876453"
+      },
+      "Number": {
+        "S": "1199"
+      },
+      "Url": {
+        "S": "https://github.com/shadowsocks/ShadowsocksX-NG/issues/1199"
       }
     },
     {
@@ -23086,32 +22930,6 @@
       },
       "Url": {
         "S": "https://github.com/inconshreveable/ngrok/issues/604"
-      }
-    },
-    {
-      "Title": {
-        "S": "onTouchStart event handler does not work properly on custom elements with display: block"
-      },
-      "Repo": {
-        "S": "developit/preact"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "bug"
-      },
-      "Time": {
-        "S": "1573572769000"
-      },
-      "ID": {
-        "N": "521623577"
-      },
-      "Number": {
-        "S": "2113"
-      },
-      "Url": {
-        "S": "https://github.com/preactjs/preact/issues/2113"
       }
     },
     {
@@ -24936,32 +24754,6 @@
     },
     {
       "Title": {
-        "S": "Cannot add new syntax with new plugin"
-      },
-      "Repo": {
-        "S": "amix/vimrc"
-      },
-      "Language": {
-        "S": "Vim Script"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1565627371000"
-      },
-      "ID": {
-        "N": "479738878"
-      },
-      "Number": {
-        "S": "532"
-      },
-      "Url": {
-        "S": "https://github.com/amix/vimrc/issues/532"
-      }
-    },
-    {
-      "Title": {
         "S": "Have in-house support in-order to recommend matching commands"
       },
       "Repo": {
@@ -25456,32 +25248,6 @@
     },
     {
       "Title": {
-        "S": "Add common set/type symbols"
-      },
-      "Repo": {
-        "S": "tonsky/FiraCode"
-      },
-      "Language": {
-        "S": "Clojure, HTML, CSS, Shell"
-      },
-      "Labels": {
-        "S": "Unicode"
-      },
-      "Time": {
-        "S": "1568556764000"
-      },
-      "ID": {
-        "N": "493742162"
-      },
-      "Number": {
-        "S": "841"
-      },
-      "Url": {
-        "S": "https://github.com/tonsky/FiraCode/issues/841"
-      }
-    },
-    {
-      "Title": {
         "S": "Stagger causes the transitions to separate"
       },
       "Repo": {
@@ -25634,6 +25400,32 @@
       },
       "Url": {
         "S": "https://github.com/tj/commander.js/issues/944"
+      }
+    },
+    {
+      "Title": {
+        "S": "Disable events when using loadFromJSON"
+      },
+      "Repo": {
+        "S": "fabricjs/fabric.js"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1570025177000"
+      },
+      "ID": {
+        "N": "501512173"
+      },
+      "Number": {
+        "S": "5905"
+      },
+      "Url": {
+        "S": "https://github.com/fabricjs/fabric.js/issues/5905"
       }
     },
     {
@@ -26418,6 +26210,58 @@
     },
     {
       "Title": {
+        "S": "TensorRT not working due to eager execution"
+      },
+      "Repo": {
+        "S": "tensorflow/tensorflow"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573908852000"
+      },
+      "ID": {
+        "N": "523841850"
+      },
+      "Number": {
+        "S": "34339"
+      },
+      "Url": {
+        "S": "https://github.com/tensorflow/tensorflow/issues/34339"
+      }
+    },
+    {
+      "Title": {
+        "S": "Issues with @storybook/addon-storyshots"
+      },
+      "Repo": {
+        "S": "storybooks/storybook"
+      },
+      "Language": {
+        "S": "JS, HTML"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573914730000"
+      },
+      "ID": {
+        "N": "523852057"
+      },
+      "Number": {
+        "S": "8853"
+      },
+      "Url": {
+        "S": "https://github.com/storybookjs/storybook/issues/8853"
+      }
+    },
+    {
+      "Title": {
         "S": "Add MS's Machine learning algorithm cheat sheet "
       },
       "Repo": {
@@ -26440,6 +26284,32 @@
       },
       "Url": {
         "S": "https://github.com/kailashahirwar/cheatsheets-ai/issues/7"
+      }
+    },
+    {
+      "Title": {
+        "S": "\"Introduction to Computer Science and Programming Using Python (alt)\" This course starts from 23/01/2020. Doesn't it break the criteria of the OSSU curriculum, 'Run regularly (ideally in self-paced format, otherwise running at least once a month or so)'?"
+      },
+      "Repo": {
+        "S": "open-source-society/computer-science"
+      },
+      "Language": {
+        "S": "Resource"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573914002000"
+      },
+      "ID": {
+        "N": "523850784"
+      },
+      "Number": {
+        "S": "624"
+      },
+      "Url": {
+        "S": "https://github.com/ossu/computer-science/issues/624"
       }
     },
     {
@@ -27168,6 +27038,32 @@
       },
       "Url": {
         "S": "https://github.com/vuejs/vue-cli/issues/4813"
+      }
+    },
+    {
+      "Title": {
+        "S": "x/tools/gopls: diagnostics not sent for new buffer"
+      },
+      "Repo": {
+        "S": "golang/go"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "NeedsInvestigation,Tools,gopls"
+      },
+      "Time": {
+        "S": "1573916969000"
+      },
+      "ID": {
+        "N": "523856159"
+      },
+      "Number": {
+        "S": "35638"
+      },
+      "Url": {
+        "S": "https://github.com/golang/go/issues/35638"
       }
     },
     {
@@ -28104,32 +28000,6 @@
       },
       "Url": {
         "S": "https://github.com/tonsky/FiraCode/issues/847"
-      }
-    },
-    {
-      "Title": {
-        "S": "K8s Knative generator (k8s-knative)"
-      },
-      "Repo": {
-        "S": "jhipster/generator-jhipster"
-      },
-      "Language": {
-        "S": "JS, Java, TS, HTML"
-      },
-      "Labels": {
-        "S": "area: feature request :bulb:,theme: kubernetes"
-      },
-      "Time": {
-        "S": "1572253364000"
-      },
-      "ID": {
-        "N": "513177036"
-      },
-      "Number": {
-        "S": "10695"
-      },
-      "Url": {
-        "S": "https://github.com/jhipster/generator-jhipster/issues/10695"
       }
     },
     {
@@ -29096,6 +28966,32 @@
     },
     {
       "Title": {
+        "S": "Add mailpile / fauna"
+      },
+      "Repo": {
+        "S": "google/fonts"
+      },
+      "Language": {
+        "S": "HTML"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573922221000"
+      },
+      "ID": {
+        "N": "523866226"
+      },
+      "Number": {
+        "S": "2257"
+      },
+      "Url": {
+        "S": "https://github.com/google/fonts/issues/2257"
+      }
+    },
+    {
+      "Title": {
         "S": "在提供者不可用情况下出现的消费者无限注册问题"
       },
       "Repo": {
@@ -29144,6 +29040,32 @@
       },
       "Url": {
         "S": "https://github.com/Neilpang/acme.sh/issues/2552"
+      }
+    },
+    {
+      "Title": {
+        "S": "Unable to proceed with influx 2.0.0 alpha after initial setup"
+      },
+      "Repo": {
+        "S": "influxdata/influxdb"
+      },
+      "Language": {
+        "S": "Go"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573929699000"
+      },
+      "ID": {
+        "N": "523880517"
+      },
+      "Number": {
+        "S": "15949"
+      },
+      "Url": {
+        "S": "https://github.com/influxdata/influxdb/issues/15949"
       }
     },
     {
@@ -29365,7 +29287,7 @@
         "S": "Ruby, Swift"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "tool: pilot,type: ci"
       },
       "Time": {
         "S": "1573807349000"
@@ -29638,32 +29560,6 @@
       },
       "Url": {
         "S": "https://github.com/alibaba/euler/issues/147"
-      }
-    },
-    {
-      "Title": {
-        "S": "tf-lite version info"
-      },
-      "Repo": {
-        "S": "tensorflow/tensorflow"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573828972000"
-      },
-      "ID": {
-        "N": "523508789"
-      },
-      "Number": {
-        "S": "34310"
-      },
-      "Url": {
-        "S": "https://github.com/tensorflow/tensorflow/issues/34310"
       }
     },
     {
@@ -30652,32 +30548,6 @@
       },
       "Url": {
         "S": "https://github.com/facebook/stetho/issues/671"
-      }
-    },
-    {
-      "Title": {
-        "S": "I use intall_awesome_vimrc.sh, but can not find any plugins"
-      },
-      "Repo": {
-        "S": "amix/vimrc"
-      },
-      "Language": {
-        "S": "Vim Script"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1571636033000"
-      },
-      "ID": {
-        "N": "509740016"
-      },
-      "Number": {
-        "S": "544"
-      },
-      "Url": {
-        "S": "https://github.com/amix/vimrc/issues/544"
       }
     },
     {
@@ -31748,28 +31618,28 @@
     },
     {
       "Title": {
-        "S": "play videos sometimes have lags"
+        "S": "TypeScript defintion of StoreEnhancer does not allow state extension with replaceReducer"
       },
       "Repo": {
-        "S": "lhc70000/iina"
+        "S": "reactjs/redux"
       },
       "Language": {
-        "S": "Swift"
+        "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "typescript"
       },
       "Time": {
-        "S": "1571830985000"
+        "S": "1563961072000"
       },
       "ID": {
-        "N": "511267223"
+        "N": "472180593"
       },
       "Number": {
-        "S": "2624"
+        "S": "3482"
       },
       "Url": {
-        "S": "https://github.com/iina/iina/issues/2624"
+        "S": "https://github.com/reduxjs/redux/issues/3482"
       }
     },
     {
@@ -32268,32 +32138,6 @@
     },
     {
       "Title": {
-        "S": "Typescript build fails with \"Ambient const enums are not allowed when the '--isolatedModules' flag is provided.\""
-      },
-      "Repo": {
-        "S": "pixijs/pixi.js"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1571264299000"
-      },
-      "ID": {
-        "N": "508128770"
-      },
-      "Number": {
-        "S": "6179"
-      },
-      "Url": {
-        "S": "https://github.com/pixijs/pixi.js/issues/6179"
-      }
-    },
-    {
-      "Title": {
         "S": "SVG Motion Path - Path Not Followed"
       },
       "Repo": {
@@ -32762,6 +32606,32 @@
     },
     {
       "Title": {
+        "S": "There is no getter method corresponding to Node::set_process_priority(int)"
+      },
+      "Repo": {
+        "S": "godotengine/godot"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "enhancement,junior job,topic:core"
+      },
+      "Time": {
+        "S": "1573929002000"
+      },
+      "ID": {
+        "N": "523879157"
+      },
+      "Number": {
+        "S": "33660"
+      },
+      "Url": {
+        "S": "https://github.com/godotengine/godot/issues/33660"
+      }
+    },
+    {
+      "Title": {
         "S": "deeplab code bug"
       },
       "Repo": {
@@ -32918,6 +32788,32 @@
     },
     {
       "Title": {
+        "S": "multiselection with keyboard works badly loosing \"current focus\" randomly"
+      },
+      "Repo": {
+        "S": "select2/select2"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "4.x,status: needs information,status: possible bug (unconfirmed),status: stale"
+      },
+      "Time": {
+        "S": "1568193197000"
+      },
+      "ID": {
+        "N": "492113033"
+      },
+      "Number": {
+        "S": "5635"
+      },
+      "Url": {
+        "S": "https://github.com/select2/select2/issues/5635"
+      }
+    },
+    {
+      "Title": {
         "S": "Remove side code panel?"
       },
       "Repo": {
@@ -32996,32 +32892,6 @@
     },
     {
       "Title": {
-        "S": "IDE Hangs on Startup Without Internet via WiFi"
-      },
-      "Repo": {
-        "S": "arduino/Arduino"
-      },
-      "Language": {
-        "S": "C, C++, Java, Python"
-      },
-      "Labels": {
-        "S": "Component: IDE,Type: Bug"
-      },
-      "Time": {
-        "S": "1571617940000"
-      },
-      "ID": {
-        "N": "509676456"
-      },
-      "Number": {
-        "S": "9338"
-      },
-      "Url": {
-        "S": "https://github.com/arduino/Arduino/issues/9338"
-      }
-    },
-    {
-      "Title": {
         "S": "Motion width 0 to auto"
       },
       "Repo": {
@@ -33044,32 +32914,6 @@
       },
       "Url": {
         "S": "https://github.com/chenglou/react-motion/issues/563"
-      }
-    },
-    {
-      "Title": {
-        "S": "hexo generate couldn't resolve '_' prefix named file"
-      },
-      "Repo": {
-        "S": "hexojs/hexo"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573885000000"
-      },
-      "ID": {
-        "N": "523800346"
-      },
-      "Number": {
-        "S": "3863"
-      },
-      "Url": {
-        "S": "https://github.com/hexojs/hexo/issues/3863"
       }
     },
     {
@@ -33542,6 +33386,32 @@
     },
     {
       "Title": {
+        "S": "Some reserved keywords are not allowed as route placeholders"
+      },
+      "Repo": {
+        "S": "slimphp/Slim"
+      },
+      "Language": {
+        "S": "PHP"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573946367000"
+      },
+      "ID": {
+        "N": "523908986"
+      },
+      "Number": {
+        "S": "2883"
+      },
+      "Url": {
+        "S": "https://github.com/slimphp/Slim/issues/2883"
+      }
+    },
+    {
+      "Title": {
         "S": "Is it possible copy the image to clipboard so that it can be pasted into email or chat systems  "
       },
       "Repo": {
@@ -33876,6 +33746,32 @@
       },
       "Url": {
         "S": "https://github.com/codemirror/CodeMirror/issues/6036"
+      }
+    },
+    {
+      "Title": {
+        "S": "Plugwise Anna integration update error"
+      },
+      "Repo": {
+        "S": "home-assistant/home-assistant"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "integration: plugwise"
+      },
+      "Time": {
+        "S": "1573917414000"
+      },
+      "ID": {
+        "N": "523857059"
+      },
+      "Number": {
+        "S": "28815"
+      },
+      "Url": {
+        "S": "https://github.com/home-assistant/home-assistant/issues/28815"
       }
     },
     {
@@ -34218,32 +34114,6 @@
     },
     {
       "Title": {
-        "S": "Preset @angular/* peer dependencies when creating a library-only project"
-      },
-      "Repo": {
-        "S": "angular/angular-cli"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "comp: schematics/angular,type: docs,type: feature"
-      },
-      "Time": {
-        "S": "1571764587000"
-      },
-      "ID": {
-        "N": "520218371"
-      },
-      "Number": {
-        "S": "16124"
-      },
-      "Url": {
-        "S": "https://github.com/angular/angular-cli/issues/16124"
-      }
-    },
-    {
-      "Title": {
         "S": "[addon-docs] TS code generation for a story doesn't render if a JSX element is typed"
       },
       "Repo": {
@@ -34556,6 +34426,32 @@
     },
     {
       "Title": {
+        "S": "Angular CLI 8.3.19 ng update install temp cli"
+      },
+      "Repo": {
+        "S": "angular/angular-cli"
+      },
+      "Language": {
+        "S": "TS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573931601000"
+      },
+      "ID": {
+        "N": "523884111"
+      },
+      "Number": {
+        "S": "16205"
+      },
+      "Url": {
+        "S": "https://github.com/angular/angular-cli/issues/16205"
+      }
+    },
+    {
+      "Title": {
         "S": "Read external LRC files for lyrics"
       },
       "Repo": {
@@ -34604,6 +34500,32 @@
       },
       "Url": {
         "S": "https://github.com/angular-ui/ui-router/issues/3768"
+      }
+    },
+    {
+      "Title": {
+        "S": "vue ui: Plugin removal"
+      },
+      "Repo": {
+        "S": "vuejs/vue-cli"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "feat: ui,feature request"
+      },
+      "Time": {
+        "S": "1573128671000"
+      },
+      "ID": {
+        "N": "519228419"
+      },
+      "Number": {
+        "S": "4808"
+      },
+      "Url": {
+        "S": "https://github.com/vuejs/vue-cli/issues/4808"
       }
     },
     {
@@ -35206,7 +35128,33 @@
     },
     {
       "Title": {
-        "S": "Preliminary test on 15.0.0 Beta "
+        "S": "Tracking changes to a user-authorised webpage"
+      },
+      "Repo": {
+        "S": "huginn/huginn"
+      },
+      "Language": {
+        "S": "Ruby, HTML"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573921137000"
+      },
+      "ID": {
+        "N": "523864238"
+      },
+      "Number": {
+        "S": "2624"
+      },
+      "Url": {
+        "S": "https://github.com/huginn/huginn/issues/2624"
+      }
+    },
+    {
+      "Title": {
+        "S": "Preliminary test on 15.0.1 Beta "
       },
       "Repo": {
         "S": "DoubleLabyrinth/navicat-keygen"
@@ -37468,6 +37416,32 @@
     },
     {
       "Title": {
+        "S": "Optional Properties don't show available keys of an interface"
+      },
+      "Repo": {
+        "S": "Microsoft/vscode"
+      },
+      "Language": {
+        "S": "TS"
+      },
+      "Labels": {
+        "S": "new release"
+      },
+      "Time": {
+        "S": "1573943153000"
+      },
+      "ID": {
+        "N": "523903880"
+      },
+      "Number": {
+        "S": "84976"
+      },
+      "Url": {
+        "S": "https://github.com/microsoft/vscode/issues/84976"
+      }
+    },
+    {
+      "Title": {
         "S": "Enhancement: optional HSTS"
       },
       "Repo": {
@@ -37698,6 +37672,32 @@
       },
       "Url": {
         "S": "https://github.com/getsentry/sentry/issues/15623"
+      }
+    },
+    {
+      "Title": {
+        "S": "Unable to cleanly disable keyboard in iOS in TextInput (Continuing from #14045)"
+      },
+      "Repo": {
+        "S": "facebook/react-native"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "API: Keyboard,Bug,Component: TextInput,Platform: Linux,Platform: iOS"
+      },
+      "Time": {
+        "S": "1573939580000"
+      },
+      "ID": {
+        "N": "523898220"
+      },
+      "Number": {
+        "S": "27243"
+      },
+      "Url": {
+        "S": "https://github.com/facebook/react-native/issues/27243"
       }
     },
     {
@@ -37936,6 +37936,32 @@
     },
     {
       "Title": {
+        "S": "Reverse order slide is shown while slide turn by turn and also the slide which is selected is not shown on large thumbnail"
+      },
+      "Repo": {
+        "S": "nolimits4web/Swiper"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1570889679000"
+      },
+      "ID": {
+        "N": "506192318"
+      },
+      "Number": {
+        "S": "3269"
+      },
+      "Url": {
+        "S": "https://github.com/nolimits4web/swiper/issues/3269"
+      }
+    },
+    {
+      "Title": {
         "S": "Method to change button text color"
       },
       "Repo": {
@@ -38010,32 +38036,6 @@
       },
       "Url": {
         "S": "https://github.com/PerfectlySoft/Perfect/issues/284"
-      }
-    },
-    {
-      "Title": {
-        "S": "Add the image with 'PIP' option in the Readme file."
-      },
-      "Repo": {
-        "S": "sampotts/plyr"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1571137794000"
-      },
-      "ID": {
-        "N": "507174212"
-      },
-      "Number": {
-        "S": "1591"
-      },
-      "Url": {
-        "S": "https://github.com/sampotts/plyr/issues/1591"
       }
     },
     {
@@ -38872,32 +38872,6 @@
     },
     {
       "Title": {
-        "S": "[APM] Sorting additional metadata for truncated error dictionaries"
-      },
-      "Repo": {
-        "S": "elastic/kibana"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "Team:apm"
-      },
-      "Time": {
-        "S": "1573848612000"
-      },
-      "ID": {
-        "N": "523664960"
-      },
-      "Number": {
-        "S": "50818"
-      },
-      "Url": {
-        "S": "https://github.com/elastic/kibana/issues/50818"
-      }
-    },
-    {
-      "Title": {
         "S": "The function np.power has alittle issue"
       },
       "Repo": {
@@ -39024,6 +38998,32 @@
       },
       "Url": {
         "S": "https://github.com/microsoft/dotnet/issues/1126"
+      }
+    },
+    {
+      "Title": {
+        "S": "ArgumentError - Unmatched double quote"
+      },
+      "Repo": {
+        "S": "CocoaPods/CocoaPods"
+      },
+      "Language": {
+        "S": "Ruby"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573944172000"
+      },
+      "ID": {
+        "N": "523905375"
+      },
+      "Number": {
+        "S": "9352"
+      },
+      "Url": {
+        "S": "https://github.com/CocoaPods/CocoaPods/issues/9352"
       }
     },
     {
@@ -39444,32 +39444,6 @@
     },
     {
       "Title": {
-        "S": "upload_symbols_to_crashlytics to FIREBASE"
-      },
-      "Repo": {
-        "S": "fastlane/fastlane"
-      },
-      "Language": {
-        "S": "Ruby, Swift"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573743415000"
-      },
-      "ID": {
-        "N": "522911974"
-      },
-      "Number": {
-        "S": "15656"
-      },
-      "Url": {
-        "S": "https://github.com/fastlane/fastlane/issues/15656"
-      }
-    },
-    {
-      "Title": {
         "S": "stdout logging ignores log level"
       },
       "Repo": {
@@ -39700,6 +39674,32 @@
       },
       "Url": {
         "S": "https://github.com/localstack/localstack/issues/1758"
+      }
+    },
+    {
+      "Title": {
+        "S": "The UI didn't auto scroll up when keyboard appear in page - iOS 13.1"
+      },
+      "Repo": {
+        "S": "nolimits4web/Swiper"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1570448675000"
+      },
+      "ID": {
+        "N": "503399533"
+      },
+      "Number": {
+        "S": "3257"
+      },
+      "Url": {
+        "S": "https://github.com/nolimits4web/swiper/issues/3257"
       }
     },
     {
@@ -40120,7 +40120,7 @@
     },
     {
       "Title": {
-        "S": "`git-auto-fetch` not able to handle `AddKeysToAgent yes`"
+        "S": "[BUG]`git-auto-fetch` not able to handle passphrase protected ssh-keys that are not in ssh-agent"
       },
       "Repo": {
         "S": "robbyrussell/oh-my-zsh"
@@ -40380,58 +40380,6 @@
     },
     {
       "Title": {
-        "S": "osqueryi incorrect-query user experience warnings are missing"
-      },
-      "Repo": {
-        "S": "facebook/osquery"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "bug,shell"
-      },
-      "Time": {
-        "S": "1572962435000"
-      },
-      "ID": {
-        "N": "517790739"
-      },
-      "Number": {
-        "S": "6001"
-      },
-      "Url": {
-        "S": "https://github.com/osquery/osquery/issues/6001"
-      }
-    },
-    {
-      "Title": {
-        "S": "Support (or example) for `_.pick` "
-      },
-      "Repo": {
-        "S": "typicode/lowdb"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1555651621000"
-      },
-      "ID": {
-        "N": "435054282"
-      },
-      "Number": {
-        "S": "338"
-      },
-      "Url": {
-        "S": "https://github.com/typicode/lowdb/issues/338"
-      }
-    },
-    {
-      "Title": {
         "S": "[CI] Python2: CPU - hangs after test_create_np_param"
       },
       "Repo": {
@@ -40441,7 +40389,7 @@
         "S": "C++, Python, Perl"
       },
       "Labels": {
-        "S": "Flaky,Test"
+        "S": "Flaky,Numpy,Test"
       },
       "Time": {
         "S": "1573828909000"
@@ -40571,7 +40519,7 @@
         "S": "Python"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "integration: maxcube"
       },
       "Time": {
         "S": "1573901376000"
@@ -40844,6 +40792,32 @@
       },
       "Url": {
         "S": "https://github.com/nvie/gitflow/issues/6433"
+      }
+    },
+    {
+      "Title": {
+        "S": "Cannot build module with a reference to an int"
+      },
+      "Repo": {
+        "S": "godotengine/godot"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573925091000"
+      },
+      "ID": {
+        "N": "523871713"
+      },
+      "Number": {
+        "S": "33659"
+      },
+      "Url": {
+        "S": "https://github.com/godotengine/godot/issues/33659"
       }
     },
     {
@@ -41286,32 +41260,6 @@
       },
       "Url": {
         "S": "https://github.com/ReactiveX/RxSwift/issues/2066"
-      }
-    },
-    {
-      "Title": {
-        "S": "No Internet when connected via Shadowsocks"
-      },
-      "Repo": {
-        "S": "StreisandEffect/streisand"
-      },
-      "Language": {
-        "S": "Shell, HTML, Python"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1570387947000"
-      },
-      "ID": {
-        "N": "503143620"
-      },
-      "Number": {
-        "S": "1656"
-      },
-      "Url": {
-        "S": "https://github.com/StreisandEffect/streisand/issues/1656"
       }
     },
     {
@@ -42040,6 +41988,32 @@
       },
       "Url": {
         "S": "https://github.com/google/material-design-lite/issues/5255"
+      }
+    },
+    {
+      "Title": {
+        "S": "Random error saying unable to instantiate decoder"
+      },
+      "Repo": {
+        "S": "google/ExoPlayer"
+      },
+      "Language": {
+        "S": "Java"
+      },
+      "Labels": {
+        "S": "needs triage,question"
+      },
+      "Time": {
+        "S": "1573926976000"
+      },
+      "ID": {
+        "N": "523875339"
+      },
+      "Number": {
+        "S": "6661"
+      },
+      "Url": {
+        "S": "https://github.com/google/ExoPlayer/issues/6661"
       }
     },
     {
@@ -43240,32 +43214,6 @@
     },
     {
       "Title": {
-        "S": "4.x: Associations generate magic class properties"
-      },
-      "Repo": {
-        "S": "cakephp/cakephp"
-      },
-      "Language": {
-        "S": "PHP"
-      },
-      "Labels": {
-        "S": "RFC"
-      },
-      "Time": {
-        "S": "1568122404000"
-      },
-      "ID": {
-        "N": "491675695"
-      },
-      "Number": {
-        "S": "13638"
-      },
-      "Url": {
-        "S": "https://github.com/cakephp/cakephp/issues/13638"
-      }
-    },
-    {
-      "Title": {
         "S": "how to set up different configuration for one hystrix command based on different caller?"
       },
       "Repo": {
@@ -43418,32 +43366,6 @@
       },
       "Url": {
         "S": "https://github.com/docker/compose/issues/7002"
-      }
-    },
-    {
-      "Title": {
-        "S": "x/build/cmd/buildlet: removeAllIncludingReadonly doesn't remove read-only files on Plan 9"
-      },
-      "Repo": {
-        "S": "golang/go"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "Builders"
-      },
-      "Time": {
-        "S": "1573905384000"
-      },
-      "ID": {
-        "N": "523835790"
-      },
-      "Number": {
-        "S": "35634"
-      },
-      "Url": {
-        "S": "https://github.com/golang/go/issues/35634"
       }
     },
     {
@@ -43626,32 +43548,6 @@
       },
       "Url": {
         "S": "https://github.com/square/picasso/issues/2094"
-      }
-    },
-    {
-      "Title": {
-        "S": "Unrecognized configuration section system.data"
-      },
-      "Repo": {
-        "S": "dotnet/corefx"
-      },
-      "Language": {
-        "S": "C#"
-      },
-      "Labels": {
-        "S": "area-System.Configuration"
-      },
-      "Time": {
-        "S": "1573730727000"
-      },
-      "ID": {
-        "N": "522796694"
-      },
-      "Number": {
-        "S": "42589"
-      },
-      "Url": {
-        "S": "https://github.com/dotnet/corefx/issues/42589"
       }
     },
     {
@@ -45008,6 +44904,32 @@
     },
     {
       "Title": {
+        "S": "Error trying to upgrade to RC1"
+      },
+      "Repo": {
+        "S": "cakephp/cakephp"
+      },
+      "Language": {
+        "S": "PHP"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573910719000"
+      },
+      "ID": {
+        "N": "523844908"
+      },
+      "Number": {
+        "S": "13888"
+      },
+      "Url": {
+        "S": "https://github.com/cakephp/cakephp/issues/13888"
+      }
+    },
+    {
+      "Title": {
         "S": "`log.log(\"warning\", \"message\")` works, but `log.warning(\"message\") doesn't"
       },
       "Repo": {
@@ -45160,6 +45082,32 @@
       },
       "Url": {
         "S": "https://github.com/cayleygraph/cayley/issues/817"
+      }
+    },
+    {
+      "Title": {
+        "S": "gdb \"cannot subscript non-array type\" to index a Vec"
+      },
+      "Repo": {
+        "S": "rust-lang/rust"
+      },
+      "Language": {
+        "S": "Rust"
+      },
+      "Labels": {
+        "S": "A-debuginfo,C-bug,T-compiler"
+      },
+      "Time": {
+        "S": "1573947975000"
+      },
+      "ID": {
+        "N": "523911189"
+      },
+      "Number": {
+        "S": "66482"
+      },
+      "Url": {
+        "S": "https://github.com/rust-lang/rust/issues/66482"
       }
     },
     {
@@ -45654,32 +45602,6 @@
       },
       "Url": {
         "S": "https://github.com/Homebrew/brew/issues/5744"
-      }
-    },
-    {
-      "Title": {
-        "S": "Client cert authentication failure for backend as etcd"
-      },
-      "Repo": {
-        "S": "hashicorp/terraform"
-      },
-      "Language": {
-        "S": "Go"
-      },
-      "Labels": {
-        "S": "backend/etcd,bug,v0.12"
-      },
-      "Time": {
-        "S": "1573488106000"
-      },
-      "ID": {
-        "N": "521046578"
-      },
-      "Number": {
-        "S": "23339"
-      },
-      "Url": {
-        "S": "https://github.com/hashicorp/terraform/issues/23339"
       }
     },
     {
@@ -46984,32 +46906,6 @@
     },
     {
       "Title": {
-        "S": "break responsive layout in mobile with footer"
-      },
-      "Repo": {
-        "S": "Semantic-Org/Semantic-UI"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1568875938000"
-      },
-      "ID": {
-        "N": "495608075"
-      },
-      "Number": {
-        "S": "6872"
-      },
-      "Url": {
-        "S": "https://github.com/Semantic-Org/Semantic-UI/issues/6872"
-      }
-    },
-    {
-      "Title": {
         "S": "能否给CoreData模型加上主键?"
       },
       "Repo": {
@@ -47374,6 +47270,32 @@
     },
     {
       "Title": {
+        "S": "how to complete c family code?"
+      },
+      "Repo": {
+        "S": "amix/vimrc"
+      },
+      "Language": {
+        "S": "Vim Script"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1555812392000"
+      },
+      "ID": {
+        "N": "435466683"
+      },
+      "Number": {
+        "S": "506"
+      },
+      "Url": {
+        "S": "https://github.com/amix/vimrc/issues/506"
+      }
+    },
+    {
+      "Title": {
         "S": "Setting cookie Samesite property does not work"
       },
       "Repo": {
@@ -47630,6 +47552,32 @@
       },
       "Url": {
         "S": "https://github.com/janl/mustache.js/issues/687"
+      }
+    },
+    {
+      "Title": {
+        "S": "boto_secgroup is using group's Name, not the usual tag:Name - breaaking both module (.run) and state (.instance_present) if Name and tag:Name are different"
+      },
+      "Repo": {
+        "S": "saltstack/salt"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573927351000"
+      },
+      "ID": {
+        "N": "523876055"
+      },
+      "Number": {
+        "S": "55337"
+      },
+      "Url": {
+        "S": "https://github.com/saltstack/salt/issues/55337"
       }
     },
     {
@@ -49064,32 +49012,6 @@
     },
     {
       "Title": {
-        "S": "Accessibility support - WAI-ARIA spec - voice over support"
-      },
-      "Repo": {
-        "S": "twbs/ratchet"
-      },
-      "Language": {
-        "S": "CSS, JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1470759452000"
-      },
-      "ID": {
-        "N": "170209163"
-      },
-      "Number": {
-        "S": "837"
-      },
-      "Url": {
-        "S": "https://github.com/twbs/ratchet/issues/837"
-      }
-    },
-    {
-      "Title": {
         "S": "Expected '===' and instead saw '==' for typeof"
       },
       "Repo": {
@@ -49450,32 +49372,6 @@
       },
       "Url": {
         "S": "https://github.com/cakephp/cakephp/issues/13835"
-      }
-    },
-    {
-      "Title": {
-        "S": "Debugger breaks when stepping inside interface method call"
-      },
-      "Repo": {
-        "S": "fatih/vim-go"
-      },
-      "Language": {
-        "S": "Vim Script, Go"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1559640499000"
-      },
-      "ID": {
-        "N": "451890688"
-      },
-      "Number": {
-        "S": "2336"
-      },
-      "Url": {
-        "S": "https://github.com/fatih/vim-go/issues/2336"
       }
     },
     {
@@ -50208,6 +50104,32 @@
     },
     {
       "Title": {
+        "S": "It is possible to change loss in object detection api?"
+      },
+      "Repo": {
+        "S": "tensorflow/models"
+      },
+      "Language": {
+        "S": "Resource"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573918158000"
+      },
+      "ID": {
+        "N": "523858467"
+      },
+      "Number": {
+        "S": "7817"
+      },
+      "Url": {
+        "S": "https://github.com/tensorflow/models/issues/7817"
+      }
+    },
+    {
+      "Title": {
         "S": "Mac剪切板增强工具"
       },
       "Repo": {
@@ -50594,6 +50516,32 @@
       },
       "Url": {
         "S": "https://github.com/phoenixframework/phoenix/issues/3571"
+      }
+    },
+    {
+      "Title": {
+        "S": "[Rating] - 自定义rating颜色-hove效果的属性错误"
+      },
+      "Repo": {
+        "S": "Semantic-Org/Semantic-UI"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573915229000"
+      },
+      "ID": {
+        "N": "523852939"
+      },
+      "Number": {
+        "S": "6898"
+      },
+      "Url": {
+        "S": "https://github.com/Semantic-Org/Semantic-UI/issues/6898"
       }
     },
     {
@@ -51829,7 +51777,7 @@
         "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "feat: cli-service build,need team repro"
       },
       "Time": {
         "S": "1573662768000"
@@ -52158,32 +52106,6 @@
     },
     {
       "Title": {
-        "S": "broken Farsi links HELP REQUESTED"
-      },
-      "Repo": {
-        "S": "EbookFoundation/free-programming-books"
-      },
-      "Language": {
-        "S": "Resource"
-      },
-      "Labels": {
-        "S": "help wanted"
-      },
-      "Time": {
-        "S": "1558538351000"
-      },
-      "ID": {
-        "N": "447198752"
-      },
-      "Number": {
-        "S": "3265"
-      },
-      "Url": {
-        "S": "https://github.com/EbookFoundation/free-programming-books/issues/3265"
-      }
-    },
-    {
-      "Title": {
         "S": "end-of-stream >=1.4.2 update creates a \"premature close\" error on seed() when using a W3C File input"
       },
       "Repo": {
@@ -52284,32 +52206,6 @@
       },
       "Url": {
         "S": "https://github.com/realm/realm-java/issues/6624"
-      }
-    },
-    {
-      "Title": {
-        "S": "mangle-props keep_quoted adds quoted to reserved list"
-      },
-      "Repo": {
-        "S": "mishoo/UglifyJS2"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1527527401000"
-      },
-      "ID": {
-        "N": "327081466"
-      },
-      "Number": {
-        "S": "3153"
-      },
-      "Url": {
-        "S": "https://github.com/mishoo/UglifyJS2/issues/3153"
       }
     },
     {
@@ -52583,7 +52479,7 @@
         "S": "Ruby, Swift"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "tool: snapshot"
       },
       "Time": {
         "S": "1573606154000"
@@ -53406,32 +53302,6 @@
     },
     {
       "Title": {
-        "S": "Docs:"
-      },
-      "Repo": {
-        "S": "facebook/react-native"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "Type: Docs"
-      },
-      "Time": {
-        "S": "1573438683000"
-      },
-      "ID": {
-        "N": "520702494"
-      },
-      "Number": {
-        "S": "27188"
-      },
-      "Url": {
-        "S": "https://github.com/facebook/react-native/issues/27188"
-      }
-    },
-    {
-      "Title": {
         "S": "[Android] Background color and border are not applying to long height element inside ScrollView"
       },
       "Repo": {
@@ -53614,32 +53484,6 @@
     },
     {
       "Title": {
-        "S": "A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x70 in tid 28007"
-      },
-      "Repo": {
-        "S": "tensorflow/tensorflow"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "TF 2.0,comp:lite,stat:awaiting tensorflower,type:bug"
-      },
-      "Time": {
-        "S": "1573833552000"
-      },
-      "ID": {
-        "N": "523552107"
-      },
-      "Number": {
-        "S": "34313"
-      },
-      "Url": {
-        "S": "https://github.com/tensorflow/tensorflow/issues/34313"
-      }
-    },
-    {
-      "Title": {
         "S": "Broken link to \"Edit on Github\" in ipython documentation"
       },
       "Repo": {
@@ -53796,32 +53640,6 @@
     },
     {
       "Title": {
-        "S": "error: listing the stack pointer register ‘sp’ in a clobber list is deprecated"
-      },
-      "Repo": {
-        "S": "qmk/qmk_firmware"
-      },
-      "Language": {
-        "S": "C"
-      },
-      "Labels": {
-        "S": "bug,discussion,help wanted"
-      },
-      "Time": {
-        "S": "1573308759000"
-      },
-      "ID": {
-        "N": "520438928"
-      },
-      "Number": {
-        "S": "7310"
-      },
-      "Url": {
-        "S": "https://github.com/qmk/qmk_firmware/issues/7310"
-      }
-    },
-    {
-      "Title": {
         "S": "Putty color a bit off"
       },
       "Repo": {
@@ -53922,32 +53740,6 @@
       },
       "Url": {
         "S": "https://github.com/JedWatson/react-select/issues/3832"
-      }
-    },
-    {
-      "Title": {
-        "S": "\\Phalcon\\Mvc\\Model setSchema broke insert and update from save()"
-      },
-      "Repo": {
-        "S": "phalcon/cphalcon"
-      },
-      "Language": {
-        "S": "PHP, Zephyr"
-      },
-      "Labels": {
-        "S": "4.0,Bug - Medium"
-      },
-      "Time": {
-        "S": "1573647315000"
-      },
-      "ID": {
-        "N": "522178144"
-      },
-      "Number": {
-        "S": "14531"
-      },
-      "Url": {
-        "S": "https://github.com/phalcon/cphalcon/issues/14531"
       }
     },
     {
@@ -54082,6 +53874,32 @@
     },
     {
       "Title": {
+        "S": "Vuex store not getting updated with Nuxt"
+      },
+      "Repo": {
+        "S": "vuejs/vue-devtools"
+      },
+      "Language": {
+        "S": "JS, Vue"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573936489000"
+      },
+      "ID": {
+        "N": "523892889"
+      },
+      "Number": {
+        "S": "1113"
+      },
+      "Url": {
+        "S": "https://github.com/vuejs/vue-devtools/issues/1113"
+      }
+    },
+    {
+      "Title": {
         "S": "Whenever user sent a mail to a new email id, two mails are being sent instead of one"
       },
       "Repo": {
@@ -54208,32 +54026,6 @@
       },
       "Url": {
         "S": "https://github.com/Polymer/polymer/issues/5592"
-      }
-    },
-    {
-      "Title": {
-        "S": "Why when I press \"d\" and \"down-arraw\", It delete two lines?"
-      },
-      "Repo": {
-        "S": "amix/vimrc"
-      },
-      "Language": {
-        "S": "Vim Script"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1563868504000"
-      },
-      "ID": {
-        "N": "471540658"
-      },
-      "Number": {
-        "S": "529"
-      },
-      "Url": {
-        "S": "https://github.com/amix/vimrc/issues/529"
       }
     },
     {
@@ -54650,32 +54442,6 @@
       },
       "Url": {
         "S": "https://github.com/shadowsocks/shadowsocks-windows/issues/2630"
-      }
-    },
-    {
-      "Title": {
-        "S": "Better error reporting of cloud code bugs"
-      },
-      "Repo": {
-        "S": "parse-community/parse-server"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "discussion"
-      },
-      "Time": {
-        "S": "1573466732000"
-      },
-      "ID": {
-        "N": "520856008"
-      },
-      "Number": {
-        "S": "6205"
-      },
-      "Url": {
-        "S": "https://github.com/parse-community/parse-server/issues/6205"
       }
     },
     {
@@ -55274,6 +55040,32 @@
       },
       "Url": {
         "S": "https://github.com/FormidableLabs/webpack-dashboard/issues/294"
+      }
+    },
+    {
+      "Title": {
+        "S": "IllegalStateException: complete already on notifyListener / operationComplete"
+      },
+      "Repo": {
+        "S": "netty/netty"
+      },
+      "Language": {
+        "S": "Java"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1571142180000"
+      },
+      "ID": {
+        "N": "507209024"
+      },
+      "Number": {
+        "S": "9669"
+      },
+      "Url": {
+        "S": "https://github.com/netty/netty/issues/9669"
       }
     },
     {
@@ -56006,32 +55798,6 @@
     },
     {
       "Title": {
-        "S": "Thumbs stops working after I destroy and reinit the sliders"
-      },
-      "Repo": {
-        "S": "nolimits4web/Swiper"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573136249000"
-      },
-      "ID": {
-        "N": "519293734"
-      },
-      "Number": {
-        "S": "3331"
-      },
-      "Url": {
-        "S": "https://github.com/nolimits4web/swiper/issues/3331"
-      }
-    },
-    {
-      "Title": {
         "S": "Refactor DOMException handling code to avoid redundant exceptions generation"
       },
       "Repo": {
@@ -56132,32 +55898,6 @@
       },
       "Url": {
         "S": "https://github.com/yarnpkg/yarn/issues/7677"
-      }
-    },
-    {
-      "Title": {
-        "S": "Suggestion for default behavior of swap files"
-      },
-      "Repo": {
-        "S": "amix/vimrc"
-      },
-      "Language": {
-        "S": "Vim Script"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1565704957000"
-      },
-      "ID": {
-        "N": "480175139"
-      },
-      "Number": {
-        "S": "533"
-      },
-      "Url": {
-        "S": "https://github.com/amix/vimrc/issues/533"
       }
     },
     {
@@ -56318,6 +56058,32 @@
     },
     {
       "Title": {
+        "S": "Multiple snippets plugins"
+      },
+      "Repo": {
+        "S": "amix/vimrc"
+      },
+      "Language": {
+        "S": "Vim Script"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1548362206000"
+      },
+      "ID": {
+        "N": "402885230"
+      },
+      "Number": {
+        "S": "489"
+      },
+      "Url": {
+        "S": "https://github.com/amix/vimrc/issues/489"
+      }
+    },
+    {
+      "Title": {
         "S": "tunneling website on remote server redirecting to suspended page"
       },
       "Repo": {
@@ -56392,32 +56158,6 @@
       },
       "Url": {
         "S": "https://github.com/PowerShell/PowerShell/issues/11065"
-      }
-    },
-    {
-      "Title": {
-        "S": "StoryBook for Vue: [Vue warn]: Failed to mount component: template or render function not defined"
-      },
-      "Repo": {
-        "S": "storybooks/storybook"
-      },
-      "Language": {
-        "S": "JS, HTML"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573592162000"
-      },
-      "ID": {
-        "N": "521797401"
-      },
-      "Number": {
-        "S": "8812"
-      },
-      "Url": {
-        "S": "https://github.com/storybookjs/storybook/issues/8812"
       }
     },
     {
@@ -56656,6 +56396,32 @@
     },
     {
       "Title": {
+        "S": "[WebGL1] game takes a long time to load on Mobile Chrome"
+      },
+      "Repo": {
+        "S": "godotengine/godot"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573939661000"
+      },
+      "ID": {
+        "N": "523898338"
+      },
+      "Number": {
+        "S": "33664"
+      },
+      "Url": {
+        "S": "https://github.com/godotengine/godot/issues/33664"
+      }
+    },
+    {
+      "Title": {
         "S": "Android Q support"
       },
       "Repo": {
@@ -56808,6 +56574,32 @@
       },
       "Url": {
         "S": "https://github.com/matomo-org/matomo/issues/15120"
+      }
+    },
+    {
+      "Title": {
+        "S": "[APM] Replace `any` with `unknown`"
+      },
+      "Repo": {
+        "S": "elastic/kibana"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "Team:apm,[zube]: Inbox,technical debt"
+      },
+      "Time": {
+        "S": "1573943684000"
+      },
+      "ID": {
+        "N": "523904682"
+      },
+      "Number": {
+        "S": "50860"
+      },
+      "Url": {
+        "S": "https://github.com/elastic/kibana/issues/50860"
       }
     },
     {
@@ -57774,32 +57566,6 @@
     },
     {
       "Title": {
-        "S": "1 task in 'LIBUV' failed exit status"
-      },
-      "Repo": {
-        "S": "libuv/libuv"
-      },
-      "Language": {
-        "S": "C"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1569950058000"
-      },
-      "ID": {
-        "N": "501031864"
-      },
-      "Number": {
-        "S": "2500"
-      },
-      "Url": {
-        "S": "https://github.com/libuv/libuv/issues/2500"
-      }
-    },
-    {
-      "Title": {
         "S": "GPM Installer unZip() returning unexpected package folder name"
       },
       "Repo": {
@@ -58294,28 +58060,28 @@
     },
     {
       "Title": {
-        "S": "Support git config edition"
+        "S": "[Accessibility] Filter posts with more than 3 emojis"
       },
       "Repo": {
-        "S": "Microsoft/vscode"
+        "S": "tootsuite/mastodon"
       },
       "Language": {
-        "S": "TS"
+        "S": "Ruby, JS"
       },
       "Labels": {
         "S": "no labels"
       },
       "Time": {
-        "S": "1573850548000"
+        "S": "1573937904000"
       },
       "ID": {
-        "N": "523679009"
+        "N": "523895444"
       },
       "Number": {
-        "S": "84942"
+        "S": "12400"
       },
       "Url": {
-        "S": "https://github.com/microsoft/vscode/issues/84942"
+        "S": "https://github.com/tootsuite/mastodon/issues/12400"
       }
     },
     {
@@ -58654,6 +58420,32 @@
       },
       "Url": {
         "S": "https://github.com/mailpile/Mailpile/issues/2229"
+      }
+    },
+    {
+      "Title": {
+        "S": "Feature Request: allow ArrayCameras to opt in to multiview rendering"
+      },
+      "Repo": {
+        "S": "mrdoob/three.js"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573938340000"
+      },
+      "ID": {
+        "N": "523896198"
+      },
+      "Number": {
+        "S": "17942"
+      },
+      "Url": {
+        "S": "https://github.com/mrdoob/three.js/issues/17942"
       }
     },
     {
@@ -60686,32 +60478,6 @@
     },
     {
       "Title": {
-        "S": "Including file without extension as Plain Text"
-      },
-      "Repo": {
-        "S": "pugjs/pug"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "bug"
-      },
-      "Time": {
-        "S": "1550733885000"
-      },
-      "ID": {
-        "N": "412783125"
-      },
-      "Number": {
-        "S": "3116"
-      },
-      "Url": {
-        "S": "https://github.com/pugjs/pug/issues/3116"
-      }
-    },
-    {
-      "Title": {
         "S": "TypeScript definitions for pug-tokens"
       },
       "Repo": {
@@ -61154,32 +60920,6 @@
     },
     {
       "Title": {
-        "S": "Feature Request: Center thumbnails even when resizing sidebar"
-      },
-      "Repo": {
-        "S": "mozilla/pdf.js"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573877099000"
-      },
-      "ID": {
-        "N": "523786687"
-      },
-      "Number": {
-        "S": "11336"
-      },
-      "Url": {
-        "S": "https://github.com/mozilla/pdf.js/issues/11336"
-      }
-    },
-    {
-      "Title": {
         "S": "Add support for `moonc -l`?"
       },
       "Repo": {
@@ -61254,6 +60994,32 @@
       },
       "Url": {
         "S": "https://github.com/facebook/jest/issues/9171"
+      }
+    },
+    {
+      "Title": {
+        "S": "Failing test: Chrome UI Functional Tests.test/functional/apps/visualize/_tsvb_time_series·ts - visualize app  visual builder Time Series should show the correct count in the legend with custom numeric formatter"
+      },
+      "Repo": {
+        "S": "elastic/kibana"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "failed-test"
+      },
+      "Time": {
+        "S": "1573921324000"
+      },
+      "ID": {
+        "N": "523864596"
+      },
+      "Number": {
+        "S": "50850"
+      },
+      "Url": {
+        "S": "https://github.com/elastic/kibana/issues/50850"
       }
     },
     {
@@ -62506,32 +62272,6 @@
     },
     {
       "Title": {
-        "S": "Uncaught Error: Module did not self-register."
-      },
-      "Repo": {
-        "S": "atom/atom"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573205991000"
-      },
-      "ID": {
-        "N": "519911064"
-      },
-      "Number": {
-        "S": "20131"
-      },
-      "Url": {
-        "S": "https://github.com/atom/atom/issues/20131"
-      }
-    },
-    {
-      "Title": {
         "S": "medium-editor needs maintainers + collaborators"
       },
       "Repo": {
@@ -62840,32 +62580,6 @@
       },
       "Url": {
         "S": "https://github.com/spring-projects/spring-boot/issues/19021"
-      }
-    },
-    {
-      "Title": {
-        "S": "Batch pre-padding with Tensorflow datasets"
-      },
-      "Repo": {
-        "S": "tensorflow/tensorflow"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573830288000"
-      },
-      "ID": {
-        "N": "523520836"
-      },
-      "Number": {
-        "S": "34311"
-      },
-      "Url": {
-        "S": "https://github.com/tensorflow/tensorflow/issues/34311"
       }
     },
     {
@@ -63676,32 +63390,6 @@
     },
     {
       "Title": {
-        "S": "ReferenceError: fetch is not defined during build"
-      },
-      "Repo": {
-        "S": "gatsbyjs/gatsby"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "status: awaiting author response"
-      },
-      "Time": {
-        "S": "1573735297000"
-      },
-      "ID": {
-        "N": "522832502"
-      },
-      "Number": {
-        "S": "19507"
-      },
-      "Url": {
-        "S": "https://github.com/gatsbyjs/gatsby/issues/19507"
-      }
-    },
-    {
-      "Title": {
         "S": "流量快没了，有没有好心人赠送的点流量？"
       },
       "Repo": {
@@ -63724,32 +63412,6 @@
       },
       "Url": {
         "S": "https://github.com/XX-net/XX-Net/issues/12840"
-      }
-    },
-    {
-      "Title": {
-        "S": "[CI] Consider replacing CI PR messages"
-      },
-      "Repo": {
-        "S": "elastic/kibana"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "Feature:CI,Team:Operations,release_note:skip"
-      },
-      "Time": {
-        "S": "1573850590000"
-      },
-      "ID": {
-        "N": "523679292"
-      },
-      "Number": {
-        "S": "50821"
-      },
-      "Url": {
-        "S": "https://github.com/elastic/kibana/issues/50821"
       }
     },
     {
@@ -64374,32 +64036,6 @@
       },
       "Url": {
         "S": "https://github.com/reduxjs/redux/issues/3567"
-      }
-    },
-    {
-      "Title": {
-        "S": "Why not use submodules for plugin management?"
-      },
-      "Repo": {
-        "S": "amix/vimrc"
-      },
-      "Language": {
-        "S": "Vim Script"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1568835055000"
-      },
-      "ID": {
-        "N": "495413989"
-      },
-      "Number": {
-        "S": "538"
-      },
-      "Url": {
-        "S": "https://github.com/amix/vimrc/issues/538"
       }
     },
     {
@@ -65392,6 +65028,32 @@
     },
     {
       "Title": {
+        "S": "Navigation.xml warning is wrong"
+      },
+      "Repo": {
+        "S": "CRYTEK/CRYENGINE"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573929846000"
+      },
+      "ID": {
+        "N": "523880849"
+      },
+      "Number": {
+        "S": "700"
+      },
+      "Url": {
+        "S": "https://github.com/CRYTEK/CRYENGINE/issues/700"
+      }
+    },
+    {
+      "Title": {
         "S": "Can't set placeholder for select field"
       },
       "Repo": {
@@ -65548,32 +65210,6 @@
     },
     {
       "Title": {
-        "S": "Using .iloc on a sparse DataFrame results in a copy"
-      },
-      "Repo": {
-        "S": "pandas-dev/pandas"
-      },
-      "Language": {
-        "S": "Python"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573849596000"
-      },
-      "ID": {
-        "N": "523672116"
-      },
-      "Number": {
-        "S": "29647"
-      },
-      "Url": {
-        "S": "https://github.com/pandas-dev/pandas/issues/29647"
-      }
-    },
-    {
-      "Title": {
         "S": "Remove AutoFactory"
       },
       "Repo": {
@@ -65678,32 +65314,6 @@
     },
     {
       "Title": {
-        "S": "DocSearch meta missing from the new released version"
-      },
-      "Repo": {
-        "S": "facebook/Docusaurus"
-      },
-      "Language": {
-        "S": "JS, CSS"
-      },
-      "Labels": {
-        "S": "bug,v2"
-      },
-      "Time": {
-        "S": "1568744406000"
-      },
-      "ID": {
-        "N": "494778589"
-      },
-      "Number": {
-        "S": "1792"
-      },
-      "Url": {
-        "S": "https://github.com/facebook/docusaurus/issues/1792"
-      }
-    },
-    {
-      "Title": {
         "S": "Don't link to tldp.org for bash advice"
       },
       "Repo": {
@@ -65804,6 +65414,32 @@
       },
       "Url": {
         "S": "https://github.com/xi-editor/xi-editor/issues/1181"
+      }
+    },
+    {
+      "Title": {
+        "S": "React warning: componentWillMount has been renamed, and is not recommended for use."
+      },
+      "Repo": {
+        "S": "gaearon/react-hot-loader"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573911727000"
+      },
+      "ID": {
+        "N": "523846664"
+      },
+      "Number": {
+        "S": "1395"
+      },
+      "Url": {
+        "S": "https://github.com/gaearon/react-hot-loader/issues/1395"
       }
     },
     {
@@ -66064,6 +65700,32 @@
       },
       "Url": {
         "S": "https://github.com/coryhouse/react-slingshot/issues/635"
+      }
+    },
+    {
+      "Title": {
+        "S": "Storefront's api v2 Products endpoint returns products with available date set in the future"
+      },
+      "Repo": {
+        "S": "spree/spree"
+      },
+      "Language": {
+        "S": "Ruby"
+      },
+      "Labels": {
+        "S": "Needs Confirmation"
+      },
+      "Time": {
+        "S": "1573923514000"
+      },
+      "ID": {
+        "N": "523868731"
+      },
+      "Number": {
+        "S": "9634"
+      },
+      "Url": {
+        "S": "https://github.com/spree/spree/issues/9634"
       }
     },
     {
@@ -66454,32 +66116,6 @@
       },
       "Url": {
         "S": "https://github.com/microsoft/dotnet/issues/1136"
-      }
-    },
-    {
-      "Title": {
-        "S": "Close menu SideBar for default"
-      },
-      "Repo": {
-        "S": "almasaeed2010/AdminLTE"
-      },
-      "Language": {
-        "S": "HTML, CSS, JS"
-      },
-      "Labels": {
-        "S": "type:enhancement,version:3.x"
-      },
-      "Time": {
-        "S": "1573876157000"
-      },
-      "ID": {
-        "N": "523785139"
-      },
-      "Number": {
-        "S": "2402"
-      },
-      "Url": {
-        "S": "https://github.com/ColorlibHQ/AdminLTE/issues/2402"
       }
     },
     {
@@ -66926,32 +66562,6 @@
     },
     {
       "Title": {
-        "S": "Allow casting on horizontal filtering"
-      },
-      "Repo": {
-        "S": "PostgREST/postgrest"
-      },
-      "Language": {
-        "S": "Haskell"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573485868000"
-      },
-      "ID": {
-        "N": "521026014"
-      },
-      "Number": {
-        "S": "1409"
-      },
-      "Url": {
-        "S": "https://github.com/PostgREST/postgrest/issues/1409"
-      }
-    },
-    {
-      "Title": {
         "S": "SSR: textarea domProps keeps falsy values"
       },
       "Repo": {
@@ -67104,6 +66714,32 @@
       },
       "Url": {
         "S": "https://github.com/tastejs/todomvc/issues/1975"
+      }
+    },
+    {
+      "Title": {
+        "S": "Object.keys /  Object.entries not type checking argument"
+      },
+      "Repo": {
+        "S": "Microsoft/TypeScript"
+      },
+      "Language": {
+        "S": "TS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573940093000"
+      },
+      "ID": {
+        "N": "523899037"
+      },
+      "Number": {
+        "S": "35145"
+      },
+      "Url": {
+        "S": "https://github.com/microsoft/TypeScript/issues/35145"
       }
     },
     {
@@ -67992,6 +67628,32 @@
     },
     {
       "Title": {
+        "S": "how to launch vim in windows 7 ?"
+      },
+      "Repo": {
+        "S": "amix/vimrc"
+      },
+      "Language": {
+        "S": "Vim Script"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1553570681000"
+      },
+      "ID": {
+        "N": "425208905"
+      },
+      "Number": {
+        "S": "497"
+      },
+      "Url": {
+        "S": "https://github.com/amix/vimrc/issues/497"
+      }
+    },
+    {
+      "Title": {
         "S": "Feathers OAuth should support logout"
       },
       "Repo": {
@@ -68356,6 +68018,58 @@
     },
     {
       "Title": {
+        "S": "egg-sequelize怎么添加或者删除表中的某个字段"
+      },
+      "Repo": {
+        "S": "sequelize/sequelize"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573917136000"
+      },
+      "ID": {
+        "N": "523856498"
+      },
+      "Number": {
+        "S": "11686"
+      },
+      "Url": {
+        "S": "https://github.com/sequelize/sequelize/issues/11686"
+      }
+    },
+    {
+      "Title": {
+        "S": "Modal view not opening properly on IOS"
+      },
+      "Repo": {
+        "S": "NativeScript/NativeScript"
+      },
+      "Language": {
+        "S": "TS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573908852000"
+      },
+      "ID": {
+        "N": "523841851"
+      },
+      "Number": {
+        "S": "8108"
+      },
+      "Url": {
+        "S": "https://github.com/NativeScript/NativeScript/issues/8108"
+      }
+    },
+    {
+      "Title": {
         "S": "Failed install on Ubuntu 19.04"
       },
       "Repo": {
@@ -68690,32 +68404,6 @@
       },
       "Url": {
         "S": "https://github.com/getredash/redash/issues/4336"
-      }
-    },
-    {
-      "Title": {
-        "S": "how to dynamically connect to database  in loopback"
-      },
-      "Repo": {
-        "S": "strongloop/loopback"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "stale"
-      },
-      "Time": {
-        "S": "1526991524000"
-      },
-      "ID": {
-        "N": "325268247"
-      },
-      "Number": {
-        "S": "3886"
-      },
-      "Url": {
-        "S": "https://github.com/strongloop/loopback/issues/3886"
       }
     },
     {
@@ -71970,32 +71658,6 @@
     },
     {
       "Title": {
-        "S": "`npm install` failing"
-      },
-      "Repo": {
-        "S": "facebook/react"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573829399000"
-      },
-      "ID": {
-        "N": "523512739"
-      },
-      "Number": {
-        "S": "17377"
-      },
-      "Url": {
-        "S": "https://github.com/facebook/react/issues/17377"
-      }
-    },
-    {
-      "Title": {
         "S": "Refactor: Rename does not rename entries in GlobalSuppresssion file"
       },
       "Repo": {
@@ -72360,32 +72022,6 @@
     },
     {
       "Title": {
-        "S": "electron Error: Please install sqlite3 package manually"
-      },
-      "Repo": {
-        "S": "sequelize/sequelize"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573711636000"
-      },
-      "ID": {
-        "N": "522645998"
-      },
-      "Number": {
-        "S": "11677"
-      },
-      "Url": {
-        "S": "https://github.com/sequelize/sequelize/issues/11677"
-      }
-    },
-    {
-      "Title": {
         "S": "软件会强制覆盖电脑的代理设置吗？"
       },
       "Repo": {
@@ -72616,32 +72252,6 @@
       },
       "Url": {
         "S": "https://github.com/eclipse-vertx/vert.x/issues/3180"
-      }
-    },
-    {
-      "Title": {
-        "S": "win10电脑中  使用终端问题"
-      },
-      "Repo": {
-        "S": "Microsoft/vscode"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573868690000"
-      },
-      "ID": {
-        "N": "523770875"
-      },
-      "Number": {
-        "S": "84951"
-      },
-      "Url": {
-        "S": "https://github.com/microsoft/vscode/issues/84951"
       }
     },
     {
@@ -74492,32 +74102,6 @@
     },
     {
       "Title": {
-        "S": "Nodes request module throws an error after a while doing too many requests"
-      },
-      "Repo": {
-        "S": "request/request"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1568368203000"
-      },
-      "ID": {
-        "N": "493235067"
-      },
-      "Number": {
-        "S": "3203"
-      },
-      "Url": {
-        "S": "https://github.com/request/request/issues/3203"
-      }
-    },
-    {
-      "Title": {
         "S": "Crash due to old dependency"
       },
       "Repo": {
@@ -75402,6 +74986,32 @@
     },
     {
       "Title": {
+        "S": "flutter run command stuck at \"gradle initialization\" and does not start the app running on connected Android device."
+      },
+      "Repo": {
+        "S": "flutter/flutter"
+      },
+      "Language": {
+        "S": "Dart"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573911837000"
+      },
+      "ID": {
+        "N": "523846863"
+      },
+      "Number": {
+        "S": "45037"
+      },
+      "Url": {
+        "S": "https://github.com/flutter/flutter/issues/45037"
+      }
+    },
+    {
+      "Title": {
         "S": "Ripple effect breaks buttons on iOS 13"
       },
       "Repo": {
@@ -75762,32 +75372,6 @@
       },
       "Url": {
         "S": "https://github.com/HubSpot/pace/issues/479"
-      }
-    },
-    {
-      "Title": {
-        "S": "Run projects via names"
-      },
-      "Repo": {
-        "S": "facebook/jest"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": ":rocket: Feature Request"
-      },
-      "Time": {
-        "S": "1573836283000"
-      },
-      "ID": {
-        "N": "523576071"
-      },
-      "Number": {
-        "S": "9190"
-      },
-      "Url": {
-        "S": "https://github.com/facebook/jest/issues/9190"
       }
     },
     {
@@ -76286,6 +75870,32 @@
     },
     {
       "Title": {
+        "S": "[Feature Request] Scroll manga list to top on tap"
+      },
+      "Repo": {
+        "S": "inorichi/tachiyomi"
+      },
+      "Language": {
+        "S": "Kotlin"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573906410000"
+      },
+      "ID": {
+        "N": "523837350"
+      },
+      "Number": {
+        "S": "2328"
+      },
+      "Url": {
+        "S": "https://github.com/inorichi/tachiyomi/issues/2328"
+      }
+    },
+    {
+      "Title": {
         "S": "cache results and instantly write to clipboard when using c/C in shell mode"
       },
       "Repo": {
@@ -76568,6 +76178,32 @@
       },
       "Url": {
         "S": "https://github.com/ryanmcdermott/clean-code-javascript/issues/230"
+      }
+    },
+    {
+      "Title": {
+        "S": "The supported languages list is hard to spot and read"
+      },
+      "Repo": {
+        "S": "isagalaev/highlight.js"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573909671000"
+      },
+      "ID": {
+        "N": "523843145"
+      },
+      "Number": {
+        "S": "2288"
+      },
+      "Url": {
+        "S": "https://github.com/highlightjs/highlight.js/issues/2288"
       }
     },
     {
@@ -78288,32 +77924,6 @@
     },
     {
       "Title": {
-        "S": "Different sizes of sidebar buttons"
-      },
-      "Repo": {
-        "S": "Microsoft/vscode"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573855163000"
-      },
-      "ID": {
-        "N": "523709576"
-      },
-      "Number": {
-        "S": "84944"
-      },
-      "Url": {
-        "S": "https://github.com/microsoft/vscode/issues/84944"
-      }
-    },
-    {
-      "Title": {
         "S": "--base64 (and other function) can support CryptoJS"
       },
       "Repo": {
@@ -78444,6 +78054,32 @@
     },
     {
       "Title": {
+        "S": "Mismatch between emailed patch 8.1.2302 and GH version"
+      },
+      "Repo": {
+        "S": "vim/vim"
+      },
+      "Language": {
+        "S": "C, Vim Script"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573920247000"
+      },
+      "ID": {
+        "N": "523862495"
+      },
+      "Number": {
+        "S": "5228"
+      },
+      "Url": {
+        "S": "https://github.com/vim/vim/issues/5228"
+      }
+    },
+    {
+      "Title": {
         "S": "Reply error when using the PUB/SUB system and bluebird promissifyAll"
       },
       "Repo": {
@@ -78466,6 +78102,32 @@
       },
       "Url": {
         "S": "https://github.com/NodeRedis/node_redis/issues/1452"
+      }
+    },
+    {
+      "Title": {
+        "S": "tf2.0: tf.image.resize_with_pad fails with “using a `tf.Tensor` as a Python `bool” with tf.keras.Input"
+      },
+      "Repo": {
+        "S": "tensorflow/tensorflow"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573940490000"
+      },
+      "ID": {
+        "N": "523899591"
+      },
+      "Number": {
+        "S": "34344"
+      },
+      "Url": {
+        "S": "https://github.com/tensorflow/tensorflow/issues/34344"
       }
     },
     {
@@ -79068,6 +78730,32 @@
     },
     {
       "Title": {
+        "S": "Flutter for Web is failing to run a release build"
+      },
+      "Repo": {
+        "S": "flutter/flutter"
+      },
+      "Language": {
+        "S": "Dart"
+      },
+      "Labels": {
+        "S": "severe: crash,tool"
+      },
+      "Time": {
+        "S": "1573939785000"
+      },
+      "ID": {
+        "N": "523898556"
+      },
+      "Number": {
+        "S": "45048"
+      },
+      "Url": {
+        "S": "https://github.com/flutter/flutter/issues/45048"
+      }
+    },
+    {
+      "Title": {
         "S": "4.1.0 white list"
       },
       "Repo": {
@@ -79350,32 +79038,6 @@
       },
       "Url": {
         "S": "https://github.com/CocoaPods/CocoaPods/issues/9283"
-      }
-    },
-    {
-      "Title": {
-        "S": "出现了问题"
-      },
-      "Repo": {
-        "S": "FelisCatus/SwitchyOmega"
-      },
-      "Language": {
-        "S": "CoffeeScript, HTML"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1570241247000"
-      },
-      "ID": {
-        "N": "502903155"
-      },
-      "Number": {
-        "S": "1902"
-      },
-      "Url": {
-        "S": "https://github.com/FelisCatus/SwitchyOmega/issues/1902"
       }
     },
     {
@@ -79844,32 +79506,6 @@
       },
       "Url": {
         "S": "https://github.com/jwagner/smartcrop.js/issues/57"
-      }
-    },
-    {
-      "Title": {
-        "S": "Plex sensor and media players fail to update when server is restarted after an update"
-      },
-      "Repo": {
-        "S": "home-assistant/home-assistant"
-      },
-      "Language": {
-        "S": "Python"
-      },
-      "Labels": {
-        "S": "integration: plex"
-      },
-      "Time": {
-        "S": "1573754660000"
-      },
-      "ID": {
-        "N": "523018942"
-      },
-      "Number": {
-        "S": "28775"
-      },
-      "Url": {
-        "S": "https://github.com/home-assistant/home-assistant/issues/28775"
       }
     },
     {
@@ -80728,6 +80364,32 @@
       },
       "Url": {
         "S": "https://github.com/libgdx/libgdx/issues/5841"
+      }
+    },
+    {
+      "Title": {
+        "S": "Accessibility: Alternative font for people with dyslexia"
+      },
+      "Repo": {
+        "S": "tootsuite/mastodon"
+      },
+      "Language": {
+        "S": "Ruby, JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573914634000"
+      },
+      "ID": {
+        "N": "523851851"
+      },
+      "Number": {
+        "S": "12397"
+      },
+      "Url": {
+        "S": "https://github.com/tootsuite/mastodon/issues/12397"
       }
     },
     {
@@ -81824,32 +81486,6 @@
     },
     {
       "Title": {
-        "S": "Allow turn log format to json when running with --no-daemon"
-      },
-      "Repo": {
-        "S": "Unitech/pm2"
-      },
-      "Language": {
-        "S": "JS, Shell"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573044559000"
-      },
-      "ID": {
-        "N": "518450761"
-      },
-      "Number": {
-        "S": "4494"
-      },
-      "Url": {
-        "S": "https://github.com/Unitech/pm2/issues/4494"
-      }
-    },
-    {
-      "Title": {
         "S": "ngrok 启动映射两个端口 只有一个端口号映射成功 前面端口不生效"
       },
       "Repo": {
@@ -81898,32 +81534,6 @@
       },
       "Url": {
         "S": "https://github.com/RestKit/RestKit/issues/2534"
-      }
-    },
-    {
-      "Title": {
-        "S": "r2 passes path containing an @ as an address to rabin2"
-      },
-      "Repo": {
-        "S": "radare/radare2"
-      },
-      "Language": {
-        "S": "C"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1571811868000"
-      },
-      "ID": {
-        "N": "511103041"
-      },
-      "Number": {
-        "S": "15331"
-      },
-      "Url": {
-        "S": "https://github.com/radareorg/radare2/issues/15331"
       }
     },
     {
@@ -82002,6 +81612,32 @@
       },
       "Url": {
         "S": "https://github.com/pi-hole/pi-hole/issues/2997"
+      }
+    },
+    {
+      "Title": {
+        "S": "switch postgrest configurator-ng to dhall configure for latest ghc build"
+      },
+      "Repo": {
+        "S": "PostgREST/postgrest"
+      },
+      "Language": {
+        "S": "Haskell"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1557845973000"
+      },
+      "ID": {
+        "N": "443966270"
+      },
+      "Number": {
+        "S": "1292"
+      },
+      "Url": {
+        "S": "https://github.com/PostgREST/postgrest/issues/1292"
       }
     },
     {
@@ -82106,32 +81742,6 @@
       },
       "Url": {
         "S": "https://github.com/apache/dubbo/issues/5288"
-      }
-    },
-    {
-      "Title": {
-        "S": "Intra-statement comment interferes with function return value (again)"
-      },
-      "Repo": {
-        "S": "swc-project/swc"
-      },
-      "Language": {
-        "S": "Rust, JS, TS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573837572000"
-      },
-      "ID": {
-        "N": "523586589"
-      },
-      "Number": {
-        "S": "446"
-      },
-      "Url": {
-        "S": "https://github.com/swc-project/swc/issues/446"
       }
     },
     {
@@ -82604,32 +82214,6 @@
     },
     {
       "Title": {
-        "S": "Signal camera not working on Huawei phones"
-      },
-      "Repo": {
-        "S": "signalapp/Signal-Android"
-      },
-      "Language": {
-        "S": "Java"
-      },
-      "Labels": {
-        "S": "camera"
-      },
-      "Time": {
-        "S": "1572543462000"
-      },
-      "ID": {
-        "N": "515620899"
-      },
-      "Number": {
-        "S": "9150"
-      },
-      "Url": {
-        "S": "https://github.com/signalapp/Signal-Android/issues/9150"
-      }
-    },
-    {
-      "Title": {
         "S": "Request Deduplication"
       },
       "Repo": {
@@ -82756,6 +82340,32 @@
       },
       "Url": {
         "S": "https://github.com/facebookincubator/spectrum/issues/186"
+      }
+    },
+    {
+      "Title": {
+        "S": "Composite Id not working for embedsMany relations"
+      },
+      "Repo": {
+        "S": "strongloop/loopback"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "bug"
+      },
+      "Time": {
+        "S": "1573936641000"
+      },
+      "ID": {
+        "N": "523893136"
+      },
+      "Number": {
+        "S": "4282"
+      },
+      "Url": {
+        "S": "https://github.com/strongloop/loopback/issues/4282"
       }
     },
     {
@@ -83445,7 +83055,7 @@
         "S": "Resource, Chinese"
       },
       "Labels": {
-        "S": "后端,算法,请到对应的 PR 下认领校对"
+        "S": "后端,正在校对,算法,请到对应的 PR 下认领校对"
       },
       "Time": {
         "S": "1573627413000"
@@ -84108,6 +83718,32 @@
       },
       "Url": {
         "S": "https://github.com/bang590/JSPatch/issues/830"
+      }
+    },
+    {
+      "Title": {
+        "S": "enableDeviceEmulation has no effect"
+      },
+      "Repo": {
+        "S": "electron/electron"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573907643000"
+      },
+      "ID": {
+        "N": "523839674"
+      },
+      "Number": {
+        "S": "21153"
+      },
+      "Url": {
+        "S": "https://github.com/electron/electron/issues/21153"
       }
     },
     {
@@ -84788,28 +84424,28 @@
     },
     {
       "Title": {
-        "S": "Crash on multiple startup errors with --headless"
+        "S": "Please add support for flimmit.com"
       },
       "Repo": {
-        "S": "neovim/neovim"
+        "S": "rg3/youtube-dl"
       },
       "Language": {
-        "S": "VIM Script, C, Lua"
+        "S": "Python"
       },
       "Labels": {
-        "S": "bug,bug-crash,ui"
+        "S": "account-needed"
       },
       "Time": {
-        "S": "1573372765000"
+        "S": "1573924595000"
       },
       "ID": {
-        "N": "520567965"
+        "N": "523870834"
       },
       "Number": {
-        "S": "11362"
+        "S": "23116"
       },
       "Url": {
-        "S": "https://github.com/neovim/neovim/issues/11362"
+        "S": "https://github.com/ytdl-org/youtube-dl/issues/23116"
       }
     },
     {
@@ -85018,32 +84654,6 @@
       },
       "Url": {
         "S": "https://github.com/aurelia/framework/issues/888"
-      }
-    },
-    {
-      "Title": {
-        "S": "is it possible to change leader in my_configs.vim?"
-      },
-      "Repo": {
-        "S": "amix/vimrc"
-      },
-      "Language": {
-        "S": "Vim Script"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1567359669000"
-      },
-      "ID": {
-        "N": "487912402"
-      },
-      "Number": {
-        "S": "536"
-      },
-      "Url": {
-        "S": "https://github.com/amix/vimrc/issues/536"
       }
     },
     {
@@ -85386,32 +84996,6 @@
     },
     {
       "Title": {
-        "S": "ICE with proc-macro expanding to illegal type syntax"
-      },
-      "Repo": {
-        "S": "rust-lang/rust"
-      },
-      "Language": {
-        "S": "Rust"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573899025000"
-      },
-      "ID": {
-        "N": "523825958"
-      },
-      "Number": {
-        "S": "66467"
-      },
-      "Url": {
-        "S": "https://github.com/rust-lang/rust/issues/66467"
-      }
-    },
-    {
-      "Title": {
         "S": "Allow Specifying Parameter (Header, Querystring, Path) Mapping Values for API Gateway Integrations"
       },
       "Repo": {
@@ -85668,6 +85252,32 @@
       },
       "Url": {
         "S": "https://github.com/hapijs/hapi/issues/3998"
+      }
+    },
+    {
+      "Title": {
+        "S": "Storing sqflite data into iCloud flutter"
+      },
+      "Repo": {
+        "S": "flutter/flutter"
+      },
+      "Language": {
+        "S": "Dart"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573928480000"
+      },
+      "ID": {
+        "N": "523878204"
+      },
+      "Number": {
+        "S": "45041"
+      },
+      "Url": {
+        "S": "https://github.com/flutter/flutter/issues/45041"
       }
     },
     {
@@ -85932,32 +85542,6 @@
     },
     {
       "Title": {
-        "S": "file paths inside index.html do not support custom output paths"
-      },
-      "Repo": {
-        "S": "angular/angular-cli"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "comp: devkit/build-angular,freq1: low,severity1: confusing,type: bug/fix"
-      },
-      "Time": {
-        "S": "1573298559000"
-      },
-      "ID": {
-        "N": "520395077"
-      },
-      "Number": {
-        "S": "16131"
-      },
-      "Url": {
-        "S": "https://github.com/angular/angular-cli/issues/16131"
-      }
-    },
-    {
-      "Title": {
         "S": "select(multiple): bad UX for exiting pop-up panel on iOS"
       },
       "Repo": {
@@ -86162,6 +85746,32 @@
       },
       "Url": {
         "S": "https://github.com/protocolbuffers/protobuf/issues/6875"
+      }
+    },
+    {
+      "Title": {
+        "S": "Inconsistent behavior in the \"Solution\" and \"Github Link\" texboxes of the APIs and Microservices projects "
+      },
+      "Repo": {
+        "S": "freeCodeCamp/freeCodeCamp"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "scope: curriculum,status: needs investigation"
+      },
+      "Time": {
+        "S": "1573942909000"
+      },
+      "ID": {
+        "N": "523903475"
+      },
+      "Number": {
+        "S": "37771"
+      },
+      "Url": {
+        "S": "https://github.com/freeCodeCamp/freeCodeCamp/issues/37771"
       }
     },
     {
@@ -86530,32 +86140,6 @@
     },
     {
       "Title": {
-        "S": "Nest integration not working when configured directly in configuration.yaml"
-      },
-      "Repo": {
-        "S": "home-assistant/home-assistant"
-      },
-      "Language": {
-        "S": "Python"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573752271000"
-      },
-      "ID": {
-        "N": "522999783"
-      },
-      "Number": {
-        "S": "28773"
-      },
-      "Url": {
-        "S": "https://github.com/home-assistant/home-assistant/issues/28773"
-      }
-    },
-    {
-      "Title": {
         "S": "Outputs are evaluated before resource updates which can cause unnecessary errors"
       },
       "Repo": {
@@ -86682,6 +86266,32 @@
       },
       "Url": {
         "S": "https://github.com/shadowsocks/ShadowsocksX-NG/issues/1144"
+      }
+    },
+    {
+      "Title": {
+        "S": "Terrane blending does not work with a rope"
+      },
+      "Repo": {
+        "S": "CRYTEK/CRYENGINE"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573925435000"
+      },
+      "ID": {
+        "N": "523872385"
+      },
+      "Number": {
+        "S": "699"
+      },
+      "Url": {
+        "S": "https://github.com/CRYTEK/CRYENGINE/issues/699"
       }
     },
     {
@@ -86868,28 +86478,28 @@
     },
     {
       "Title": {
-        "S": "Duplicated calculation in getPossibleAccessPath"
+        "S": "The second parameter \"tgt\" of Transformer in its function forward:"
       },
       "Repo": {
-        "S": "pingcap/tidb"
+        "S": "pytorch/pytorch"
       },
       "Language": {
-        "S": "Go"
+        "S": "C++, Python, Cuda, C"
       },
       "Labels": {
-        "S": "type/performance"
+        "S": "no labels"
       },
       "Time": {
-        "S": "1573786161000"
+        "S": "1573915763000"
       },
       "ID": {
-        "N": "523221006"
+        "N": "523853920"
       },
       "Number": {
-        "S": "13483"
+        "S": "29969"
       },
       "Url": {
-        "S": "https://github.com/pingcap/tidb/issues/13483"
+        "S": "https://github.com/pytorch/pytorch/issues/29969"
       }
     },
     {
@@ -87150,32 +86760,6 @@
       },
       "Url": {
         "S": "https://github.com/chrislgarry/Apollo-11/issues/305"
-      }
-    },
-    {
-      "Title": {
-        "S": "[gatsby-remark-prismjs] Add new option to avoid warning \"code block or inline code language not specified in markdown\" when not specifying the language of inline-code"
-      },
-      "Repo": {
-        "S": "gatsbyjs/gatsby"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573739439000"
-      },
-      "ID": {
-        "N": "522872452"
-      },
-      "Number": {
-        "S": "19508"
-      },
-      "Url": {
-        "S": "https://github.com/gatsbyjs/gatsby/issues/19508"
       }
     },
     {
@@ -87683,7 +87267,7 @@
         "S": "Ruby, Swift"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "tool: scan"
       },
       "Time": {
         "S": "1573582230000"
@@ -88116,32 +87700,6 @@
     },
     {
       "Title": {
-        "S": "Feature request: beforeLoopFix event"
-      },
-      "Repo": {
-        "S": "nolimits4web/Swiper"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573505328000"
-      },
-      "ID": {
-        "N": "521179354"
-      },
-      "Number": {
-        "S": "3335"
-      },
-      "Url": {
-        "S": "https://github.com/nolimits4web/swiper/issues/3335"
-      }
-    },
-    {
-      "Title": {
         "S": "[Android] weex_js_connection.cpp:192,server died where weex version is 0.26.0"
       },
       "Repo": {
@@ -88476,6 +88034,32 @@
       },
       "Url": {
         "S": "https://github.com/node-inspector/node-inspector/issues/1048"
+      }
+    },
+    {
+      "Title": {
+        "S": "Intermittent panic sending webrender transanction from layout"
+      },
+      "Repo": {
+        "S": "servo/servo"
+      },
+      "Language": {
+        "S": "Rust, Python"
+      },
+      "Labels": {
+        "S": "A-layout/uncategorized,A-webrender,I-panic"
+      },
+      "Time": {
+        "S": "1573675972000"
+      },
+      "ID": {
+        "N": "522447277"
+      },
+      "Number": {
+        "S": "24729"
+      },
+      "Url": {
+        "S": "https://github.com/servo/servo/issues/24729"
       }
     },
     {
@@ -88922,58 +88506,6 @@
     },
     {
       "Title": {
-        "S": "ADC1115 added automatically, but non connected"
-      },
-      "Repo": {
-        "S": "arendst/Sonoff-Tasmota"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "template missing/incomplete"
-      },
-      "Time": {
-        "S": "1573845281000"
-      },
-      "ID": {
-        "N": "523641346"
-      },
-      "Number": {
-        "S": "6935"
-      },
-      "Url": {
-        "S": "https://github.com/arendst/Tasmota/issues/6935"
-      }
-    },
-    {
-      "Title": {
-        "S": "Prevent onResize function triggering on mobile scroll"
-      },
-      "Repo": {
-        "S": "nolimits4web/Swiper"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573798500000"
-      },
-      "ID": {
-        "N": "523277321"
-      },
-      "Number": {
-        "S": "3341"
-      },
-      "Url": {
-        "S": "https://github.com/nolimits4web/swiper/issues/3341"
-      }
-    },
-    {
-      "Title": {
         "S": "Searching for maintainers?"
       },
       "Repo": {
@@ -89338,32 +88870,6 @@
     },
     {
       "Title": {
-        "S": "closeOnUnselect should be a option"
-      },
-      "Repo": {
-        "S": "select2/select2"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573486014000"
-      },
-      "ID": {
-        "N": "521027396"
-      },
-      "Number": {
-        "S": "5699"
-      },
-      "Url": {
-        "S": "https://github.com/select2/select2/issues/5699"
-      }
-    },
-    {
-      "Title": {
         "S": "POPSpringAnimation removedOnCompletion not working"
       },
       "Repo": {
@@ -89646,32 +89152,6 @@
       },
       "Url": {
         "S": "https://github.com/OAI/OpenAPI-Specification/issues/2041"
-      }
-    },
-    {
-      "Title": {
-        "S": "Grace period strategy for unloading projects"
-      },
-      "Repo": {
-        "S": "Microsoft/TypeScript"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "Domain: Performance"
-      },
-      "Time": {
-        "S": "1573772573000"
-      },
-      "ID": {
-        "N": "523154720"
-      },
-      "Number": {
-        "S": "35115"
-      },
-      "Url": {
-        "S": "https://github.com/microsoft/TypeScript/issues/35115"
       }
     },
     {
@@ -90456,6 +89936,32 @@
     },
     {
       "Title": {
+        "S": "notify is silently ignored on import_tasks"
+      },
+      "Repo": {
+        "S": "ansible/ansible"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "affects_2.10,bug,module,needs_triage,support:core,utilities"
+      },
+      "Time": {
+        "S": "1573926867000"
+      },
+      "ID": {
+        "N": "523875141"
+      },
+      "Number": {
+        "S": "64935"
+      },
+      "Url": {
+        "S": "https://github.com/ansible/ansible/issues/64935"
+      }
+    },
+    {
+      "Title": {
         "S": "How to share test cases between suites?"
       },
       "Repo": {
@@ -90634,32 +90140,6 @@
       },
       "Url": {
         "S": "https://github.com/certbot/certbot/issues/7550"
-      }
-    },
-    {
-      "Title": {
-        "S": "CI: static analysis: analyze with LGTM"
-      },
-      "Repo": {
-        "S": "neovim/neovim"
-      },
-      "Language": {
-        "S": "VIM Script, C, Lua"
-      },
-      "Labels": {
-        "S": "build,ci,enhancement,robustness"
-      },
-      "Time": {
-        "S": "1573378180000"
-      },
-      "ID": {
-        "N": "520576240"
-      },
-      "Number": {
-        "S": "11364"
-      },
-      "Url": {
-        "S": "https://github.com/neovim/neovim/issues/11364"
       }
     },
     {
@@ -91054,32 +90534,6 @@
     },
     {
       "Title": {
-        "S": "[CI] Create monitoring solution for Kibana Operations"
-      },
-      "Repo": {
-        "S": "elastic/kibana"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "Feature:CI,Team:Operations,release_note:skip"
-      },
-      "Time": {
-        "S": "1573849832000"
-      },
-      "ID": {
-        "N": "523673759"
-      },
-      "Number": {
-        "S": "50820"
-      },
-      "Url": {
-        "S": "https://github.com/elastic/kibana/issues/50820"
-      }
-    },
-    {
-      "Title": {
         "S": "Is Torch supported on an ARM architecture ?"
       },
       "Repo": {
@@ -91440,32 +90894,6 @@
       },
       "Url": {
         "S": "https://github.com/revel/revel/issues/1475"
-      }
-    },
-    {
-      "Title": {
-        "S": "Nginx多层代理指定路由，组件不更新"
-      },
-      "Repo": {
-        "S": "vuejs/vue"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573869667000"
-      },
-      "ID": {
-        "N": "523773270"
-      },
-      "Number": {
-        "S": "10831"
-      },
-      "Url": {
-        "S": "https://github.com/vuejs/vue/issues/10831"
       }
     },
     {
@@ -92016,6 +91444,32 @@
     },
     {
       "Title": {
+        "S": "Failure when using cgroup_perf_recap"
+      },
+      "Repo": {
+        "S": "ansible/ansible"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "affects_2.9,bug,needs_triage,python3,support:core,traceback"
+      },
+      "Time": {
+        "S": "1573931733000"
+      },
+      "ID": {
+        "N": "523884373"
+      },
+      "Number": {
+        "S": "64936"
+      },
+      "Url": {
+        "S": "https://github.com/ansible/ansible/issues/64936"
+      }
+    },
+    {
+      "Title": {
         "S": "Infer Type issue when dtype passed is None"
       },
       "Repo": {
@@ -92432,6 +91886,32 @@
     },
     {
       "Title": {
+        "S": "PainlessScriptEngine.generateStatefulFactory fails with ASM 7.1/7.2"
+      },
+      "Repo": {
+        "S": "elastic/elasticsearch"
+      },
+      "Language": {
+        "S": "Java"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573940886000"
+      },
+      "ID": {
+        "N": "523900232"
+      },
+      "Number": {
+        "S": "49218"
+      },
+      "Url": {
+        "S": "https://github.com/elastic/elasticsearch/issues/49218"
+      }
+    },
+    {
+      "Title": {
         "S": "1.25.9版本在自定义View里使用，布局不能预览。"
       },
       "Repo": {
@@ -92480,6 +91960,32 @@
       },
       "Url": {
         "S": "https://github.com/serverless/serverless/issues/6957"
+      }
+    },
+    {
+      "Title": {
+        "S": "Flaky Test: test_operator_gpu.test_np_linalg_svd"
+      },
+      "Repo": {
+        "S": "apache/incubator-mxnet"
+      },
+      "Language": {
+        "S": "C++, Python, Perl"
+      },
+      "Labels": {
+        "S": "Flaky,Numpy,Test"
+      },
+      "Time": {
+        "S": "1573948623000"
+      },
+      "ID": {
+        "N": "523912134"
+      },
+      "Number": {
+        "S": "16842"
+      },
+      "Url": {
+        "S": "https://github.com/apache/incubator-mxnet/issues/16842"
       }
     },
     {
@@ -93004,32 +92510,6 @@
     },
     {
       "Title": {
-        "S": "Date display issue in updates"
-      },
-      "Repo": {
-        "S": "inorichi/tachiyomi"
-      },
-      "Language": {
-        "S": "Kotlin"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1571513117000"
-      },
-      "ID": {
-        "N": "509498730"
-      },
-      "Number": {
-        "S": "2290"
-      },
-      "Url": {
-        "S": "https://github.com/inorichi/tachiyomi/issues/2290"
-      }
-    },
-    {
-      "Title": {
         "S": "Distributed test failure: `Future` error propagation broken (testval / put)?"
       },
       "Repo": {
@@ -93368,6 +92848,32 @@
     },
     {
       "Title": {
+        "S": "Error: \"Cannot read property 'toFixed' of null\""
+      },
+      "Repo": {
+        "S": "facebook/react"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573934185000"
+      },
+      "ID": {
+        "N": "523888748"
+      },
+      "Number": {
+        "S": "17387"
+      },
+      "Url": {
+        "S": "https://github.com/facebook/react/issues/17387"
+      }
+    },
+    {
+      "Title": {
         "S": "setContext doesn't trigger componentWillReceiveProps"
       },
       "Repo": {
@@ -93628,6 +93134,32 @@
     },
     {
       "Title": {
+        "S": "TFLite allocate tensors fails: (CONCATENATION) failed to prepare after input shape resize"
+      },
+      "Repo": {
+        "S": "tensorflow/tensorflow"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573946925000"
+      },
+      "ID": {
+        "N": "523909772"
+      },
+      "Number": {
+        "S": "34345"
+      },
+      "Url": {
+        "S": "https://github.com/tensorflow/tensorflow/issues/34345"
+      }
+    },
+    {
+      "Title": {
         "S": "Memory Leak on minimal express server"
       },
       "Repo": {
@@ -93728,6 +93260,32 @@
       },
       "Url": {
         "S": "https://github.com/keras-team/keras/issues/13548"
+      }
+    },
+    {
+      "Title": {
+        "S": "Game controller issue with multiple Godot game instances."
+      },
+      "Repo": {
+        "S": "godotengine/godot"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573908931000"
+      },
+      "ID": {
+        "N": "523841956"
+      },
+      "Number": {
+        "S": "33656"
+      },
+      "Url": {
+        "S": "https://github.com/godotengine/godot/issues/33656"
       }
     },
     {
@@ -94378,6 +93936,32 @@
       },
       "Url": {
         "S": "https://github.com/NativeScript/NativeScript/issues/8105"
+      }
+    },
+    {
+      "Title": {
+        "S": "install / Systemd Debian"
+      },
+      "Repo": {
+        "S": "nicolargo/glances"
+      },
+      "Language": {
+        "S": "Python, JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573915816000"
+      },
+      "ID": {
+        "N": "523854011"
+      },
+      "Number": {
+        "S": "1560"
+      },
+      "Url": {
+        "S": "https://github.com/nicolargo/glances/issues/1560"
       }
     },
     {
@@ -96878,6 +96462,32 @@
     },
     {
       "Title": {
+        "S": "Miniconda3 environment fails to auto activate in terminal"
+      },
+      "Repo": {
+        "S": "Microsoft/vscode"
+      },
+      "Language": {
+        "S": "TS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573924425000"
+      },
+      "ID": {
+        "N": "523870474"
+      },
+      "Number": {
+        "S": "84970"
+      },
+      "Url": {
+        "S": "https://github.com/microsoft/vscode/issues/84970"
+      }
+    },
+    {
+      "Title": {
         "S": "Can this support bbPress?"
       },
       "Repo": {
@@ -97346,32 +96956,6 @@
     },
     {
       "Title": {
-        "S": "How to find all bugs in a function or method by runing infer only one time?"
-      },
-      "Repo": {
-        "S": "facebook/infer"
-      },
-      "Language": {
-        "S": "OCaml, Java, C++"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1567418716000"
-      },
-      "ID": {
-        "N": "488109559"
-      },
-      "Number": {
-        "S": "1142"
-      },
-      "Url": {
-        "S": "https://github.com/facebook/infer/issues/1142"
-      }
-    },
-    {
-      "Title": {
         "S": "[bug?] dropping file(s) directly to Music-Mode window"
       },
       "Repo": {
@@ -97710,32 +97294,6 @@
     },
     {
       "Title": {
-        "S": "nxos_l2_interfaces does not set interface to trunk"
-      },
-      "Repo": {
-        "S": "ansible/ansible"
-      },
-      "Language": {
-        "S": "Python"
-      },
-      "Labels": {
-        "S": "affects_2.9,bug,cisco,module,needs_triage,networking,nxos,python3,support:network"
-      },
-      "Time": {
-        "S": "1573853959000"
-      },
-      "ID": {
-        "N": "523701246"
-      },
-      "Number": {
-        "S": "64910"
-      },
-      "Url": {
-        "S": "https://github.com/ansible/ansible/issues/64910"
-      }
-    },
-    {
-      "Title": {
         "S": "Responsive Widths broken when mixing uk-width-expand "
       },
       "Repo": {
@@ -97914,6 +97472,32 @@
       },
       "Url": {
         "S": "https://github.com/ReactiveX/rxdart/issues/316"
+      }
+    },
+    {
+      "Title": {
+        "S": "onTap Polygon field not working"
+      },
+      "Repo": {
+        "S": "flutter/flutter"
+      },
+      "Language": {
+        "S": "Dart"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573925466000"
+      },
+      "ID": {
+        "N": "523872448"
+      },
+      "Number": {
+        "S": "45040"
+      },
+      "Url": {
+        "S": "https://github.com/flutter/flutter/issues/45040"
       }
     },
     {
@@ -98854,28 +98438,28 @@
     },
     {
       "Title": {
-        "S": "Impossible to return unboxed closure from some functions."
+        "S": "How to disable command continuation on a new line"
       },
       "Repo": {
-        "S": "rust-lang/rust"
+        "S": "amix/vimrc"
       },
       "Language": {
-        "S": "Rust"
+        "S": "Vim Script"
       },
       "Labels": {
-        "S": "F-type_alias_impl_trait,T-compiler,T-lang,requires-nightly"
+        "S": "no labels"
       },
       "Time": {
-        "S": "1573772685000"
+        "S": "1543498490000"
       },
       "ID": {
-        "N": "523155398"
+        "N": "385738984"
       },
       "Number": {
-        "S": "66426"
+        "S": "481"
       },
       "Url": {
-        "S": "https://github.com/rust-lang/rust/issues/66426"
+        "S": "https://github.com/amix/vimrc/issues/481"
       }
     },
     {
@@ -98928,32 +98512,6 @@
       },
       "Url": {
         "S": "https://github.com/golang/dep/issues/2209"
-      }
-    },
-    {
-      "Title": {
-        "S": "Suppress Clang-Tidy warnings"
-      },
-      "Repo": {
-        "S": "google/googletest"
-      },
-      "Language": {
-        "S": "C++, Python"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1567518838000"
-      },
-      "ID": {
-        "N": "488620608"
-      },
-      "Number": {
-        "S": "2442"
-      },
-      "Url": {
-        "S": "https://github.com/google/googletest/issues/2442"
       }
     },
     {
@@ -99097,7 +98655,7 @@
         "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "feat: babel,feat: cli-service build,feature request"
       },
       "Time": {
         "S": "1573841643000"
@@ -101766,28 +101324,28 @@
     },
     {
       "Title": {
-        "S": "Non-hoisted styled-jsx dependency breaks styles"
+        "S": "swipeToSlide for carousel"
       },
       "Repo": {
-        "S": "zeit/next.js"
+        "S": "ant-design/ant-design"
       },
       "Language": {
-        "S": "JS"
+        "S": "TS, JS, CSS"
       },
       "Labels": {
-        "S": "good first issue,help wanted"
+        "S": "no labels"
       },
       "Time": {
-        "S": "1573033744000"
+        "S": "1573942973000"
       },
       "ID": {
-        "N": "518356891"
+        "N": "523903583"
       },
       "Number": {
-        "S": "9325"
+        "S": "19767"
       },
       "Url": {
-        "S": "https://github.com/zeit/next.js/issues/9325"
+        "S": "https://github.com/ant-design/ant-design/issues/19767"
       }
     },
     {
@@ -102204,6 +101762,32 @@
       },
       "Url": {
         "S": "https://github.com/alibaba/druid/issues/3557"
+      }
+    },
+    {
+      "Title": {
+        "S": "`.swcrc` should allow using typescript and javascript together"
+      },
+      "Repo": {
+        "S": "swc-project/swc"
+      },
+      "Language": {
+        "S": "Rust, JS, TS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1549787274000"
+      },
+      "ID": {
+        "N": "408512810"
+      },
+      "Number": {
+        "S": "141"
+      },
+      "Url": {
+        "S": "https://github.com/swc-project/swc/issues/141"
       }
     },
     {
@@ -103387,7 +102971,7 @@
         "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "needs repro script"
       },
       "Time": {
         "S": "1573510694000"
@@ -103452,6 +103036,32 @@
       },
       "Url": {
         "S": "https://github.com/open-guides/og-aws/issues/715"
+      }
+    },
+    {
+      "Title": {
+        "S": "[Equivalence] Add factory methods for multiple and/or nested fields"
+      },
+      "Repo": {
+        "S": "google/guava"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573915311000"
+      },
+      "ID": {
+        "N": "523853101"
+      },
+      "Number": {
+        "S": "3707"
+      },
+      "Url": {
+        "S": "https://github.com/google/guava/issues/3707"
       }
     },
     {
@@ -104340,6 +103950,32 @@
     },
     {
       "Title": {
+        "S": "range input style"
+      },
+      "Repo": {
+        "S": "pure-css/pure"
+      },
+      "Language": {
+        "S": "HTML, CSS, JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573930745000"
+      },
+      "ID": {
+        "N": "523882537"
+      },
+      "Number": {
+        "S": "753"
+      },
+      "Url": {
+        "S": "https://github.com/pure-css/pure/issues/753"
+      }
+    },
+    {
+      "Title": {
         "S": "why upgrade to .net framework 4.7.2?"
       },
       "Repo": {
@@ -104531,7 +104167,7 @@
         "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "needs repro script"
       },
       "Time": {
         "S": "1573772541000"
@@ -105350,6 +104986,32 @@
       },
       "Url": {
         "S": "https://github.com/chrislgarry/Apollo-11/issues/262"
+      }
+    },
+    {
+      "Title": {
+        "S": "logic tests don't show error output on cockroach startup failure"
+      },
+      "Repo": {
+        "S": "cockroachdb/cockroach"
+      },
+      "Language": {
+        "S": "Go"
+      },
+      "Labels": {
+        "S": "A-testing"
+      },
+      "Time": {
+        "S": "1573928862000"
+      },
+      "ID": {
+        "N": "523878889"
+      },
+      "Number": {
+        "S": "42524"
+      },
+      "Url": {
+        "S": "https://github.com/cockroachdb/cockroach/issues/42524"
       }
     },
     {
@@ -106247,7 +105909,7 @@
         "S": "Java, JS, C#, C++, HTML"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "C-java"
       },
       "Time": {
         "S": "1573831261000"
@@ -106368,32 +106030,6 @@
     },
     {
       "Title": {
-        "S": "[Guide] how to add to create react app without ejecting [for yarn users]"
-      },
-      "Repo": {
-        "S": "gaearon/react-hot-loader"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "CRA,integration"
-      },
-      "Time": {
-        "S": "1558775803000"
-      },
-      "ID": {
-        "N": "448443368"
-      },
-      "Number": {
-        "S": "1255"
-      },
-      "Url": {
-        "S": "https://github.com/gaearon/react-hot-loader/issues/1255"
-      }
-    },
-    {
-      "Title": {
         "S": "dhcpcd is installed even on systems using dhclient (Debian)"
       },
       "Repo": {
@@ -106429,7 +106065,7 @@
         "S": "Ruby, Swift"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "tool: spaceship"
       },
       "Time": {
         "S": "1573807678000"
@@ -107174,6 +106810,32 @@
     },
     {
       "Title": {
+        "S": "dialog.showOpenDialog({properties: ['openFile']}) allows opening directories as well."
+      },
+      "Repo": {
+        "S": "electron/electron"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573918205000"
+      },
+      "ID": {
+        "N": "523858553"
+      },
+      "Number": {
+        "S": "21155"
+      },
+      "Url": {
+        "S": "https://github.com/electron/electron/issues/21155"
+      }
+    },
+    {
+      "Title": {
         "S": "How to pass parameters to typed test?"
       },
       "Repo": {
@@ -107434,6 +107096,32 @@
     },
     {
       "Title": {
+        "S": "Php - JS - HTML mixed code coloring/highlighting doesn't work whil in PHP language mode"
+      },
+      "Repo": {
+        "S": "Microsoft/vscode"
+      },
+      "Language": {
+        "S": "TS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573936755000"
+      },
+      "ID": {
+        "N": "523893356"
+      },
+      "Number": {
+        "S": "84974"
+      },
+      "Url": {
+        "S": "https://github.com/microsoft/vscode/issues/84974"
+      }
+    },
+    {
+      "Title": {
         "S": "Javascript, Tomorrow night bright"
       },
       "Repo": {
@@ -107677,7 +107365,7 @@
         "S": "Ruby, Swift"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "tool: gym"
       },
       "Time": {
         "S": "1573805628000"
@@ -108266,32 +107954,6 @@
     },
     {
       "Title": {
-        "S": "Archiving an unread conversation on recipient side is marking it as read on the sender side"
-      },
-      "Repo": {
-        "S": "signalapp/Signal-Android"
-      },
-      "Language": {
-        "S": "Java"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1572477912000"
-      },
-      "ID": {
-        "N": "515045088"
-      },
-      "Number": {
-        "S": "9147"
-      },
-      "Url": {
-        "S": "https://github.com/signalapp/Signal-Android/issues/9147"
-      }
-    },
-    {
-      "Title": {
         "S": "Can't find getProperty()/setProperty() "
       },
       "Repo": {
@@ -108418,32 +108080,6 @@
       },
       "Url": {
         "S": "https://github.com/getify/You-Dont-Know-JS/issues/1273"
-      }
-    },
-    {
-      "Title": {
-        "S": "CrosswordSolver on jestjs.io"
-      },
-      "Repo": {
-        "S": "facebook/jest"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1572887024000"
-      },
-      "ID": {
-        "N": "517284167"
-      },
-      "Number": {
-        "S": "9130"
-      },
-      "Url": {
-        "S": "https://github.com/facebook/jest/issues/9130"
       }
     },
     {
@@ -108942,32 +108578,6 @@
     },
     {
       "Title": {
-        "S": "Feature request: small change in object.toCanvasElement"
-      },
-      "Repo": {
-        "S": "fabricjs/fabric.js"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573580208000"
-      },
-      "ID": {
-        "N": "521696900"
-      },
-      "Number": {
-        "S": "5959"
-      },
-      "Url": {
-        "S": "https://github.com/fabricjs/fabric.js/issues/5959"
-      }
-    },
-    {
-      "Title": {
         "S": "Can I use the webpack dashbord from node?"
       },
       "Repo": {
@@ -109120,6 +108730,32 @@
       },
       "Url": {
         "S": "https://github.com/hashicorp/vagrant/issues/11120"
+      }
+    },
+    {
+      "Title": {
+        "S": "Consolidate Key Mappings and included plugins in the README."
+      },
+      "Repo": {
+        "S": "amix/vimrc"
+      },
+      "Language": {
+        "S": "Vim Script"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1550955406000"
+      },
+      "ID": {
+        "N": "413739302"
+      },
+      "Number": {
+        "S": "493"
+      },
+      "Url": {
+        "S": "https://github.com/amix/vimrc/issues/493"
       }
     },
     {
@@ -110121,7 +109757,7 @@
         "S": "JS, Shell"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "S: Pending Release"
       },
       "Time": {
         "S": "1573871576000"
@@ -110212,32 +109848,6 @@
       },
       "Url": {
         "S": "https://github.com/fabricjs/fabric.js/issues/5942"
-      }
-    },
-    {
-      "Title": {
-        "S": "prometheus not parse exporter metric unit field"
-      },
-      "Repo": {
-        "S": "prometheus/prometheus"
-      },
-      "Language": {
-        "S": "Go"
-      },
-      "Labels": {
-        "S": "component/scraping,kind/more-info-needed"
-      },
-      "Time": {
-        "S": "1572491773000"
-      },
-      "ID": {
-        "N": "515129644"
-      },
-      "Number": {
-        "S": "6255"
-      },
-      "Url": {
-        "S": "https://github.com/prometheus/prometheus/issues/6255"
       }
     },
     {
@@ -110606,32 +110216,6 @@
     },
     {
       "Title": {
-        "S": "Allow for Forward search in explore Loki"
-      },
-      "Repo": {
-        "S": "grafana/grafana"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "area/explore,datasource/Loki,type/feature-request"
-      },
-      "Time": {
-        "S": "1573753133000"
-      },
-      "ID": {
-        "N": "523006639"
-      },
-      "Number": {
-        "S": "20394"
-      },
-      "Url": {
-        "S": "https://github.com/grafana/grafana/issues/20394"
-      }
-    },
-    {
-      "Title": {
         "S": "Enhancement: Warn about irrelevant directives"
       },
       "Repo": {
@@ -110875,7 +110459,7 @@
         "S": "Ruby, Swift"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "tool: action"
       },
       "Time": {
         "S": "1573833750000"
@@ -111070,6 +110654,32 @@
       },
       "Url": {
         "S": "https://github.com/OpenEmu/OpenEmu/issues/3758"
+      }
+    },
+    {
+      "Title": {
+        "S": "libnd4j build: Helpers included from previous build even if not specified"
+      },
+      "Repo": {
+        "S": "deeplearning4j/deeplearning4j"
+      },
+      "Language": {
+        "S": "Java, C++"
+      },
+      "Labels": {
+        "S": "DevOps"
+      },
+      "Time": {
+        "S": "1573305055000"
+      },
+      "ID": {
+        "N": "520423094"
+      },
+      "Number": {
+        "S": "8377"
+      },
+      "Url": {
+        "S": "https://github.com/eclipse/deeplearning4j/issues/8377"
       }
     },
     {
@@ -111434,6 +111044,32 @@
       },
       "Url": {
         "S": "https://github.com/source-foundry/Hack/issues/474"
+      }
+    },
+    {
+      "Title": {
+        "S": "Android: Edge-to-edge navigation bar"
+      },
+      "Repo": {
+        "S": "facebook/react-native"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "Bug,Platform: Android"
+      },
+      "Time": {
+        "S": "1573920059000"
+      },
+      "ID": {
+        "N": "523862110"
+      },
+      "Number": {
+        "S": "27241"
+      },
+      "Url": {
+        "S": "https://github.com/facebook/react-native/issues/27241"
       }
     },
     {
@@ -112088,32 +111724,6 @@
     },
     {
       "Title": {
-        "S": "Real Background URLSession Support"
-      },
-      "Repo": {
-        "S": "Alamofire/Alamofire"
-      },
-      "Language": {
-        "S": "Java"
-      },
-      "Labels": {
-        "S": "feature request"
-      },
-      "Time": {
-        "S": "1502075210000"
-      },
-      "ID": {
-        "N": "248296460"
-      },
-      "Number": {
-        "S": "2233"
-      },
-      "Url": {
-        "S": "https://github.com/Alamofire/Alamofire/issues/2233"
-      }
-    },
-    {
-      "Title": {
         "S": "[NFR]: Volt extends from virable or from absolute path"
       },
       "Repo": {
@@ -112166,7 +111776,7 @@
     },
     {
       "Title": {
-        "S": "[Mono] Same script names are not getting loaded from different assembly"
+        "S": "[Mono] Runtime loaded assemblies are not getting recognized by the engine"
       },
       "Repo": {
         "S": "godotengine/godot"
@@ -112175,7 +111785,7 @@
         "S": "C++"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "bug,topic:mono"
       },
       "Time": {
         "S": "1573899108000"
@@ -112188,32 +111798,6 @@
       },
       "Url": {
         "S": "https://github.com/godotengine/godot/issues/33655"
-      }
-    },
-    {
-      "Title": {
-        "S": "How to change python max line?"
-      },
-      "Repo": {
-        "S": "amix/vimrc"
-      },
-      "Language": {
-        "S": "Vim Script"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1560840493000"
-      },
-      "ID": {
-        "N": "457291245"
-      },
-      "Number": {
-        "S": "524"
-      },
-      "Url": {
-        "S": "https://github.com/amix/vimrc/issues/524"
       }
     },
     {
@@ -112656,6 +112240,32 @@
       },
       "Url": {
         "S": "https://github.com/mailpile/Mailpile/issues/2222"
+      }
+    },
+    {
+      "Title": {
+        "S": "glwindow only shows a black window for babylon demos"
+      },
+      "Repo": {
+        "S": "servo/servo"
+      },
+      "Language": {
+        "S": "Rust, Python"
+      },
+      "Labels": {
+        "S": "A-xr-zomg,I-bustage,P-mac"
+      },
+      "Time": {
+        "S": "1573672778000"
+      },
+      "ID": {
+        "N": "522419871"
+      },
+      "Number": {
+        "S": "24727"
+      },
+      "Url": {
+        "S": "https://github.com/servo/servo/issues/24727"
       }
     },
     {
@@ -113622,32 +113232,6 @@
     },
     {
       "Title": {
-        "S": "Remove FLUTTER_DEVICELAB_XCODE_PROVISIONING_CONFIG"
-      },
-      "Repo": {
-        "S": "flutter/flutter"
-      },
-      "Language": {
-        "S": "Dart"
-      },
-      "Labels": {
-        "S": "team: infra"
-      },
-      "Time": {
-        "S": "1573864722000"
-      },
-      "ID": {
-        "N": "523760834"
-      },
-      "Number": {
-        "S": "45016"
-      },
-      "Url": {
-        "S": "https://github.com/flutter/flutter/issues/45016"
-      }
-    },
-    {
-      "Title": {
         "S": "[accounts-password] enroll token lost when user initiates Forgot Password"
       },
       "Repo": {
@@ -113670,6 +113254,32 @@
       },
       "Url": {
         "S": "https://github.com/meteor/meteor/issues/10775"
+      }
+    },
+    {
+      "Title": {
+        "S": "Text variants for email and clipboard unicodes"
+      },
+      "Repo": {
+        "S": "twitter/twemoji"
+      },
+      "Language": {
+        "S": "JS, HTML"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1534697498000"
+      },
+      "ID": {
+        "N": "351917350"
+      },
+      "Number": {
+        "S": "312"
+      },
+      "Url": {
+        "S": "https://github.com/twitter/twemoji/issues/312"
       }
     },
     {
@@ -113904,6 +113514,32 @@
       },
       "Url": {
         "S": "https://github.com/CosmicMind/Material/issues/1279"
+      }
+    },
+    {
+      "Title": {
+        "S": "Inconsistent `Enumerable#minmax` behavior when an element is not comparable"
+      },
+      "Repo": {
+        "S": "crystal-lang/crystal"
+      },
+      "Language": {
+        "S": "Crystal"
+      },
+      "Labels": {
+        "S": "community:help-wanted,community:newcomer,kind:bug,topic:stdlib:collection"
+      },
+      "Time": {
+        "S": "1572974145000"
+      },
+      "ID": {
+        "N": "517908321"
+      },
+      "Number": {
+        "S": "8440"
+      },
+      "Url": {
+        "S": "https://github.com/crystal-lang/crystal/issues/8440"
       }
     },
     {
@@ -115286,32 +114922,6 @@
     },
     {
       "Title": {
-        "S": "Running huginn on Raspberry Pi 4 - 4GB ram"
-      },
-      "Repo": {
-        "S": "huginn/huginn"
-      },
-      "Language": {
-        "S": "Ruby, HTML"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1563241939000"
-      },
-      "ID": {
-        "N": "468407209"
-      },
-      "Number": {
-        "S": "2563"
-      },
-      "Url": {
-        "S": "https://github.com/huginn/huginn/issues/2563"
-      }
-    },
-    {
-      "Title": {
         "S": "grafana/build-container won't build"
       },
       "Repo": {
@@ -115858,6 +115468,32 @@
     },
     {
       "Title": {
+        "S": "Linking.getInitialUrl always returning null in Android"
+      },
+      "Repo": {
+        "S": "facebook/react-native"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "API: Linking,Bug,Platform: Android"
+      },
+      "Time": {
+        "S": "1573925016000"
+      },
+      "ID": {
+        "N": "523871566"
+      },
+      "Number": {
+        "S": "27242"
+      },
+      "Url": {
+        "S": "https://github.com/facebook/react-native/issues/27242"
+      }
+    },
+    {
+      "Title": {
         "S": "PM2 Ecosystem File change cron_restart and restart task not working."
       },
       "Repo": {
@@ -116352,32 +115988,6 @@
     },
     {
       "Title": {
-        "S": "NullPointerException with mixed parent / nested frame None navigation on API 19"
-      },
-      "Repo": {
-        "S": "NativeScript/NativeScript"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "os: android"
-      },
-      "Time": {
-        "S": "1572651742000"
-      },
-      "ID": {
-        "N": "516401906"
-      },
-      "Number": {
-        "S": "8053"
-      },
-      "Url": {
-        "S": "https://github.com/NativeScript/NativeScript/issues/8053"
-      }
-    },
-    {
-      "Title": {
         "S": "Different character ratio for size-13 (shorter & wider than 12 or 14)"
       },
       "Repo": {
@@ -116582,32 +116192,6 @@
       },
       "Url": {
         "S": "https://github.com/denysdovhan/wtfjs/issues/125"
-      }
-    },
-    {
-      "Title": {
-        "S": "CryEngine 5.5.2 cvar r_shadowcastinglightsmaxcount to increase lights casting shadows not working (only reducing them is)"
-      },
-      "Repo": {
-        "S": "CRYTEK/CRYENGINE"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1567491881000"
-      },
-      "ID": {
-        "N": "488414353"
-      },
-      "Number": {
-        "S": "666"
-      },
-      "Url": {
-        "S": "https://github.com/CRYTEK/CRYENGINE/issues/666"
       }
     },
     {
@@ -117678,6 +117262,32 @@
     },
     {
       "Title": {
+        "S": "doubled Entries"
+      },
+      "Repo": {
+        "S": "typicode/lowdb"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573920030000"
+      },
+      "ID": {
+        "N": "523862030"
+      },
+      "Number": {
+        "S": "376"
+      },
+      "Url": {
+        "S": "https://github.com/typicode/lowdb/issues/376"
+      }
+    },
+    {
+      "Title": {
         "S": "createStructuredSelector with $ReadOnly<OutProps>"
       },
       "Repo": {
@@ -117830,32 +117440,6 @@
       },
       "Url": {
         "S": "https://github.com/FineUploader/fine-uploader/issues/2067"
-      }
-    },
-    {
-      "Title": {
-        "S": "Unable to use new TensorFlow Lite Android Support Library for object detection"
-      },
-      "Repo": {
-        "S": "tensorflow/tensorflow"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573835792000"
-      },
-      "ID": {
-        "N": "523571961"
-      },
-      "Number": {
-        "S": "34315"
-      },
-      "Url": {
-        "S": "https://github.com/tensorflow/tensorflow/issues/34315"
       }
     },
     {
@@ -119342,32 +118926,6 @@
     },
     {
       "Title": {
-        "S": "Kibana should tell the user about how to enable data collection when telemetry.optIn: false telemetry.allowChangingOptInStatus: true are set in kibana.yml"
-      },
-      "Repo": {
-        "S": "elastic/kibana"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "Feature:Telemetry,Team:Stack Services,bug"
-      },
-      "Time": {
-        "S": "1573852635000"
-      },
-      "ID": {
-        "N": "523692540"
-      },
-      "Number": {
-        "S": "50826"
-      },
-      "Url": {
-        "S": "https://github.com/elastic/kibana/issues/50826"
-      }
-    },
-    {
-      "Title": {
         "S": "Onclick, a parent and child class, cannot take effect"
       },
       "Repo": {
@@ -120122,32 +119680,6 @@
     },
     {
       "Title": {
-        "S": "Update from 2.0.0-rc.4 to 2.0.4 braking change?"
-      },
-      "Repo": {
-        "S": "MithrilJS/mithril.js"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "Type: Bug"
-      },
-      "Time": {
-        "S": "1573762793000"
-      },
-      "ID": {
-        "N": "523083216"
-      },
-      "Number": {
-        "S": "2549"
-      },
-      "Url": {
-        "S": "https://github.com/MithrilJS/mithril.js/issues/2549"
-      }
-    },
-    {
-      "Title": {
         "S": "how to use `help [cmd]`/way to opt out of this behaviour"
       },
       "Repo": {
@@ -120408,32 +119940,6 @@
     },
     {
       "Title": {
-        "S": "Consider some strategy for handling \"preview\" files in TSServer that don't need full project information"
-      },
-      "Repo": {
-        "S": "Microsoft/TypeScript"
-      },
-      "Language": {
-        "S": "TS"
-      },
-      "Labels": {
-        "S": "Domain: Performance"
-      },
-      "Time": {
-        "S": "1573772377000"
-      },
-      "ID": {
-        "N": "523153465"
-      },
-      "Number": {
-        "S": "35114"
-      },
-      "Url": {
-        "S": "https://github.com/microsoft/TypeScript/issues/35114"
-      }
-    },
-    {
-      "Title": {
         "S": "Same URL with different images"
       },
       "Repo": {
@@ -120586,6 +120092,32 @@
       },
       "Url": {
         "S": "https://github.com/akveo/ngx-admin/issues/5554"
+      }
+    },
+    {
+      "Title": {
+        "S": "forever: true and POST request doesn't work"
+      },
+      "Repo": {
+        "S": "request/request"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573932452000"
+      },
+      "ID": {
+        "N": "523885696"
+      },
+      "Number": {
+        "S": "3230"
+      },
+      "Url": {
+        "S": "https://github.com/request/request/issues/3230"
       }
     },
     {
@@ -120798,6 +120330,32 @@
     },
     {
       "Title": {
+        "S": "feat: I need a way to determine whether or not my plugin's output will be parsed by kramdown."
+      },
+      "Repo": {
+        "S": "jekyll/jekyll"
+      },
+      "Language": {
+        "S": "Ruby"
+      },
+      "Labels": {
+        "S": "feature"
+      },
+      "Time": {
+        "S": "1573910764000"
+      },
+      "ID": {
+        "N": "523844975"
+      },
+      "Number": {
+        "S": "7903"
+      },
+      "Url": {
+        "S": "https://github.com/jekyll/jekyll/issues/7903"
+      }
+    },
+    {
+      "Title": {
         "S": "Create option to disable searchField / sifter filtering"
       },
       "Repo": {
@@ -120820,32 +120378,6 @@
       },
       "Url": {
         "S": "https://github.com/selectize/selectize.js/issues/1494"
-      }
-    },
-    {
-      "Title": {
-        "S": "Uncaught SyntaxError: Unexpected token '<'"
-      },
-      "Repo": {
-        "S": "vuejs/vue-cli"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573876983000"
-      },
-      "ID": {
-        "N": "523786482"
-      },
-      "Number": {
-        "S": "4852"
-      },
-      "Url": {
-        "S": "https://github.com/vuejs/vue-cli/issues/4852"
       }
     },
     {
@@ -121093,7 +120625,7 @@
         "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "needs repro script"
       },
       "Time": {
         "S": "1573309254000"
@@ -121262,6 +120794,32 @@
       },
       "Url": {
         "S": "https://github.com/eclipse/deeplearning4j/issues/8402"
+      }
+    },
+    {
+      "Title": {
+        "S": "Error on installation with Python 3.8"
+      },
+      "Repo": {
+        "S": "scikit-learn/scikit-learn"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573938276000"
+      },
+      "ID": {
+        "N": "523896100"
+      },
+      "Number": {
+        "S": "15644"
+      },
+      "Url": {
+        "S": "https://github.com/scikit-learn/scikit-learn/issues/15644"
       }
     },
     {
@@ -121756,6 +121314,32 @@
       },
       "Url": {
         "S": "https://github.com/0xAX/linux-insides/issues/669"
+      }
+    },
+    {
+      "Title": {
+        "S": "Running Audits panel on extension does not work"
+      },
+      "Repo": {
+        "S": "GoogleChrome/lighthouse"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "DevTools,bug"
+      },
+      "Time": {
+        "S": "1573006625000"
+      },
+      "ID": {
+        "N": "518193537"
+      },
+      "Number": {
+        "S": "9926"
+      },
+      "Url": {
+        "S": "https://github.com/GoogleChrome/lighthouse/issues/9926"
       }
     },
     {
@@ -122670,32 +122254,6 @@
     },
     {
       "Title": {
-        "S": "如何卸载后删除已保存的服务器缓存"
-      },
-      "Repo": {
-        "S": "shadowsocks/ShadowsocksX-NG"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1569464255000"
-      },
-      "ID": {
-        "N": "498614181"
-      },
-      "Number": {
-        "S": "1126"
-      },
-      "Url": {
-        "S": "https://github.com/shadowsocks/ShadowsocksX-NG/issues/1126"
-      }
-    },
-    {
-      "Title": {
         "S": "[5.6.1] Shadow issue /Cascade"
       },
       "Repo": {
@@ -123121,7 +122679,7 @@
         "S": "Ruby, Swift"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "tool: action"
       },
       "Time": {
         "S": "1573515157000"
@@ -123424,32 +122982,6 @@
     },
     {
       "Title": {
-        "S": "Make GetPodServices as a scheduler helper"
-      },
-      "Repo": {
-        "S": "kubernetes/kubernetes"
-      },
-      "Language": {
-        "S": "Go"
-      },
-      "Labels": {
-        "S": "kind/cleanup,sig/scheduling"
-      },
-      "Time": {
-        "S": "1573816341000"
-      },
-      "ID": {
-        "N": "523409315"
-      },
-      "Number": {
-        "S": "85341"
-      },
-      "Url": {
-        "S": "https://github.com/kubernetes/kubernetes/issues/85341"
-      }
-    },
-    {
-      "Title": {
         "S": "[NFR]: Gettext query domain"
       },
       "Repo": {
@@ -123459,7 +122991,7 @@
         "S": "PHP, Zephyr"
       },
       "Labels": {
-        "S": "Feature - NFR"
+        "S": "Feature - NFR,Request For Comments"
       },
       "Time": {
         "S": "1573456459000"
@@ -124100,32 +123632,6 @@
     },
     {
       "Title": {
-        "S": "Headfull puppeteer from Docker does not load page"
-      },
-      "Repo": {
-        "S": "GoogleChrome/puppeteer"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573496834000"
-      },
-      "ID": {
-        "N": "521116786"
-      },
-      "Number": {
-        "S": "5145"
-      },
-      "Url": {
-        "S": "https://github.com/GoogleChrome/puppeteer/issues/5145"
-      }
-    },
-    {
-      "Title": {
         "S": "ManyRelatedField does not validate each child separately"
       },
       "Repo": {
@@ -124252,32 +123758,6 @@
       },
       "Url": {
         "S": "https://github.com/google/cadvisor/issues/2306"
-      }
-    },
-    {
-      "Title": {
-        "S": "Flatbuffer table with struct member does not generate a create<TableName> method"
-      },
-      "Repo": {
-        "S": "google/flatbuffers"
-      },
-      "Language": {
-        "S": "C++, C#, Dart, PHP, Java, Python"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1571532740000"
-      },
-      "ID": {
-        "N": "509528278"
-      },
-      "Number": {
-        "S": "5575"
-      },
-      "Url": {
-        "S": "https://github.com/google/flatbuffers/issues/5575"
       }
     },
     {
@@ -124958,32 +124438,6 @@
     },
     {
       "Title": {
-        "S": "allow opening from command line as root"
-      },
-      "Repo": {
-        "S": "google/xi-editor"
-      },
-      "Language": {
-        "S": "Rust"
-      },
-      "Labels": {
-        "S": "discussion,enhancement"
-      },
-      "Time": {
-        "S": "1553528155000"
-      },
-      "ID": {
-        "N": "425490105"
-      },
-      "Number": {
-        "S": "1151"
-      },
-      "Url": {
-        "S": "https://github.com/xi-editor/xi-editor/issues/1151"
-      }
-    },
-    {
-      "Title": {
         "S": "Invalid file extension on remote url with no extension"
       },
       "Repo": {
@@ -125556,32 +125010,6 @@
     },
     {
       "Title": {
-        "S": "Support for priority with 'chord_unlock'"
-      },
-      "Repo": {
-        "S": "celery/celery"
-      },
-      "Language": {
-        "S": "Python"
-      },
-      "Labels": {
-        "S": "Component: Canvas,Issue Type: Enhancement"
-      },
-      "Time": {
-        "S": "1570528608000"
-      },
-      "ID": {
-        "N": "503946396"
-      },
-      "Number": {
-        "S": "5766"
-      },
-      "Url": {
-        "S": "https://github.com/celery/celery/issues/5766"
-      }
-    },
-    {
-      "Title": {
         "S": "Implement RL training using MCTS policy-iteration"
       },
       "Repo": {
@@ -125864,6 +125292,32 @@
       },
       "Url": {
         "S": "https://github.com/chartjs/Chart.js/issues/6664"
+      }
+    },
+    {
+      "Title": {
+        "S": "Stories failing to render when moving from Storybook 5.2.5 to 5.2.6+"
+      },
+      "Repo": {
+        "S": "storybooks/storybook"
+      },
+      "Language": {
+        "S": "JS, HTML"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573933153000"
+      },
+      "ID": {
+        "N": "523886960"
+      },
+      "Number": {
+        "S": "8854"
+      },
+      "Url": {
+        "S": "https://github.com/storybookjs/storybook/issues/8854"
       }
     },
     {
@@ -126475,7 +125929,7 @@
         "S": "JS"
       },
       "Labels": {
-        "S": "no labels"
+        "S": "docs"
       },
       "Time": {
         "S": "1573846549000"
@@ -128806,32 +128260,6 @@
     },
     {
       "Title": {
-        "S": "[Select] Improve categories support"
-      },
-      "Repo": {
-        "S": "mui-org/material-ui"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "bug,component: Select"
-      },
-      "Time": {
-        "S": "1572924483000"
-      },
-      "ID": {
-        "N": "517527778"
-      },
-      "Number": {
-        "S": "18200"
-      },
-      "Url": {
-        "S": "https://github.com/mui-org/material-ui/issues/18200"
-      }
-    },
-    {
-      "Title": {
         "S": "Tag interpolation in mixins"
       },
       "Repo": {
@@ -128984,6 +128412,32 @@
       },
       "Url": {
         "S": "https://github.com/facebook/create-react-app/issues/7979"
+      }
+    },
+    {
+      "Title": {
+        "S": "Error when using 'postinstall' in a yarn workspace's package"
+      },
+      "Repo": {
+        "S": "yarnpkg/yarn"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573948625000"
+      },
+      "ID": {
+        "N": "523912138"
+      },
+      "Number": {
+        "S": "7694"
+      },
+      "Url": {
+        "S": "https://github.com/yarnpkg/yarn/issues/7694"
       }
     },
     {
@@ -129664,32 +129118,6 @@
     },
     {
       "Title": {
-        "S": "coverflow effect not work correctly "
-      },
-      "Repo": {
-        "S": "nolimits4web/Swiper"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573558891000"
-      },
-      "ID": {
-        "N": "521499380"
-      },
-      "Number": {
-        "S": "3337"
-      },
-      "Url": {
-        "S": "https://github.com/nolimits4web/swiper/issues/3337"
-      }
-    },
-    {
-      "Title": {
         "S": "Randomly deleting key values of stored objects in IDB"
       },
       "Repo": {
@@ -129868,32 +129296,6 @@
       },
       "Url": {
         "S": "https://github.com/HackerPoet/MarbleMarcher/issues/40"
-      }
-    },
-    {
-      "Title": {
-        "S": "Checkstyle reports warnings"
-      },
-      "Repo": {
-        "S": "iluwatar/java-design-patterns"
-      },
-      "Language": {
-        "S": "Java"
-      },
-      "Labels": {
-        "S": "epic:code quality,info:Hacktoberfest,info:good first issue,info:help wanted,priority:low,status:under construction,type:refactoring"
-      },
-      "Time": {
-        "S": "1571499994000"
-      },
-      "ID": {
-        "N": "509470833"
-      },
-      "Number": {
-        "S": "1021"
-      },
-      "Url": {
-        "S": "https://github.com/iluwatar/java-design-patterns/issues/1021"
       }
     },
     {
@@ -131250,6 +130652,32 @@
     },
     {
       "Title": {
+        "S": "Multiselection key binding to follow OS specific shortcut key"
+      },
+      "Repo": {
+        "S": "select2/select2"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "4.x,accessibility,enhancement,feature: multi-select,feature: search,status: stale"
+      },
+      "Time": {
+        "S": "1568193683000"
+      },
+      "ID": {
+        "N": "492117232"
+      },
+      "Number": {
+        "S": "5636"
+      },
+      "Url": {
+        "S": "https://github.com/select2/select2/issues/5636"
+      }
+    },
+    {
+      "Title": {
         "S": "installation in python 3"
       },
       "Repo": {
@@ -131558,6 +130986,32 @@
       },
       "Url": {
         "S": "https://github.com/SVProgressHUD/SVProgressHUD/issues/975"
+      }
+    },
+    {
+      "Title": {
+        "S": "Add Flectra"
+      },
+      "Repo": {
+        "S": "Kickball/awesome-selfhosted"
+      },
+      "Language": {
+        "S": "JS, MakeFile, Ruby"
+      },
+      "Labels": {
+        "S": "addition"
+      },
+      "Time": {
+        "S": "1562538202000"
+      },
+      "ID": {
+        "N": "464999477"
+      },
+      "Number": {
+        "S": "1734"
+      },
+      "Url": {
+        "S": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/1734"
       }
     },
     {
@@ -132394,6 +131848,32 @@
     },
     {
       "Title": {
+        "S": "Light2D \"Light Mask\" property not working"
+      },
+      "Repo": {
+        "S": "godotengine/godot"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573912136000"
+      },
+      "ID": {
+        "N": "523847394"
+      },
+      "Number": {
+        "S": "33657"
+      },
+      "Url": {
+        "S": "https://github.com/godotengine/godot/issues/33657"
+      }
+    },
+    {
+      "Title": {
         "S": "some confuse about covariance formular"
       },
       "Repo": {
@@ -132576,32 +132056,6 @@
     },
     {
       "Title": {
-        "S": "GLES2 shading issue"
-      },
-      "Repo": {
-        "S": "godotengine/godot"
-      },
-      "Language": {
-        "S": "C++"
-      },
-      "Labels": {
-        "S": "bug,topic:rendering"
-      },
-      "Time": {
-        "S": "1573790409000"
-      },
-      "ID": {
-        "N": "523239809"
-      },
-      "Number": {
-        "S": "33633"
-      },
-      "Url": {
-        "S": "https://github.com/godotengine/godot/issues/33633"
-      }
-    },
-    {
-      "Title": {
         "S": "Puff in/out?"
       },
       "Repo": {
@@ -132624,6 +132078,32 @@
       },
       "Url": {
         "S": "https://github.com/daneden/animate.css/issues/988"
+      }
+    },
+    {
+      "Title": {
+        "S": "pm2 examples cli command output includes broken link"
+      },
+      "Repo": {
+        "S": "Unitech/pm2"
+      },
+      "Language": {
+        "S": "JS, Shell"
+      },
+      "Labels": {
+        "S": "S: Pending Release"
+      },
+      "Time": {
+        "S": "1572203574000"
+      },
+      "ID": {
+        "N": "513007814"
+      },
+      "Number": {
+        "S": "4477"
+      },
+      "Url": {
+        "S": "https://github.com/Unitech/pm2/issues/4477"
       }
     },
     {
@@ -133326,6 +132806,32 @@
       },
       "Url": {
         "S": "https://github.com/servo/servo/issues/24735"
+      }
+    },
+    {
+      "Title": {
+        "S": "Composite Specification"
+      },
+      "Repo": {
+        "S": "iluwatar/java-design-patterns"
+      },
+      "Language": {
+        "S": "Java"
+      },
+      "Labels": {
+        "S": "epic:pattern,priority:normal,status:under construction,type:enhancement,type:feature"
+      },
+      "Time": {
+        "S": "1573907395000"
+      },
+      "ID": {
+        "N": "523838963"
+      },
+      "Number": {
+        "S": "1093"
+      },
+      "Url": {
+        "S": "https://github.com/iluwatar/java-design-patterns/issues/1093"
       }
     },
     {
@@ -134240,6 +133746,32 @@
     },
     {
       "Title": {
+        "S": "How to disable/uninstall a plugin/mode? (eg. vim-go)"
+      },
+      "Repo": {
+        "S": "amix/vimrc"
+      },
+      "Language": {
+        "S": "Vim Script"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1556268659000"
+      },
+      "ID": {
+        "N": "437566959"
+      },
+      "Number": {
+        "S": "508"
+      },
+      "Url": {
+        "S": "https://github.com/amix/vimrc/issues/508"
+      }
+    },
+    {
+      "Title": {
         "S": "How to access Hotel remotely"
       },
       "Repo": {
@@ -134262,32 +133794,6 @@
       },
       "Url": {
         "S": "https://github.com/typicode/hotel/issues/322"
-      }
-    },
-    {
-      "Title": {
-        "S": "[TextField] Outlined label overlaps by border"
-      },
-      "Repo": {
-        "S": "mui-org/material-ui"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "bug,component: TextField"
-      },
-      "Time": {
-        "S": "1572887990000"
-      },
-      "ID": {
-        "N": "517292703"
-      },
-      "Number": {
-        "S": "18196"
-      },
-      "Url": {
-        "S": "https://github.com/mui-org/material-ui/issues/18196"
       }
     },
     {
@@ -134708,6 +134214,32 @@
     },
     {
       "Title": {
+        "S": "Table Bordered"
+      },
+      "Repo": {
+        "S": "twbs/bootstrap"
+      },
+      "Language": {
+        "S": "CSS, JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573931913000"
+      },
+      "ID": {
+        "N": "523884730"
+      },
+      "Number": {
+        "S": "29684"
+      },
+      "Url": {
+        "S": "https://github.com/twbs/bootstrap/issues/29684"
+      }
+    },
+    {
+      "Title": {
         "S": "LinkedTreeMap效率怎么样,和HashMap相比呢？"
       },
       "Repo": {
@@ -134730,32 +134262,6 @@
       },
       "Url": {
         "S": "https://github.com/google/gson/issues/1596"
-      }
-    },
-    {
-      "Title": {
-        "S": "Upgrade to Gradle 6.0"
-      },
-      "Repo": {
-        "S": "elastic/elasticsearch"
-      },
-      "Language": {
-        "S": "Java"
-      },
-      "Labels": {
-        "S": ":Core/Infra/Build"
-      },
-      "Time": {
-        "S": "1573839531000"
-      },
-      "ID": {
-        "N": "523601340"
-      },
-      "Number": {
-        "S": "49192"
-      },
-      "Url": {
-        "S": "https://github.com/elastic/elasticsearch/issues/49192"
       }
     },
     {
@@ -136190,6 +135696,32 @@
     },
     {
       "Title": {
+        "S": "x/tools/gopls: in Centos 7.7 go outline can not be displayed and \"go to definition\" can not work"
+      },
+      "Repo": {
+        "S": "golang/go"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "Tools,gopls"
+      },
+      "Time": {
+        "S": "1573916897000"
+      },
+      "ID": {
+        "N": "523856023"
+      },
+      "Number": {
+        "S": "35637"
+      },
+      "Url": {
+        "S": "https://github.com/golang/go/issues/35637"
+      }
+    },
+    {
+      "Title": {
         "S": "Alert not working when full screen element is shown"
       },
       "Repo": {
@@ -136658,32 +136190,6 @@
     },
     {
       "Title": {
-        "S": "[Numpy] expands_dims cannot suport scalar"
-      },
-      "Repo": {
-        "S": "apache/incubator-mxnet"
-      },
-      "Language": {
-        "S": "C++, Python, Perl"
-      },
-      "Labels": {
-        "S": "Bug,MKLDNN,Numpy"
-      },
-      "Time": {
-        "S": "1573855544000"
-      },
-      "ID": {
-        "N": "523711976"
-      },
-      "Number": {
-        "S": "16833"
-      },
-      "Url": {
-        "S": "https://github.com/apache/incubator-mxnet/issues/16833"
-      }
-    },
-    {
-      "Title": {
         "S": "New Section: Amazon Cognito"
       },
       "Repo": {
@@ -136810,32 +136316,6 @@
       },
       "Url": {
         "S": "https://github.com/google/yapf/issues/753"
-      }
-    },
-    {
-      "Title": {
-        "S": "How to make bulma Fixed navbar push down the whole page content on a mobile menu"
-      },
-      "Repo": {
-        "S": "jgthms/bulma"
-      },
-      "Language": {
-        "S": "CSS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1569604940000"
-      },
-      "ID": {
-        "N": "499559526"
-      },
-      "Number": {
-        "S": "2634"
-      },
-      "Url": {
-        "S": "https://github.com/jgthms/bulma/issues/2634"
       }
     },
     {
@@ -136992,32 +136472,6 @@
       },
       "Url": {
         "S": "https://github.com/apache/incubator-echarts/issues/11652"
-      }
-    },
-    {
-      "Title": {
-        "S": "don't suceed to compile on windows with GPU=1"
-      },
-      "Repo": {
-        "S": "pjreddie/darknet"
-      },
-      "Language": {
-        "S": "C"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1572455182000"
-      },
-      "ID": {
-        "N": "514837076"
-      },
-      "Number": {
-        "S": "1896"
-      },
-      "Url": {
-        "S": "https://github.com/pjreddie/darknet/issues/1896"
       }
     },
     {
@@ -137694,32 +137148,6 @@
       },
       "Url": {
         "S": "https://github.com/uikit/uikit/issues/4020"
-      }
-    },
-    {
-      "Title": {
-        "S": "why setState in useLayoutEffect forces useEffects to run before paint?"
-      },
-      "Repo": {
-        "S": "facebook/react"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1573400963000"
-      },
-      "ID": {
-        "N": "520618767"
-      },
-      "Number": {
-        "S": "17334"
-      },
-      "Url": {
-        "S": "https://github.com/facebook/react/issues/17334"
       }
     },
     {
@@ -138998,6 +138426,32 @@
     },
     {
       "Title": {
+        "S": "Duplicate \"graphql\" modules cannot be used at the same time since different"
+      },
+      "Repo": {
+        "S": "parse-community/parse-server"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "troubleshooting,wontfix"
+      },
+      "Time": {
+        "S": "1569134115000"
+      },
+      "ID": {
+        "N": "496740050"
+      },
+      "Number": {
+        "S": "6073"
+      },
+      "Url": {
+        "S": "https://github.com/parse-community/parse-server/issues/6073"
+      }
+    },
+    {
+      "Title": {
         "S": "日志中反馈应用奔溃时的堆栈信息？"
       },
       "Repo": {
@@ -139255,16 +138709,510 @@
       "Url": {
         "S": "https://github.com/akveo/ngx-admin/issues/5559"
       }
+    },
+    {
+      "Title": {
+        "S": "结点编号是不是从0到maxid"
+      },
+      "Repo": {
+        "S": "alibaba/euler"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1572273186000"
+      },
+      "ID": {
+        "N": "513342896"
+      },
+      "Number": {
+        "S": "169"
+      },
+      "Url": {
+        "S": "https://github.com/alibaba/euler/issues/169"
+      }
+    },
+    {
+      "Title": {
+        "S": "Improved http timeout settings"
+      },
+      "Repo": {
+        "S": "uNetworking/uWebSockets"
+      },
+      "Language": {
+        "S": "C++"
+      },
+      "Labels": {
+        "S": "medium priority"
+      },
+      "Time": {
+        "S": "1550741681000"
+      },
+      "ID": {
+        "N": "412828816"
+      },
+      "Number": {
+        "S": "838"
+      },
+      "Url": {
+        "S": "https://github.com/uNetworking/uWebSockets/issues/838"
+      }
+    },
+    {
+      "Title": {
+        "S": "IE 11 crash when uploading images"
+      },
+      "Repo": {
+        "S": "blueimp/jQuery-File-Upload"
+      },
+      "Language": {
+        "S": "JS, HTML, PHP"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1400225587000"
+      },
+      "ID": {
+        "N": "33653316"
+      },
+      "Number": {
+        "S": "3149"
+      },
+      "Url": {
+        "S": "https://github.com/blueimp/jQuery-File-Upload/issues/3149"
+      }
+    },
+    {
+      "Title": {
+        "S": "平方 L2 范数"
+      },
+      "Repo": {
+        "S": "exacity/deeplearningbook-chinese"
+      },
+      "Language": {
+        "S": "Resource, Deep Learning, Chinese"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1510563197000"
+      },
+      "ID": {
+        "N": "273351969"
+      },
+      "Number": {
+        "S": "166"
+      },
+      "Url": {
+        "S": "https://github.com/exacity/deeplearningbook-chinese/issues/166"
+      }
+    },
+    {
+      "Title": {
+        "S": "GitHub for repository type git doesn't use setup authentication for https://github.com/acme/private-repository"
+      },
+      "Repo": {
+        "S": "composer/composer"
+      },
+      "Language": {
+        "S": "PHP"
+      },
+      "Labels": {
+        "S": "Bug"
+      },
+      "Time": {
+        "S": "1573045164000"
+      },
+      "ID": {
+        "N": "518455827"
+      },
+      "Number": {
+        "S": "8414"
+      },
+      "Url": {
+        "S": "https://github.com/composer/composer/issues/8414"
+      }
+    },
+    {
+      "Title": {
+        "S": "CupertinoScrollbar manual control over dark mode"
+      },
+      "Repo": {
+        "S": "flutter/flutter"
+      },
+      "Language": {
+        "S": "Dart"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573879752000"
+      },
+      "ID": {
+        "N": "523791737"
+      },
+      "Number": {
+        "S": "45026"
+      },
+      "Url": {
+        "S": "https://github.com/flutter/flutter/issues/45026"
+      }
+    },
+    {
+      "Title": {
+        "S": "Pod use_frameworks!, need custom modulemap file, but Masony is not exist that file."
+      },
+      "Repo": {
+        "S": "SnapKit/Masonry"
+      },
+      "Language": {
+        "S": "Obj-C"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1542973110000"
+      },
+      "ID": {
+        "N": "383793252"
+      },
+      "Number": {
+        "S": "545"
+      },
+      "Url": {
+        "S": "https://github.com/SnapKit/Masonry/issues/545"
+      }
+    },
+    {
+      "Title": {
+        "S": "HTTPServerResponder is not thread safe."
+      },
+      "Repo": {
+        "S": "vapor/vapor"
+      },
+      "Language": {
+        "S": "Swift"
+      },
+      "Labels": {
+        "S": "bug"
+      },
+      "Time": {
+        "S": "1567941805000"
+      },
+      "ID": {
+        "N": "490742350"
+      },
+      "Number": {
+        "S": "2050"
+      },
+      "Url": {
+        "S": "https://github.com/vapor/vapor/issues/2050"
+      }
+    },
+    {
+      "Title": {
+        "S": "faker.fake interpolation"
+      },
+      "Repo": {
+        "S": "Marak/faker.js"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1571192387000"
+      },
+      "ID": {
+        "N": "507573137"
+      },
+      "Number": {
+        "S": "842"
+      },
+      "Url": {
+        "S": "https://github.com/Marak/faker.js/issues/842"
+      }
+    },
+    {
+      "Title": {
+        "S": "Silent mode not working in Less Compiler 3.9.0"
+      },
+      "Repo": {
+        "S": "less/less.js"
+      },
+      "Language": {
+        "S": "JS, CSS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1560421149000"
+      },
+      "ID": {
+        "N": "455657017"
+      },
+      "Number": {
+        "S": "3401"
+      },
+      "Url": {
+        "S": "https://github.com/less/less.js/issues/3401"
+      }
+    },
+    {
+      "Title": {
+        "S": "New Idea For ( ETA )"
+      },
+      "Repo": {
+        "S": "sqlmapproject/sqlmap"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1510652374000"
+      },
+      "ID": {
+        "N": "273724605"
+      },
+      "Number": {
+        "S": "2777"
+      },
+      "Url": {
+        "S": "https://github.com/sqlmapproject/sqlmap/issues/2777"
+      }
+    },
+    {
+      "Title": {
+        "S": "Zoom in to provide more detail"
+      },
+      "Repo": {
+        "S": "chrisbanes/PhotoView"
+      },
+      "Language": {
+        "S": "Java"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1561418933000"
+      },
+      "ID": {
+        "N": "460139576"
+      },
+      "Number": {
+        "S": "713"
+      },
+      "Url": {
+        "S": "https://github.com/chrisbanes/PhotoView/issues/713"
+      }
+    },
+    {
+      "Title": {
+        "S": "Cannot remove Dropbox’s green checkmark icons in Finder"
+      },
+      "Repo": {
+        "S": "mathiasbynens/dotfiles"
+      },
+      "Language": {
+        "S": "Shell, VIM Script"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1571207855000"
+      },
+      "ID": {
+        "N": "507646786"
+      },
+      "Number": {
+        "S": "898"
+      },
+      "Url": {
+        "S": "https://github.com/mathiasbynens/dotfiles/issues/898"
+      }
+    },
+    {
+      "Title": {
+        "S": "log.error not logging"
+      },
+      "Repo": {
+        "S": "winstonjs/winston"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1568403542000"
+      },
+      "ID": {
+        "N": "493486619"
+      },
+      "Number": {
+        "S": "1704"
+      },
+      "Url": {
+        "S": "https://github.com/winstonjs/winston/issues/1704"
+      }
+    },
+    {
+      "Title": {
+        "S": "When using paperclip and aws-sdk  s3_region problem?"
+      },
+      "Repo": {
+        "S": "thoughtbot/paperclip"
+      },
+      "Language": {
+        "S": "Ruby"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1525611785000"
+      },
+      "ID": {
+        "N": "320590923"
+      },
+      "Number": {
+        "S": "2598"
+      },
+      "Url": {
+        "S": "https://github.com/thoughtbot/paperclip/issues/2598"
+      }
+    },
+    {
+      "Title": {
+        "S": "How should available languages for spellchecking be communicated?"
+      },
+      "Repo": {
+        "S": "google/xi-editor"
+      },
+      "Language": {
+        "S": "Rust"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1567277134000"
+      },
+      "ID": {
+        "N": "487800068"
+      },
+      "Number": {
+        "S": "1226"
+      },
+      "Url": {
+        "S": "https://github.com/xi-editor/xi-editor/issues/1226"
+      }
+    },
+    {
+      "Title": {
+        "S": " java.lang.NullPointerException  in isAnimating method"
+      },
+      "Repo": {
+        "S": "airbnb/lottie-android"
+      },
+      "Language": {
+        "S": "Java, Kotlin"
+      },
+      "Labels": {
+        "S": "Non-Rendering Bug"
+      },
+      "Time": {
+        "S": "1573719944000"
+      },
+      "ID": {
+        "N": "522698375"
+      },
+      "Number": {
+        "S": "1430"
+      },
+      "Url": {
+        "S": "https://github.com/airbnb/lottie-android/issues/1430"
+      }
+    },
+    {
+      "Title": {
+        "S": "Non-capturing groups"
+      },
+      "Repo": {
+        "S": "VerbalExpressions/JSVerbalExpressions"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1543844572000"
+      },
+      "ID": {
+        "N": "386823497"
+      },
+      "Number": {
+        "S": "186"
+      },
+      "Url": {
+        "S": "https://github.com/VerbalExpressions/JSVerbalExpressions/issues/186"
+      }
+    },
+    {
+      "Title": {
+        "S": "Misleding error logged in boto_ec2"
+      },
+      "Repo": {
+        "S": "saltstack/salt"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1573929280000"
+      },
+      "ID": {
+        "N": "523879736"
+      },
+      "Number": {
+        "S": "55338"
+      },
+      "Url": {
+        "S": "https://github.com/saltstack/salt/issues/55338"
+      }
     }
   ],
-  "Count": 5356,
-  "ScannedCount": 5356,
+  "Count": 5354,
+  "ScannedCount": 5354,
   "LastEvaluatedKey": {
     "ID": {
-      "N": "521974925"
+      "N": "523879736"
     },
     "Repo": {
-      "S": "akveo/ngx-admin"
+      "S": "saltstack/salt"
     }
   }
 }
