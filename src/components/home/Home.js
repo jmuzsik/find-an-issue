@@ -42,7 +42,7 @@ class Home extends Component {
       <React.Fragment>
         <div className="intro-container">
           <div className="intro">
-            <h1 className="intro-h1">Find an Issue</h1>
+            <h1 className="intro-h1">Angel Hack Open Source</h1>
             <p className="intro-p lead w-50">
               Github does not make it easy to find issues. This is a step
               towards a solution.
