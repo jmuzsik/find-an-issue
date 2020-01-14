@@ -46,7 +46,9 @@ const fileCreation = async () => {
     const issues = await attemptRequest(repo);
     if (!Array.isArray(issues)) {
       console.log(issues);
-      if (issues.message !== 'Not Found') {
+      if (issues.message === 'Repository access blocked') {
+	// ignore it
+      } else if (issues.message !== 'Not Found') {
         i--;
         console.log('rate limit reached, 30 second timeout');
         await syncTimeout();
@@ -68,7 +70,7 @@ const scanFunc = async () => {
   const data = await scan();
 
   fs.writeFile(
-    '/var/www/find-an-issue/src/data.json',
+    '/home/ec2-user/find-an-issue/src/data.json',
     JSON.stringify(data, undefined, 2),
     function(err) {
       if (err) {
@@ -86,7 +88,7 @@ const doStuff = async () => {
   await fileCreation();
   await scanFunc();
   setTimeout(() => {
-    shell.exec('/var/www/find-an-issue/cron-job/git.sh');
+    shell.exec('/home/ec2-user/find-an-issue/cron-job/git.sh');
   }, 2000);
   console.log('Finished with all the steps!');
 };
