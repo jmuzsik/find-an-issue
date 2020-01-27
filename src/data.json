@@ -48440,6 +48440,32 @@
     },
     {
       "Title": {
+        "S": "[Sample data] Add non time based sample data set"
+      },
+      "Repo": {
+        "S": "elastic/kibana"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "Feature:Add Data,Team:KibanaApp,enhancement"
+      },
+      "Time": {
+        "S": "1580115301000"
+      },
+      "ID": {
+        "N": "555435767"
+      },
+      "Number": {
+        "S": "55972"
+      },
+      "Url": {
+        "S": "https://github.com/elastic/kibana/issues/55972"
+      }
+    },
+    {
+      "Title": {
         "S": "Error: ReferenceError: setTimeout is not defined"
       },
       "Repo": {
@@ -57536,6 +57562,32 @@
       },
       "Url": {
         "S": "https://github.com/eclipse-vertx/vert.x/issues/3219"
+      }
+    },
+    {
+      "Title": {
+        "S": "Tests failed, build with Visual Studio 2019 16.3.10 and the cmake flags"
+      },
+      "Repo": {
+        "S": "google/googletest"
+      },
+      "Language": {
+        "S": "C++, Python"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1580131051000"
+      },
+      "ID": {
+        "N": "555567029"
+      },
+      "Number": {
+        "S": "2687"
+      },
+      "Url": {
+        "S": "https://github.com/google/googletest/issues/2687"
       }
     },
     {
@@ -121734,6 +121786,32 @@
     },
     {
       "Title": {
+        "S": "can't see request/response body with test on java"
+      },
+      "Repo": {
+        "S": "mitmproxy/mitmproxy"
+      },
+      "Language": {
+        "S": "Python"
+      },
+      "Labels": {
+        "S": "no labels"
+      },
+      "Time": {
+        "S": "1580130993000"
+      },
+      "ID": {
+        "N": "555566485"
+      },
+      "Number": {
+        "S": "3800"
+      },
+      "Url": {
+        "S": "https://github.com/mitmproxy/mitmproxy/issues/3800"
+      }
+    },
+    {
+      "Title": {
         "S": "有一处本来应该是 TLS 写成 TSL 了"
       },
       "Repo": {
@@ -132186,6 +132264,32 @@
     },
     {
       "Title": {
+        "S": "Cannot change the interval of date histogram agg on Default Editor"
+      },
+      "Repo": {
+        "S": "elastic/kibana"
+      },
+      "Language": {
+        "S": "JS"
+      },
+      "Labels": {
+        "S": "Feature:Rollups,Feature:Vis Editor,blocker,v7.7.0"
+      },
+      "Time": {
+        "S": "1580114668000"
+      },
+      "ID": {
+        "N": "555431420"
+      },
+      "Number": {
+        "S": "55970"
+      },
+      "Url": {
+        "S": "https://github.com/elastic/kibana/issues/55970"
+      }
+    },
+    {
+      "Title": {
         "S": "Instructions to run on Mac OSX"
       },
       "Repo": {
@@ -134782,6 +134886,32 @@
       },
       "Url": {
         "S": "https://github.com/c3js/c3/issues/2727"
+      }
+    },
+    {
+      "Title": {
+        "S": "[Android]waterfall+refresh bug,The first and second columns are in reverse order"
+      },
+      "Repo": {
+        "S": "apache/incubator-weex"
+      },
+      "Language": {
+        "S": "Java, JS, Obj-C, C++"
+      },
+      "Labels": {
+        "S": "Bug"
+      },
+      "Time": {
+        "S": "1574239264000"
+      },
+      "ID": {
+        "N": "525655125"
+      },
+      "Number": {
+        "S": "3028"
+      },
+      "Url": {
+        "S": "https://github.com/apache/incubator-weex/issues/3028"
       }
     },
     {
@@ -138891,172 +139021,16 @@
       "Url": {
         "S": "https://github.com/certbot/certbot/issues/7711"
       }
-    },
-    {
-      "Title": {
-        "S": "Add docs comments"
-      },
-      "Repo": {
-        "S": "sindresorhus/pageres"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": ":dollar: Funded on Issuehunt,enhancement,help wanted"
-      },
-      "Time": {
-        "S": "1549802819000"
-      },
-      "ID": {
-        "N": "408531620"
-      },
-      "Number": {
-        "S": "349"
-      },
-      "Url": {
-        "S": "https://github.com/sindresorhus/pageres/issues/349"
-      }
-    },
-    {
-      "Title": {
-        "S": "Disabled options are focusable via keyboard [Accessibility]"
-      },
-      "Repo": {
-        "S": "JedWatson/react-select"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1578829673000"
-      },
-      "ID": {
-        "N": "548559327"
-      },
-      "Number": {
-        "S": "3902"
-      },
-      "Url": {
-        "S": "https://github.com/JedWatson/react-select/issues/3902"
-      }
-    },
-    {
-      "Title": {
-        "S": "Add to API document for the return value of bindAll function."
-      },
-      "Repo": {
-        "S": "jashkenas/underscore"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "no labels"
-      },
-      "Time": {
-        "S": "1533888633000"
-      },
-      "ID": {
-        "N": "349417031"
-      },
-      "Number": {
-        "S": "2777"
-      },
-      "Url": {
-        "S": "https://github.com/jashkenas/underscore/issues/2777"
-      }
-    },
-    {
-      "Title": {
-        "S": "Ability to disable forced serialization of error.stack "
-      },
-      "Repo": {
-        "S": "petkaantonov/bluebird"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "enhancement,pull-request-welcome"
-      },
-      "Time": {
-        "S": "1550020474000"
-      },
-      "ID": {
-        "N": "409577157"
-      },
-      "Number": {
-        "S": "1581"
-      },
-      "Url": {
-        "S": "https://github.com/petkaantonov/bluebird/issues/1581"
-      }
-    },
-    {
-      "Title": {
-        "S": "API for creating pull request"
-      },
-      "Repo": {
-        "S": "gogs/gogs"
-      },
-      "Language": {
-        "S": "Go"
-      },
-      "Labels": {
-        "S": "kind/feature"
-      },
-      "Time": {
-        "S": "1574677237000"
-      },
-      "ID": {
-        "N": "527986138"
-      },
-      "Number": {
-        "S": "5871"
-      },
-      "Url": {
-        "S": "https://github.com/gogs/gogs/issues/5871"
-      }
-    },
-    {
-      "Title": {
-        "S": "Why use experimental babel ?"
-      },
-      "Repo": {
-        "S": "kriasoft/react-starter-kit"
-      },
-      "Language": {
-        "S": "JS"
-      },
-      "Labels": {
-        "S": "discussion"
-      },
-      "Time": {
-        "S": "1541688863000"
-      },
-      "ID": {
-        "N": "378767304"
-      },
-      "Number": {
-        "S": "1687"
-      },
-      "Url": {
-        "S": "https://github.com/kriasoft/react-starter-kit/issues/1687"
-      }
     }
   ],
-  "Count": 5348,
-  "ScannedCount": 5348,
+  "Count": 5347,
+  "ScannedCount": 5347,
   "LastEvaluatedKey": {
     "ID": {
-      "N": "378767304"
+      "N": "553828597"
     },
     "Repo": {
-      "S": "kriasoft/react-starter-kit"
+      "S": "certbot/certbot"
     }
   }
 }
