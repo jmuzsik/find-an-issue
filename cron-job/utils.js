@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 
 const awsConfig = new AWS.Config({
-  region: 'us-east-1'
+  region: 'us-east-1',
 });
 const dynamodb = new AWS.DynamoDB(awsConfig);
 
@@ -15,9 +15,9 @@ const paramsWaitFor = options.paramsWaitFor;
 const batchParams = options.batchParams;
 const scanParams = options.scanParams;
 
-const tableDeletion = async function() {
+const tableDeletion = async function () {
   return new Promise((resolve, reject) => {
-    dynamodb.deleteTable(deletionParams, function(err, data) {
+    dynamodb.deleteTable(deletionParams, function (err, data) {
       if (err) {
         reject(err);
       } else {
@@ -27,9 +27,9 @@ const tableDeletion = async function() {
   });
 };
 
-const waitForDeletion = async function() {
+const waitForDeletion = async function () {
   return new Promise((resolve, reject) => {
-    dynamodb.waitFor('tableNotExists', paramsWaitFor, function(err, data) {
+    dynamodb.waitFor('tableNotExists', paramsWaitFor, function (err, data) {
       if (err) {
         reject(err);
       } else {
@@ -39,9 +39,9 @@ const waitForDeletion = async function() {
   });
 };
 
-const waitForCreation = async function() {
+const waitForCreation = async function () {
   return new Promise((resolve, reject) => {
-    dynamodb.waitFor('tableExists', paramsWaitFor, function(err, data) {
+    dynamodb.waitFor('tableExists', paramsWaitFor, function (err, data) {
       if (err) {
         reject(err);
       } else {
@@ -51,9 +51,9 @@ const waitForCreation = async function() {
   });
 };
 
-const createTable = async function() {
+const createTable = async function () {
   return new Promise((resolve, reject) => {
-    dynamodb.createTable(creationParams, function(err, data) {
+    dynamodb.createTable(creationParams, function (err, data) {
       if (err) {
         reject(err);
       } else {
@@ -63,90 +63,68 @@ const createTable = async function() {
   });
 };
 
-const syncTimeout = async function() {
-  return new Promise(resolve => {
+const syncTimeout = async function () {
+  return new Promise((resolve) => {
     setTimeout(() => resolve(true), 30000);
   });
 };
 
-const putIntoDB = async function(issues, repo) {
-  return new Promise((resolve, reject) => {
-    let puts = [];
-    for (let i = 0; i < 24 && issues.length - 1 !== i; i++) {
-      const issue = issues[i];
-      if (issue && !issue.pull_request) {
-        let labels = issue.labels;
-        let labelStr = '';
-        labels.forEach((label, i) => {
-          if (i !== labels.length - 1) {
-            if (label.name) {
-              labelStr += label.name + ',';
-            }
-          } else {
-            if (label.name) {
-              labelStr += label.name;
-            }
-          }
-        });
-        const issueParams = {
-          PutRequest: {
-            Item: {
-              ID: {
-                N: String(issue.id) || '4124'
-              },
-              Repo: {
-                S: repo.repo || 'repo'
-              },
-              Title: {
-                S: issue.title || 'title'
-              },
-              Url: {
-                S: issue.html_url || 'url'
-              },
-              Number: {
-                S: String(issue.number) || 'number'
-              },
-              Labels: {
-                S: labelStr || 'no labels'
-              },
-              Language: {
-                S: repo.language
-              },
-              Time: {
-                S: String(new Date(issue.created_at).getTime())
-              }
-            }
-          }
-        };
-        puts.push(issueParams);
-      }
-    }
-    if (puts.length !== 0) {
-      batchParams.RequestItems.Repo_Issues = puts;
-      dynamodb.batchWriteItem(batchParams, function(err) {
-        if (err) {
-          console.error(
-            'Unable to insert item. Error JSON:',
-            JSON.stringify(err, null, 2)
-          );
-          if (err.code === 'ValidationException') {
-            reject('continue on');
-          } else {
-            reject('throughput error');
+const putIntoObj = function (issues, repo) {
+  let puts = [];
+  for (let i = 0; i < 24 && issues.length - 1 !== i; i++) {
+    const issue = issues[i];
+    if (issue && !issue.pull_request) {
+      let labels = issue.labels;
+      let labelStr = '';
+      labels.forEach((label, i) => {
+        if (i !== labels.length - 1) {
+          if (label.name) {
+            labelStr += label.name + ',';
           }
         } else {
-          console.log('Inserted Item');
-          resolve('no error');
+          if (label.name) {
+            labelStr += label.name;
+          }
         }
       });
-    } else {
-      resolve('continue on');
+      const issueParams = {
+        Title: {
+          S: issue.title || 'title',
+        },
+        Repo: {
+          S: repo.repo || 'repo',
+        },
+        Language: {
+          S: repo.language,
+        },
+        Labels: {
+          S: labelStr || 'no labels',
+        },
+        Time: {
+          S: String(new Date(issue.created_at).getTime()),
+        },
+        ID: {
+          N: String(issue.id) || '4124',
+        },
+        Number: {
+          S: String(issue.number) || 'number',
+        },
+        Url: {
+          S: issue.html_url || 'url',
+        },
+      };
+      puts.push(issueParams);
     }
-  });
+  }
+  if (puts.length !== 0) {
+    return puts;
+  } else {
+    return null;
+  }
 };
 
-const attemptRequest = async function() {
-  return new Promise(resolve => {
+const attemptRequest = async function () {
+  return new Promise((resolve) => {
     request.get(githubOptions, async (error, res) => {
       if (error) {
         console.error('Unable to query api:', JSON.stringify(error, null, 2));
@@ -161,7 +139,7 @@ const attemptRequest = async function() {
 
 async function scan() {
   return new Promise((resolve, reject) => {
-    dynamodb.scan(scanParams, function(err, data) {
+    dynamodb.scan(scanParams, function (err, data) {
       if (err) {
         console.error(
           'Unable to scan the table. Error JSON:',
@@ -182,7 +160,7 @@ module.exports = {
   waitForCreation,
   waitForDeletion,
   syncTimeout,
-  putIntoDB,
+  putIntoObj,
   attemptRequest,
-  scan
+  scan,
 };
