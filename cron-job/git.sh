@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd /home/ec2-user/find-an-issue
+cd /Users/jmuzsik/coding/find-an-issue 
 git pull
 git add .
 git commit -m "Daily update of issue data"
