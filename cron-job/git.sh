@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd /Users/jmuzsik/coding/find-an-issue 
+cd /home/jerrymuzsik/servers/find-an-issue/cron-job
 git pull
 git add .
 git commit -m "Daily update of issue data"
