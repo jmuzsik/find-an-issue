@@ -23,7 +23,7 @@ async function checkPromise(func) {
 }
 const data = { Items: [] };
 const fileCreation = async () => {
-  for (let i = 0; i < repos.length; i++) {
+  for (let i = 0; i < 3; i++) {
     const repo = repos[i].repo;
     const baseUrl = 'https://api.github.com/repos/';
     githubOptions.url = baseUrl + repo + '/issues';
@@ -47,7 +47,7 @@ const fileCreation = async () => {
       }
     }
   }
-  fs.writeFile('../src/data.json', JSON.stringify(data, undefined, 2), function (
+  fs.writeFile('/home/jerrymuzsik/servers/find-an-issue/src/data.json', JSON.stringify(data, undefined, 2), function (
     err
   ) {
     if (err) {
@@ -63,7 +63,7 @@ const doStuff = async () => {
   const data = await fileCreation();
 
   setTimeout(() => {
-    shell.exec('/home/ec2-user/find-an-issue/cron-job/git.sh');
+    shell.exec('/home/jerrymuzsik/servers/find-an-issue/cron-job/git.sh');
   }, 2000);
   console.log('Finished with all the steps!');
 };
