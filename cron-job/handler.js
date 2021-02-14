@@ -11,7 +11,7 @@ const { putIntoObj, attemptRequest, syncTimeout } = require('./utils');
 
 const data = { Items: [] };
 const fileCreation = async () => {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < repos.length; i++) {
     const repo = repos[i].repo;
     const baseUrl = 'https://api.github.com/repos/';
     githubOptions.url = baseUrl + repo + '/issues';
