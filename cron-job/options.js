@@ -1025,58 +1025,7 @@ const repos = [
   { language: 'Shell', repo: 'shengxinjing/programmer-job-blacklist'},
 ];
 
-const creationParams = {
-  AttributeDefinitions: [
-    {
-      AttributeName: 'ID',
-      AttributeType: 'N'
-    },
-    {
-      AttributeName: 'Repo',
-      AttributeType: 'S'
-    }
-  ],
-  KeySchema: [
-    {
-      AttributeName: 'ID',
-      KeyType: 'HASH'
-    },
-    {
-      AttributeName: 'Repo',
-      KeyType: 'RANGE'
-    }
-  ],
-  ProvisionedThroughput: {
-    ReadCapacityUnits: 1,
-    WriteCapacityUnits: 5
-  },
-  TableName: 'Repo_Issues'
-};
-
-const deletionParams = {
-  TableName: 'Repo_Issues'
-};
-
-const paramsWaitFor = {
-  TableName: 'Repo_Issues'
-};
-
-const batchParams = {
-  RequestItems: {
-    Repo_Issues: null
-  }
-};
-
-const scanParams = {
-  TableName: 'Repo_Issues'
-};
-
 module.exports = {
   githubOptions,
   repos,
-  creationParams,
-  deletionParams,
-  paramsWaitFor,
-  batchParams,
-  scanParams
 };

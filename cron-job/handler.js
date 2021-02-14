@@ -7,23 +7,11 @@ const options = require('./options');
 const repos = options.repos;
 const githubOptions = options.githubOptions;
 
-const utils = require('./utils');
-const { putIntoObj } = require('./utils');
-const attemptRequest = utils.attemptRequest;
+const { putIntoObj, attemptRequest, syncTimeout } = require('./utils');
 
-function safePromise(promise) {
-  return promise.then((data) => [data]).catch((error) => [null, error]);
-}
-async function checkPromise(func) {
-  const [success, error] = await safePromise(func());
-  if (error) {
-    return error;
-  }
-  return success;
-}
 const data = { Items: [] };
 const fileCreation = async () => {
-  for (let i = 0; i < repos.length; i++) {
+  for (let i = 0; i < 10; i++) {
     const repo = repos[i].repo;
     const baseUrl = 'https://api.github.com/repos/';
     githubOptions.url = baseUrl + repo + '/issues';
@@ -47,14 +35,16 @@ const fileCreation = async () => {
       }
     }
   }
-  fs.writeFile('/home/jerrymuzsik/servers/find-an-issue/src/data.json', JSON.stringify(data, undefined, 2), function (
-    err
-  ) {
-    if (err) {
-      console.log('Error writing file', err);
+  fs.writeFile(
+    '/Users/jmuzsik/.scripts/find-an-issue/cron-job/data.json',
+    JSON.stringify(data, undefined, 2),
+    function (err) {
+      if (err) {
+        console.log('Error writing file', err);
+      }
+      console.log('File written.');
     }
-    console.log('File written.');
-  });
+  );
 
   return true;
 };
@@ -63,7 +53,7 @@ const doStuff = async () => {
   const data = await fileCreation();
 
   setTimeout(() => {
-    shell.exec('/home/jerrymuzsik/servers/find-an-issue/cron-job/git.sh');
+    shell.exec('/Users/jmuzsik/.scripts/find-an-issue/cron-job/git.sh');
   }, 2000);
   console.log('Finished with all the steps!');
 };

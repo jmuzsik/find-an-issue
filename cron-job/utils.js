@@ -1,67 +1,7 @@
-const AWS = require('aws-sdk');
-
-const awsConfig = new AWS.Config({
-  region: 'us-east-1',
-});
-const dynamodb = new AWS.DynamoDB(awsConfig);
-
 const request = require('request');
 
 const options = require('./options');
 const githubOptions = options.githubOptions;
-const creationParams = options.creationParams;
-const deletionParams = options.deletionParams;
-const paramsWaitFor = options.paramsWaitFor;
-const batchParams = options.batchParams;
-const scanParams = options.scanParams;
-
-const tableDeletion = async function () {
-  return new Promise((resolve, reject) => {
-    dynamodb.deleteTable(deletionParams, function (err, data) {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(data);
-      }
-    });
-  });
-};
-
-const waitForDeletion = async function () {
-  return new Promise((resolve, reject) => {
-    dynamodb.waitFor('tableNotExists', paramsWaitFor, function (err, data) {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(data);
-      }
-    });
-  });
-};
-
-const waitForCreation = async function () {
-  return new Promise((resolve, reject) => {
-    dynamodb.waitFor('tableExists', paramsWaitFor, function (err, data) {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(data);
-      }
-    });
-  });
-};
-
-const createTable = async function () {
-  return new Promise((resolve, reject) => {
-    dynamodb.createTable(creationParams, function (err, data) {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(data);
-      }
-    });
-  });
-};
 
 const syncTimeout = async function () {
   return new Promise((resolve) => {
@@ -137,30 +77,8 @@ const attemptRequest = async function () {
   });
 };
 
-async function scan() {
-  return new Promise((resolve, reject) => {
-    dynamodb.scan(scanParams, function (err, data) {
-      if (err) {
-        console.error(
-          'Unable to scan the table. Error JSON:',
-          JSON.stringify(err, null, 2)
-        );
-        resolve('error');
-      } else {
-        console.log('Scan succeeded.');
-        resolve(data);
-      }
-    });
-  });
-}
-
 module.exports = {
-  tableDeletion,
-  createTable,
-  waitForCreation,
-  waitForDeletion,
   syncTimeout,
   putIntoObj,
   attemptRequest,
-  scan,
 };
