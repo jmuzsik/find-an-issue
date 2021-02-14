@@ -36,7 +36,7 @@ const fileCreation = async () => {
     }
   }
   fs.writeFile(
-    '/Users/jmuzsik/.scripts/find-an-issue/cron-job/data.json',
+    '/Users/jmuzsik/.scripts/find-an-issue/data.json',
     JSON.stringify(data, undefined, 2),
     function (err) {
       if (err) {
