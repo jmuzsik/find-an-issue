@@ -8,3 +8,25 @@ To https://github.com/jMuzsik/find-an-issue.git
    920a7ed..e2d5c96  master -> master
 To https://github.com/jMuzsik/find-an-issue.git
    e2d5c96..f4dbf19  master -> master
+To https://github.com/jMuzsik/find-an-issue.git
+   f4dbf19..9ce8669  master -> master
+Unable to query api: {
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "api.github.com"
+}
+(node:75) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'body' of undefined
+    at Request._callback (/Users/jmuzsik/.scripts/find-an-issue/cron-job/utils.js:73:37)
+    at self.callback (/Users/jmuzsik/.scripts/find-an-issue/cron-job/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.onRequestError (/Users/jmuzsik/.scripts/find-an-issue/cron-job/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:75) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
